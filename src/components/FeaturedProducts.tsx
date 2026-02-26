@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, Cpu, Zap, Server } from 'lucide-react';
+import { Check, Cpu, Server } from 'lucide-react';
 
 const products = [
     {
@@ -32,7 +32,7 @@ export const FeaturedProducts: React.FC = () => {
     return (
         <div className="h-full glass-panel p-6 flex flex-col">
             <div className="mb-6">
-                <h2 className="text-2xl font-bold tracking-tight">重点合作生态产品</h2>
+                <h2 className="text-2xl font-bold tracking-tight">多硬件产品介绍</h2>
                 <p className="text-[var(--color-text-secondary)] text-sm mt-1">
                     探索驱动大模型时代的高性能算力引擎
                 </p>

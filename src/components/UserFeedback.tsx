@@ -11,7 +11,7 @@ export const UserFeedback: React.FC = () => {
     return (
         <div className="w-full glass-panel overflow-hidden">
             <div className="p-6 border-b border-border-subtle/50">
-                <h2 className="text-2xl font-bold tracking-tight">开发者反馈与追踪</h2>
+                <h2 className="text-2xl font-bold tracking-tight">用户反馈与追踪</h2>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x divide-border-subtle/50">
@@ -65,13 +65,13 @@ export const UserFeedback: React.FC = () => {
                         {recentFeedback.map((item) => (
                             <div key={item.id} className="group relative pl-4 pb-4 border-l-2 border-gray-100 last:border-b-0 last:pb-0">
                                 <div className={`absolute -left-[9px] top-0 w-4 h-4 rounded-full border-4 border-white ${item.type === 'bug' ? 'bg-red-400' :
-                                        item.type === 'suggestion' ? 'bg-amber-400' : 'bg-emerald-400'
+                                    item.type === 'suggestion' ? 'bg-amber-400' : 'bg-emerald-400'
                                     }`} />
 
                                 <div className="bg-gray-50 rounded-xl p-3 border border-gray-100 group-hover:border-gray-200 transition-colors">
                                     <div className="flex flex-wrap items-center gap-2 mb-2">
                                         <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider ${item.type === 'bug' ? 'bg-red-100 text-red-700' :
-                                                item.type === 'suggestion' ? 'bg-amber-100 text-amber-700' : 'bg-emerald-100 text-emerald-700'
+                                            item.type === 'suggestion' ? 'bg-amber-100 text-amber-700' : 'bg-emerald-100 text-emerald-700'
                                             }`}>
                                             {item.type === 'bug' && <AlertCircle className="w-3 h-3 inline mr-1 -mt-0.5" />}
                                             {item.type === 'suggestion' && <Lightbulb className="w-3 h-3 inline mr-1 -mt-0.5" />}

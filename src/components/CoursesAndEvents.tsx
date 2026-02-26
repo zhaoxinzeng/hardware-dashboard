@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { PlayCircle, Calendar, MapPin, ExternalLink } from 'lucide-react';
+import { PlayCircle, MapPin, ExternalLink } from 'lucide-react';
 
 const courses = [
     { id: 1, type: '入门', title: '飞桨多硬件生态基础认知', duration: '2.5h' },
