@@ -1,0 +1,42 @@
+name: Scheduled Dual-Engine News Fetch
+
+on:
+  schedule:
+    # 转换为 UTC 时间 (UTC+8 晚 8 点 = UTC 中午 12 点)，每周五执行
+    - cron: '0 12 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Fetch Script
+        run: npm run fetch-news
+
+      - name: Auto Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add public/auto-news.json
+          
+          # 检查是否有变更再提交
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update: 自动抓取最新硬件生态新闻 [skip ci]"
+            git push
+          else
+            echo "No changes found in public/auto-news.json. Skip commit."
+          fi

@@ -4,22 +4,33 @@
 
 ## 预览
 
-这个看板演示包含了以下 6 个核心模块：
-1. **顶部导航**：带有全局搜索和用户状态。
-2. **硬件伙伴新闻**：生态新闻展示矩阵。
-3. **ERNIE/PaddlePaddle 适配矩阵**：各大模型（如文心一言 4.0）与不同底层生态硬件（NVIDIA, 昇腾, 昆仑芯, 燧原等）的兼容性与适配进度展示。
-4. **星河多硬件课程与活动**：课程与活动双页签展示。
-5. **多硬件产品介绍**：突出展示顶级生态硬件核心参数（如昇腾 910B, NVIDIA DGX）。
-6. **用户反馈与追踪**：反馈提交表单及实时 Issue 瀑布流。
-7. **资源计算器区**：看板底部的工具内嵌容器占位。
+## 产品架构与核心特性
 
-## 技术栈
+这个看板不仅仅是一个静态页面，它集成了**持续稳定的数据生命周期管道**，囊括了以下 7 个核心业务流与功能：
 
-- **框架**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
-- **语言**: TypeScript
-- **样式**: [Tailwind CSS v4](https://tailwindcss.com/)
-- **图标**: [Lucide React](https://lucide.dev/)
-- **UI 特性**: 结合 Flex/Grid 以及毛玻璃效果 (Glassmorphism) 的自定义现代组件风格，纯手工响应式打造。
+1. **混合来源动态新闻 (Hybrid Data Stream)**：
+   - 支持跨平台的自动化采集，底层 Node.js 爬虫通过 RSS 与 API 接口多端抓取硬件资讯。
+   - `localStorage` 前端记忆化支持用户手工 PUSH 高优先级/置顶热点新闻（带“🔥 重大发新”标签）。
+2. **双引擎智能AI网关 (Dual-LLM Failover Pipeline)**：
+   - 抓取的数据进入 **Google Gemini 2.5 Flash** 进行数据鉴别与脱水，将无用的 PR 稿全部 `REJECT`，为纯技术干货提炼金句。
+   - 具备**零感知降级重试切流机制**：当 Gemini 频繁报 429 限流时，底层瞬间交棒给备用的 **智谱 GLM-4-Flash** 模型完成全自动接续数据清洗，永不挂机。
+   - 自动通过 GitHub Actions (Cron Jobs) 触发，实现免运维的全自动定时大屏更新。
+3. **顶部导航**：带有全局搜索和用户状态。
+4. **ERNIE/PaddlePaddle 适配矩阵**：各大模型（如文心一言 4.0）与不同底层生态硬件（NVIDIA, 昇腾, 昆仑芯, 燧原等）的兼容性与适配进度展示。
+5. **星河多硬件课程与活动**：课程与活动双页签展示。
+6. **多硬件产品介绍**：突出展示顶级生态硬件核心参数（如昇腾 910B, NVIDIA DGX）。
+7. **用户反馈与追踪**：反馈提交表单及实时 Issue 瀑布流。
+
+## 完整技术栈
+
+- **框架**: [React 19](https://react.dev/) + [Vite 6](https://vitejs.dev/) + TypeScript
+- **状态与存储**: React Hooks + LocalStorage
+- **样式与UI**: [Tailwind CSS v4](https://tailwindcss.com/) + [Lucide React](https://lucide.dev/) (结合毛玻璃 Glassmorphism 设计理念)
+- **数据管道流 (Data Pipeline)**: 
+  - Node.js (ES Modules), `fs/promises`
+  - 并发网络抓取: `axios`, `rss-parser` 
+  - 大模型SDK: `@google/genai` (主), `openai` (智谱备)
+  - 自动化基础设施: **GitHub Actions Workflow**
 
 ## 本地运行
 

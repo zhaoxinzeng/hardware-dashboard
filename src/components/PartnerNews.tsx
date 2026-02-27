@@ -54,7 +54,14 @@ export const PartnerNews: React.FC = () => {
                                     />
                                 </div>
                                 <div className="p-5 flex flex-col flex-1 w-full bg-white relative">
-                                    <span className="text-xs font-bold text-[var(--color-tech-blue)] mb-2 uppercase tracking-wider bg-blue-50 w-fit px-2 py-0.5 rounded-sm">{item.date}</span>
+                                    <div className="flex items-center gap-2 mb-2">
+                                        <span className="text-xs font-bold text-[var(--color-tech-blue)] uppercase tracking-wider bg-blue-50 w-fit px-2 py-0.5 rounded-sm">{item.date}</span>
+                                        {item.isManual && (
+                                            <span className="text-[10px] font-bold text-red-500 bg-red-50 border border-red-100 px-1.5 py-0.5 rounded-sm flex items-center gap-1">
+                                                🔥 重大发新
+                                            </span>
+                                        )}
+                                    </div>
                                     <h3 className="text-lg font-bold text-gray-900 leading-tight mb-2 group-hover:text-[var(--color-tech-blue)] transition-colors line-clamp-2">
                                         {item.title}
                                     </h3>

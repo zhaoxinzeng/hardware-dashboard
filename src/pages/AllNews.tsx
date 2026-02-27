@@ -61,7 +61,14 @@ export const AllNews: React.FC = () => {
                                         />
                                     </div>
                                     <div className="p-4 flex flex-col flex-1 w-full bg-white relative">
-                                        <span className="text-[10px] font-bold text-[var(--color-text-secondary)] mb-1.5 uppercase tracking-wider">{item.date}</span>
+                                        <div className="flex items-center gap-2 mb-1.5">
+                                            <span className="text-[10px] font-bold text-[var(--color-text-secondary)] uppercase tracking-wider">{item.date}</span>
+                                            {item.isManual && (
+                                                <span className="text-[9px] font-bold text-red-500 bg-red-50 border border-red-100 px-1.5 py-0.5 rounded-sm flex items-center">
+                                                    🔥 重大发新
+                                                </span>
+                                            )}
+                                        </div>
                                         <h3 className="text-base font-bold text-gray-900 leading-tight mb-2 group-hover:text-[var(--color-tech-blue)] transition-colors line-clamp-2">
                                             {item.title}
                                         </h3>

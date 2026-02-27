@@ -5,4 +5,7 @@ export interface NewsItem {
     imageUrl: string;
     summary?: string;
     link?: string;
+    isManual?: boolean;
+    sourceType?: string;
+    vendor?: string;
 }
