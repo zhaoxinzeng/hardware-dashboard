@@ -29,6 +29,9 @@ jobs:
 
       - name: Run Fetch Script
         run: npm run fetch-news
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
 
       - name: Auto Commit and Push
         run: |
