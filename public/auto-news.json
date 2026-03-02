@@ -7,7 +7,7 @@
     "date": "2026-02-27",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "阿里巴巴Qwen3.5多模态大模型借NVIDIA GPU与NIM平台，实现高效推理部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/develop-native-multimodal-agents-with-qwen3-5-vlm-using-nvidia-gpu-accelerated-endpoints/"
   },
@@ -19,7 +19,7 @@
     "date": "2026-02-27",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "NVIDIA方案智能调度LLM推理，最大化GPU利用率，降本增效。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/maximizing-gpu-utilization-with-nvidia-runai-and-nvidia-nim/"
   },
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦GPU Day 0 适配Qwen3.5，提供LLM高效算力。",
     "link": "https://www.metax-tech.com/ndetail/12564.html"
   },
   {
@@ -43,7 +43,7 @@
     "date": "2026-02-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "英伟达Blackwell Ultra提升大模型注意力性能",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/making-softmax-more-efficient-with-nvidia-blackwell-ultra/"
   },
@@ -55,7 +55,7 @@
     "date": "2026-02-20",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "HF整合llama.cpp/GGML，推动LLM本地高效推理部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/ggml-joins-hf"
   },
@@ -67,7 +67,7 @@
     "date": "2026-02-19",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "NVIDIA GPU数据处理优化，提升深度学习性能与能效。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/"
   },
