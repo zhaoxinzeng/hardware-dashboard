@@ -52,7 +52,7 @@ export const useNewsData = () => {
         if (storedManualNews) {
             try {
                 manualNews = JSON.parse(storedManualNews);
-            } catch (error) {
+            } catch {
                 // ignore
             }
         }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from '../components/Header';
 import { PartnerNews } from '../components/PartnerNews';
-import { AdaptationMatrix } from '../components/AdaptationMatrix';
+import { AdaptationMatrixV2 } from '../components/AdaptationMatrixV2';
 import { CoursesAndEvents } from '../components/CoursesAndEvents';
 import { FeaturedProducts } from '../components/FeaturedProducts';
 import { UserFeedback } from '../components/UserFeedback';
@@ -21,7 +21,7 @@ export const Dashboard: React.FC = () => {
 
                 {/* Module 2: Adaptation Matrix */}
                 <section aria-label="Adaptation Matrix">
-                    <AdaptationMatrix />
+                    <AdaptationMatrixV2 />
                 </section>
 
                 {/* Row 2 Grid: Courses and Featured Products */}
