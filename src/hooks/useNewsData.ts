@@ -3,6 +3,27 @@ import type { NewsItem } from '../types/news';
 
 const MANUAL_STORAGE_KEY = 'manual_ecosystem_news';
 const DELETED_NEWS_KEY = 'deleted_news_ids';
+const EDITED_NEWS_KEY = 'edited_news_overrides';
+
+type EditedNewsOverrides = Record<string, Partial<Omit<NewsItem, 'id' | 'isManual'>>>;
+
+const readEditedOverrides = (): EditedNewsOverrides => {
+    try {
+        const raw = localStorage.getItem(EDITED_NEWS_KEY);
+        if (!raw) {
+            return {};
+        }
+
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === 'object') {
+            return parsed as EditedNewsOverrides;
+        }
+    } catch (error) {
+        // ignore malformed overrides
+    }
+
+    return {};
+};
 
 export const useNewsData = () => {
     const [news, setNews] = useState<NewsItem[]>([]);
@@ -36,7 +57,16 @@ export const useNewsData = () => {
                 }
             }
 
-            const combinedNews = [...manualNews, ...autoNews];
+            const editedOverrides = readEditedOverrides();
+
+            const combinedNews = [...manualNews, ...autoNews].map((item) => {
+                const override = editedOverrides[item.id];
+                if (!override) {
+                    return item;
+                }
+
+                return { ...item, ...override };
+            });
 
             // Sort by date descending
             combinedNews.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -77,6 +107,36 @@ export const useNewsData = () => {
         });
     };
 
+    const updateNews = (id: string, updates: Partial<Omit<NewsItem, 'id' | 'isManual'>>, isManual?: boolean) => {
+        if (isManual) {
+            let manualNews: NewsItem[] = [];
+            try {
+                manualNews = JSON.parse(localStorage.getItem(MANUAL_STORAGE_KEY) || '[]');
+            } catch (e) { }
+
+            const updatedManualNews = manualNews.map(n =>
+                n.id === id ? { ...n, ...updates } : n
+            );
+            localStorage.setItem(MANUAL_STORAGE_KEY, JSON.stringify(updatedManualNews));
+        } else {
+            const editedOverrides = readEditedOverrides();
+            const nextOverrides: EditedNewsOverrides = {
+                ...editedOverrides,
+                [id]: {
+                    ...editedOverrides[id],
+                    ...updates
+                }
+            };
+            localStorage.setItem(EDITED_NEWS_KEY, JSON.stringify(nextOverrides));
+        }
+
+        setNews(prev => {
+            const updated = prev.map(n => n.id === id ? { ...n, ...updates } : n);
+            updated.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+            return updated;
+        });
+    };
+
     const removeNews = (id: string, isManual?: boolean) => {
         if (isManual) {
             let manualNews: NewsItem[] = [];
@@ -98,8 +158,14 @@ export const useNewsData = () => {
             }
         }
 
+        const editedOverrides = readEditedOverrides();
+        if (editedOverrides[id]) {
+            delete editedOverrides[id];
+            localStorage.setItem(EDITED_NEWS_KEY, JSON.stringify(editedOverrides));
+        }
+
         setNews(prev => prev.filter(n => n.id !== id));
     };
 
-    return { news, addNews, removeNews };
+    return { news, addNews, updateNews, removeNews };
 };

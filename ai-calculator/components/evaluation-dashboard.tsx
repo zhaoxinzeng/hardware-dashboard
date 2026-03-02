@@ -1,0 +1,203 @@
+"use client"
+
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { ScoreRadar } from "@/components/score-radar"
+import { CheckCircle2, AlertTriangle, XCircle, TrendingUp, TrendingDown } from "lucide-react"
+import type { EvaluationResponse } from "@/lib/types"
+import { calculateResourceScore } from "@/lib/resource-calculator"
+
+interface EvaluationDashboardProps {
+  evaluation: EvaluationResponse
+}
+
+export function EvaluationDashboard({ evaluation }: EvaluationDashboardProps) {
+  if (!evaluation) {
+    return (
+      <Card className="shadow-lg border-2">
+        <CardHeader>
+          <CardTitle>评估总览</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p>暂无评估数据。</p>
+        </CardContent>
+      </Card>
+    )
+  }
+
+  // 使用保存的硬件评分，确保历史记录显示一致性
+  const resourceScore = evaluation.hardwareScore ??
+    evaluation.technicalFeasibility?.hardwareScore ??
+    Math.round((
+      calculateResourceScore(evaluation.resourceFeasibility?.pretraining?.memoryUsagePercent ?? 0) +
+      calculateResourceScore(evaluation.resourceFeasibility?.fineTuning?.memoryUsagePercent ?? 0) +
+      calculateResourceScore(evaluation.resourceFeasibility?.inference?.memoryUsagePercent ?? 0)
+    ) / 3) // 降级：如果没有硬件评分，使用简单平均分
+
+  const technicalScore = evaluation.technicalFeasibility?.score ?? 0
+  const businessScore = evaluation.businessValue?.score ?? 0
+
+  // 如果场景价值评估失败，则只计算资源和技术的平均分
+  const overallScore = evaluation.businessValue
+    ? Math.round((resourceScore + technicalScore + businessScore) / 3)
+    : Math.round((resourceScore + technicalScore) / 2)
+
+  // 判断总体状态
+  const getOverallStatus = () => {
+    if (overallScore >= 80) return { label: "优秀", icon: CheckCircle2, color: "text-green-600", variant: "default" as const }
+    if (overallScore >= 60) return { label: "良好", icon: AlertTriangle, color: "text-amber-600", variant: "secondary" as const }
+    return { label: "需改进", icon: XCircle, color: "text-red-600", variant: "destructive" as const }
+  }
+
+  const status = getOverallStatus()
+  const StatusIcon = status.icon
+
+  // 雷达图数据 - 简化为三个主要维度
+  const radarScores = evaluation.businessValue
+    ? [
+        { label: "硬件资源", value: resourceScore, color: "#3b82f6" },
+        { label: "技术方案", value: technicalScore, color: "#10b981" },
+        { label: "场景价值", value: businessScore, color: "#f59e0b" },
+      ]
+    : [
+        { label: "硬件资源", value: resourceScore, color: "#3b82f6" },
+        { label: "技术方案", value: technicalScore, color: "#10b981" },
+      ]
+
+  // 关键指标 - 专注关键性能指标，避免重复显示评分
+  const keyMetrics = [
+    {
+      label: "支持QPS",
+      value: evaluation.resourceFeasibility?.inference?.supportedQPS ?? 0,
+      trend: evaluation.resourceFeasibility?.inference?.meetsRequirements ? "up" : "down",
+      status: evaluation.resourceFeasibility?.inference?.meetsRequirements ? "good" : "poor",
+      isMetric: true,
+    },
+    {
+      label: "TPS",
+      value: evaluation.resourceFeasibility?.inference?.supportedThroughput ?? 0,
+      trend: evaluation.resourceFeasibility?.inference?.meetsRequirements ? "up" : "down",
+      status: evaluation.resourceFeasibility?.inference?.meetsRequirements ? "good" : "poor",
+      isMetric: true,
+    },
+    {
+      label: "推理内存",
+      value: `${Math.round(evaluation.resourceFeasibility?.inference?.memoryRequired || 0)}GB`,
+      trend: evaluation.resourceFeasibility?.inference?.feasible ? "up" : "down",
+      status: evaluation.resourceFeasibility?.inference?.feasible ? "good" : "poor",
+      isMetric: true,
+    },
+  ]
+
+  return (
+    <Card className="shadow-lg border-2">
+      <CardHeader className="pb-4">
+        <div className="flex items-center justify-between">
+          <CardTitle className="text-2xl">评估总览</CardTitle>
+          <Badge variant={status.variant} className="text-base px-4 py-1">
+            <StatusIcon className="h-4 w-4 mr-1" />
+            {status.label}
+          </Badge>
+        </div>
+      </CardHeader>
+
+      <CardContent className="space-y-6">
+        {/* 总体评分和雷达图 - 横向排列 */}
+        <div className="grid md:grid-cols-[1fr_auto] gap-6">
+          {/* 左侧：总体评分和关键指标 */}
+          <div className="space-y-4">
+            {/* 总体评分 */}
+            <div className="flex flex-col items-center justify-center py-4 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg">
+              <div className="text-5xl font-bold text-primary mb-2">{overallScore}</div>
+              <div className="text-sm text-muted-foreground">
+                综合评分{!evaluation.businessValue && " (资源+技术)"}
+              </div>
+              <div className="mt-3 flex gap-2">
+                <div className="text-center px-3">
+                  <div className="text-xl font-bold">{resourceScore}</div>
+                  <div className="text-xs text-muted-foreground">资源</div>
+                </div>
+                <div className="text-center px-3 border-x">
+                  <div className="text-xl font-bold">{technicalScore}</div>
+                  <div className="text-xs text-muted-foreground">技术</div>
+                </div>
+                {evaluation.businessValue && (
+                  <div className="text-center px-3">
+                    <div className="text-xl font-bold">{businessScore}</div>
+                    <div className="text-xs text-muted-foreground">商业</div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* 关键指标 */}
+            <div className="flex flex-wrap gap-3">
+              {keyMetrics.map((metric, i) => (
+                <Card key={i} className={`flex-1 basis-full sm:basis-[48%] lg:basis-[23%] ${metric.status === "good" ? "border-green-200 bg-green-50/50 dark:bg-green-950/20" : "border-amber-200 bg-amber-50/50 dark:bg-amber-950/20"}`}>
+                  <CardContent className="p-3 text-center flex flex-col justify-center h-full w-full">
+                    <div className="flex items-center justify-center gap-1 text-xs text-muted-foreground">
+                      <span className="whitespace-nowrap">{metric.label}</span>
+                      {metric.trend === "up" ? (
+                        <TrendingUp className="h-3 w-3 text-green-600" />
+                      ) : (
+                        <TrendingDown className="h-3 w-3 text-amber-600" />
+                      )}
+                    </div>
+                    <div className="text-2xl font-bold mt-1">
+                      {metric.value}
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+
+          {/* 右侧：雷达图 */}
+          <div className="flex flex-col items-center justify-center">
+            <h4 className="text-sm font-semibold mb-3 text-muted-foreground">多维度评估</h4>
+            <ScoreRadar scores={radarScores} size={260} />
+          </div>
+        </div>
+
+        {/* 快速总结 */}
+        <div className={`grid ${evaluation.businessValue ? 'md:grid-cols-3' : 'md:grid-cols-2'} gap-4 pt-4 border-t`}>
+          <div>
+            <h5 className="text-sm font-semibold mb-2 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-blue-500" />
+              资源状态
+            </h5>
+            <p className="text-sm text-muted-foreground">
+              {evaluation.resourceFeasibility?.inference?.feasible
+                ? "硬件资源充足,可支持推理任务"
+                : "硬件资源不足,需要优化或扩容"}
+            </p>
+          </div>
+          <div>
+            <h5 className="text-sm font-semibold mb-2 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-green-500" />
+              技术评估
+            </h5>
+            <p className="text-sm text-muted-foreground">
+              {evaluation.technicalFeasibility?.appropriate
+                ? "技术选型合理,匹配业务需求"
+                : `发现${evaluation.technicalFeasibility?.issues?.length ?? 0}个技术问题`}
+            </p>
+          </div>
+          {evaluation.businessValue && (
+            <div>
+              <h5 className="text-sm font-semibold mb-2 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-amber-500" />
+                场景价值
+              </h5>
+              <p className="text-sm text-muted-foreground">
+                {businessScore >= 70
+                  ? "场景价值较高,建议推进"
+                  : "场景价值有待评估,需优化方案"}
+              </p>
+            </div>
+          )}
+        </div>
+      </CardContent>
+    </Card>
+  )
+}

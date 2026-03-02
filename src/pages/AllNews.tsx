@@ -1,18 +1,29 @@
-import React, { useEffect } from 'react';
-import { ArrowLeft, Trash2 } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { ArrowLeft, Trash2, Pencil } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useNewsData } from '../hooks/useNewsData';
 import { AddNewsDialog } from '../components/AddNewsDialog';
+import type { NewsItem } from '../types/news';
 
 export const AllNews: React.FC = () => {
-    const { news, addNews, removeNews } = useNewsData();
+    const { news, addNews, updateNews, removeNews } = useNewsData();
+    const [editingNews, setEditingNews] = useState<NewsItem | null>(null);
 
     const handleDelete = (e: React.MouseEvent, id: string, isManual?: boolean) => {
         e.preventDefault();
         e.stopPropagation();
         if (window.confirm("确定要删除这条新闻吗？")) {
             removeNews(id, isManual);
+            if (editingNews?.id === id) {
+                setEditingNews(null);
+            }
         }
+    };
+
+    const handleEdit = (e: React.MouseEvent, item: NewsItem) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setEditingNews(item);
     };
 
     // Scroll to top on mount
@@ -38,7 +49,12 @@ export const AllNews: React.FC = () => {
                     </h1>
                 </div>
 
-                <AddNewsDialog onAddNews={addNews} />
+                <AddNewsDialog
+                    onAddNews={addNews}
+                    onUpdateNews={(id, updates) => updateNews(id, updates, editingNews?.isManual)}
+                    editingItem={editingNews}
+                    onCancelEdit={() => setEditingNews(null)}
+                />
             </header>
 
             <main className="max-w-[1440px] mx-auto p-4 md:p-8 animate-in fade-in duration-500 fade-in-out slide-in-from-bottom-4">
@@ -57,13 +73,22 @@ export const AllNews: React.FC = () => {
                             const cardProps = item.link ? { href: item.link, target: "_blank", rel: "noopener noreferrer" } : {};
                             return (
                                 <CardWrapper key={item.id} {...cardProps} className="relative glass-panel group cursor-pointer flex flex-col items-start text-left p-0 bg-white shadow-sm border border-gray-100 hover:border-blue-100 hover:shadow-md transition-all duration-300">
-                                    <button
-                                        onClick={(e) => handleDelete(e, item.id, item.isManual)}
-                                        className="absolute top-3 right-3 p-1.5 bg-white/80 hover:bg-red-500 hover:text-white text-gray-500 rounded-full transition-colors z-20 backdrop-blur-sm opacity-0 group-hover:opacity-100"
-                                        title="删除新闻"
-                                    >
-                                        <Trash2 className="w-4 h-4" />
-                                    </button>
+                                    <div className="absolute top-3 right-3 flex items-center gap-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
+                                        <button
+                                            onClick={(e) => handleEdit(e, item)}
+                                            className="p-1.5 bg-white/80 hover:bg-blue-500 hover:text-white text-gray-500 rounded-full transition-colors backdrop-blur-sm"
+                                            title="编辑新闻"
+                                        >
+                                            <Pencil className="w-4 h-4" />
+                                        </button>
+                                        <button
+                                            onClick={(e) => handleDelete(e, item.id, item.isManual)}
+                                            className="p-1.5 bg-white/80 hover:bg-red-500 hover:text-white text-gray-500 rounded-full transition-colors backdrop-blur-sm"
+                                            title="删除新闻"
+                                        >
+                                            <Trash2 className="w-4 h-4" />
+                                        </button>
+                                    </div>
                                     <div className="w-full h-40 overflow-hidden relative">
                                         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/40 to-transparent z-10 transition-opacity group-hover:opacity-0" />
                                         <img

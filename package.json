@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:dashboard": "vite",
+    "dev:calculator": "bash ./scripts/dev-calculator.sh 3001 0.0.0.0",
+    "dev:all": "concurrently --kill-others-on-fail \"npm:dev:dashboard\" \"npm:dev:calculator\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -34,6 +37,7 @@
     "autoprefixer": "^10.4.24",
     "axios": "^1.13.5",
     "cheerio": "^1.2.0",
+    "concurrently": "^9.2.1",
     "dotenv": "^17.3.1",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",

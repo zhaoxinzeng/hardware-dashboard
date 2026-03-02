@@ -1,0 +1,108 @@
+// Prisma Schema for AI Calculator (Development - SQLite)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// 用户表
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String   // bcrypt hashed password
+  phone     String?  @unique
+  name      String?
+  role      String   @default("user")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // 关联关系
+  evaluations Evaluation[]
+  feedbacks   Feedback[]
+
+  @@index([email])
+  @@index([phone])
+}
+
+// 评估历史表
+model Evaluation {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // 评估输入参数 (对齐当前 EvaluationRequest 接口)
+  model                    String
+  hardware                 String
+  cardCount                Int      // 总卡数 (machineCount * cardsPerMachine)
+  machineCount             Int?     @default(1) // 机器数量 (暂时可选以兼容旧数据)
+  cardsPerMachine          Int?     @default(1) // 每机卡数 (暂时可选以兼容旧数据)
+  businessDataDescription  String?  @default("") // 业务数据描述 (暂时可选以兼容旧数据)
+  businessDataQuality      String?  @default("high") // "high" | "low"
+  businessScenario         String?  @default("") // 业务场景描述
+  performanceTPS           Int?     @default(50) // Tokens Per Second (暂时可选以兼容旧数据)
+  performanceConcurrency   Int?     @default(100) // 并发数
+
+  // 评估结果 (JSON存储完整结果)
+  resourceFeasibility  String // JSON
+  technicalFeasibility String // JSON
+  businessValue        String // JSON
+
+  // 管理后台：归档标记
+  archived   Boolean  @default(false)
+  archivedAt DateTime?
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([createdAt])
+}
+
+// 系统公告
+model Announcement {
+  id        String   @id @default(cuid())
+  title     String
+  content   String
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// 站点配置（单行）
+model SiteConfig {
+  id                 Int      @id @default(1)
+  maintenance        Boolean  @default(false)
+  maintenanceMessage String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+}
+
+// 反馈表
+model Feedback {
+  id     String @id @default(cuid())
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // 反馈类型
+  type String // "module" | "general"
+
+  // 模块反馈相关字段
+  evaluationId String?
+  moduleName   String? // "resource" | "technical" | "business"
+  rating       String? // "positive" | "negative"
+
+  // 通用反馈相关字段
+  feedbackType String? // "bug" | "feature" | "improvement" | "other"
+  title        String?
+  description  String?
+  contactEmail String?
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([type])
+  @@index([evaluationId])
+}

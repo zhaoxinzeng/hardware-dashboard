@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 import { Plus, X } from 'lucide-react';
 import { toast } from 'sonner';
+import type { NewsItem } from '../types/news';
 
 interface AddNewsDialogProps {
     onAddNews: (news: { title: string; date: string; imageUrl: string; summary: string; link: string }) => void;
+    onUpdateNews?: (id: string, updates: Partial<Omit<NewsItem, 'id' | 'isManual'>>) => void;
+    editingItem?: NewsItem | null;
+    onCancelEdit?: () => void;
 }
 
-export const AddNewsDialog: React.FC<AddNewsDialogProps> = ({ onAddNews }) => {
+export const AddNewsDialog: React.FC<AddNewsDialogProps> = ({ onAddNews, onUpdateNews, editingItem, onCancelEdit }) => {
     const [open, setOpen] = useState(false);
 
     // Form State
@@ -17,7 +21,21 @@ export const AddNewsDialog: React.FC<AddNewsDialogProps> = ({ onAddNews }) => {
     const [summary, setSummary] = useState('');
     const [link, setLink] = useState('');
 
+    const isEditMode = !!editingItem;
+
     const defaultImageUrl = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop'; // Tech placeholder
+
+    // When editingItem changes, populate form and open dialog
+    useEffect(() => {
+        if (editingItem) {
+            setTitle(editingItem.title || '');
+            setDate(editingItem.date || new Date().toISOString().split('T')[0]);
+            setImageUrl(editingItem.imageUrl || '');
+            setSummary(editingItem.summary || '');
+            setLink(editingItem.link || '');
+            setOpen(true);
+        }
+    }, [editingItem]);
 
     const handleImagePaste = (e: React.ClipboardEvent<HTMLInputElement>) => {
         const items = e.clipboardData?.items;
@@ -42,6 +60,20 @@ export const AddNewsDialog: React.FC<AddNewsDialogProps> = ({ onAddNews }) => {
         }
     };
 
+    const resetForm = () => {
+        setTitle('');
+        setDate(new Date().toISOString().split('T')[0]);
+        setImageUrl('');
+        setSummary('');
+        setLink('');
+    };
+
+    const handleCancel = () => {
+        resetForm();
+        setOpen(false);
+        onCancelEdit?.();
+    };
+
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         if (!title.trim()) {
@@ -49,27 +81,39 @@ export const AddNewsDialog: React.FC<AddNewsDialogProps> = ({ onAddNews }) => {
             return;
         }
 
-        onAddNews({
-            title: title.trim(),
-            date,
-            imageUrl: imageUrl.trim() || defaultImageUrl,
-            summary: summary.trim(),
-            link: link.trim(),
-        });
+        if (isEditMode && onUpdateNews && editingItem) {
+            onUpdateNews(editingItem.id, {
+                title: title.trim(),
+                date,
+                imageUrl: imageUrl.trim() || defaultImageUrl,
+                summary: summary.trim(),
+                link: link.trim(),
+            });
+            toast.success('新闻修改成功！');
+        } else {
+            onAddNews({
+                title: title.trim(),
+                date,
+                imageUrl: imageUrl.trim() || defaultImageUrl,
+                summary: summary.trim(),
+                link: link.trim(),
+            });
+            toast.success('新闻发布成功！');
+        }
 
-        toast.success('新闻发布成功！(News published successfully)');
-
-        // Reset and close
-        setTitle('');
-        setDate(new Date().toISOString().split('T')[0]);
-        setImageUrl('');
-        setSummary('');
-        setLink('');
+        resetForm();
         setOpen(false);
+        onCancelEdit?.();
     };
 
     return (
-        <Dialog.Root open={open} onOpenChange={setOpen}>
+        <Dialog.Root open={open} onOpenChange={(nextOpen) => {
+            if (!nextOpen) {
+                handleCancel();
+            } else {
+                setOpen(true);
+            }
+        }}>
             <Dialog.Trigger asChild>
                 <button className="flex items-center gap-1.5 px-3 py-1.5 bg-[var(--color-tech-blue)] hover:bg-[var(--color-tech-blue-hover)] text-white text-sm font-bold rounded-lg transition-colors shadow-sm">
                     <Plus className="w-4 h-4" />
@@ -81,10 +125,10 @@ export const AddNewsDialog: React.FC<AddNewsDialogProps> = ({ onAddNews }) => {
                 <Dialog.Overlay className="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 animate-in fade-in duration-200" />
                 <Dialog.Content className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[90vw] max-w-md bg-white rounded-2xl shadow-xl z-50 p-6 animate-in zoom-in-95 duration-200 border border-gray-100">
                     <Dialog.Title className="text-xl font-bold text-gray-900 mb-1">
-                        发布生态新闻
+                        {isEditMode ? '编辑新闻' : '发布生态新闻'}
                     </Dialog.Title>
                     <Dialog.Description className="text-sm text-gray-500 mb-6">
-                        添加一条关于硬件伙伴的最新适配进展或新闻动态。
+                        {isEditMode ? '修改这条新闻的内容，点击保存后立即生效。' : '添加一条关于硬件伙伴的最新适配进展或新闻动态。'}
                     </Dialog.Description>
 
                     <form onSubmit={handleSubmit} className="space-y-4">
@@ -151,19 +195,17 @@ export const AddNewsDialog: React.FC<AddNewsDialogProps> = ({ onAddNews }) => {
                         </div>
 
                         <div className="mt-6 flex justify-end gap-3 pt-2 border-t border-gray-100">
-                            <Dialog.Close asChild>
-                                <button type="button" className="px-4 py-2 text-sm font-bold text-gray-500 hover:text-gray-700 hover:bg-gray-100 rounded-lg transition-colors">
-                                    取消
-                                </button>
-                            </Dialog.Close>
+                            <button type="button" onClick={handleCancel} className="px-4 py-2 text-sm font-bold text-gray-500 hover:text-gray-700 hover:bg-gray-100 rounded-lg transition-colors">
+                                取消
+                            </button>
                             <button type="submit" className="px-4 py-2 bg-black hover:bg-gray-800 text-white text-sm font-bold rounded-lg transition-colors shadow-sm">
-                                保存发布
+                                {isEditMode ? '保存修改' : '保存发布'}
                             </button>
                         </div>
                     </form>
 
                     <Dialog.Close asChild>
-                        <button className="absolute top-4 right-4 p-1.5 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-full transition-colors focus:outline-none">
+                        <button onClick={handleCancel} className="absolute top-4 right-4 p-1.5 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-full transition-colors focus:outline-none">
                             <X className="w-5 h-5" />
                         </button>
                     </Dialog.Close>
