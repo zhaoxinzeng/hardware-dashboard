@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import type { NewsItem } from '../types/news';
 
 const MANUAL_STORAGE_KEY = 'manual_ecosystem_news';
+const DELETED_NEWS_KEY = 'deleted_news_ids';
 
 export const useNewsData = () => {
     const [news, setNews] = useState<NewsItem[]>([]);
@@ -17,6 +18,13 @@ export const useNewsData = () => {
             } catch (error) {
                 console.error("Failed to fetch auto-news", error);
             }
+
+            // Filter out deleted auto-news
+            let deletedIds: string[] = [];
+            try {
+                deletedIds = JSON.parse(localStorage.getItem(DELETED_NEWS_KEY) || '[]');
+            } catch (e) { }
+            autoNews = autoNews.filter(n => !deletedIds.includes(n.id));
 
             let manualNews: NewsItem[] = [];
             const storedManualNews = localStorage.getItem(MANUAL_STORAGE_KEY);
@@ -69,5 +77,29 @@ export const useNewsData = () => {
         });
     };
 
-    return { news, addNews };
+    const removeNews = (id: string, isManual?: boolean) => {
+        if (isManual) {
+            let manualNews: NewsItem[] = [];
+            try {
+                manualNews = JSON.parse(localStorage.getItem(MANUAL_STORAGE_KEY) || '[]');
+            } catch (e) { }
+
+            manualNews = manualNews.filter(n => n.id !== id);
+            localStorage.setItem(MANUAL_STORAGE_KEY, JSON.stringify(manualNews));
+        } else {
+            let deletedIds: string[] = [];
+            try {
+                deletedIds = JSON.parse(localStorage.getItem(DELETED_NEWS_KEY) || '[]');
+            } catch (e) { }
+
+            if (!deletedIds.includes(id)) {
+                deletedIds.push(id);
+                localStorage.setItem(DELETED_NEWS_KEY, JSON.stringify(deletedIds));
+            }
+        }
+
+        setNews(prev => prev.filter(n => n.id !== id));
+    };
+
+    return { news, addNews, removeNews };
 };

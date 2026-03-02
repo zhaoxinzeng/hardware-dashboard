@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" class="next-head">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" class="next-head">
+    <title>新闻中心 &#8211; 昆仑芯（北京）科技股份有限公司</title>
+        <meta property="og:title" content="新闻中心 &#8211; 昆仑芯（北京）科技股份有限公司" class="next-head">
+    <meta property="og:site_name" content="新闻中心 &#8211; 昆仑芯（北京）科技股份有限公司" class="next-head">
+    <meta property="twitter:title" content="新闻中心 &#8211; 昆仑芯（北京）科技股份有限公司" class="next-head">
+    <link rel="stylesheet" href="https://www.kunlunxin.com/wp-content/themes/default/css/public.css">
+    <link rel="stylesheet" href="https://www.kunlunxin.com/wp-content/themes/default/css/index.css">
+    <link rel="stylesheet" href="https://www.kunlunxin.com/wp-content/themes/default/css/swiper.min.css">
+
+    <link rel="stylesheet" href="https://www.kunlunxin.com/wp-content/themes/default/css/media.css">
+    <link rel="stylesheet" href="https://www.kunlunxin.com/wp-content/themes/default/css/new_media.css">
+    <script src="https://www.kunlunxin.com/wp-content/themes/default/js/jquery.min.js"></script>
+    <script src="https://www.kunlunxin.com/wp-content/themes/default/js/index.js"></script>
+    <script src="https://www.kunlunxin.com/wp-content/themes/default/js/swiper.min.js"></script>
+    <script src="https://www.kunlunxin.com/wp-content/themes/default/layer/layer.js"></script>
+    
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?facbe0bcf2782c7198ab5b0749d4d3b4";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    
+    <meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//www.kunlunxin.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.kunlunxin.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.12' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://www.kunlunxin.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel="canonical" href="https://www.kunlunxin.com/news" />
+<link href="/wp-content/uploads/2023/01/0cc6c971338d75ca9f8dfc6bfd7a58de.png" rel="shortcut icon" type="image/x-icon" />  </head>
+  
+  <body>
+  <div class="header">
+    <div class="contain clear">
+      <a href="https://www.kunlunxin.com" class="logo"><img src="/wp-content/uploads/2023/01/logo-quan.png"></a>
+      <div class="right fr">
+        <ul class="nav fl">
+                    <li class="nav-item ">
+            <a href="https://www.kunlunxin.com/">首页</a>
+            <!-- 产品信息下拉框 -->
+            
+            <!-- 解决方案下拉框 -->
+                      </li>
+                    <li class="nav-item ">
+            <a href="javascript:;">产品信息</a>
+            <!-- 产品信息下拉框 -->
+                          <div class="show1 show2">
+                <div class="tab" style="background-image: url(https://www.kunlunxin.com/wp-content/uploads/2023/01/daohang.png)">
+                  <a href="javascript:;">全部产品</a>
+                                      <a href="javascript:;">
+                      <span>R</span>
+                      系列                  </a>
+                                      <a href="javascript:;">
+                      <span>K</span>
+                      系列                  </a>
+                                  </div>
+                <div class="content">
+                  <div class="main">
+                    <ul>
+                                              <li>
+                          <a class="p1"><span>R</span>
+                      系列</a>
+                                                      <a href="https://www.kunlunxin.com/product/2873.html" class="p2">昆仑芯2代AI芯片</a>
+                                                      <a href="https://www.kunlunxin.com/product/2837.html" class="p2">昆仑芯AI加速卡R100</a>
+                                                      <a href="https://www.kunlunxin.com/product/274.html" class="p2">昆仑芯AI加速卡R200系列</a>
+                                                      <a href="https://www.kunlunxin.com/product/2842.html" class="p2">昆仑芯AI加速卡RG800</a>
+                                                      <a href="https://www.kunlunxin.com/product/272.html" class="p2">昆仑芯AI加速器组R480-X8</a>
+                                                  </li>
+                                              <li>
+                          <a class="p1"><span>K</span>
+                      系列</a>
+                                                      <a href="https://www.kunlunxin.com/product/688.html" class="p2">昆仑芯1代AI芯片</a>
+                                                      <a href="https://www.kunlunxin.com/product/687.html" class="p2">昆仑芯AI加速卡K100</a>
+                                                      <a href="https://www.kunlunxin.com/product/686.html" class="p2">昆仑芯AI加速卡K200</a>
+                                                  </li>
+                                          </ul>
+                  </div>
+                                    <div class="main">
+                    <ul>
+                                            <li>
+                        <a href="https://www.kunlunxin.com/product/2873.html" class="p1">昆仑芯2代AI芯片</a>
+                      </li>
+                                            <li>
+                        <a href="https://www.kunlunxin.com/product/2837.html" class="p1">昆仑芯AI加速卡R100</a>
+                      </li>
+                                            <li>
+                        <a href="https://www.kunlunxin.com/product/274.html" class="p1">昆仑芯AI加速卡R200系列</a>
+                      </li>
+                                            <li>
+                        <a href="https://www.kunlunxin.com/product/2842.html" class="p1">昆仑芯AI加速卡RG800</a>
+                      </li>
+                                            <li>
+                        <a href="https://www.kunlunxin.com/product/272.html" class="p1">昆仑芯AI加速器组R480-X8</a>
+                      </li>
+                                          </ul>
+                  </div>
+                                    <div class="main">
+                    <ul>
+                                            <li>
+                        <a href="https://www.kunlunxin.com/product/688.html" class="p1">昆仑芯1代AI芯片</a>
+                      </li>
+                                            <li>
+                        <a href="https://www.kunlunxin.com/product/687.html" class="p1">昆仑芯AI加速卡K100</a>
+                      </li>
+                                            <li>
+                        <a href="https://www.kunlunxin.com/product/686.html" class="p1">昆仑芯AI加速卡K200</a>
+                      </li>
+                                          </ul>
+                  </div>
+                      
+
+                </div>
+              </div>
+            
+            <!-- 解决方案下拉框 -->
+                      </li>
+                    <li class="nav-item ">
+            <a href="javascript:;">解决方案</a>
+            <!-- 产品信息下拉框 -->
+            
+            <!-- 解决方案下拉框 -->
+                          <div class="show1">
+                <div class="tab" style="background-image: url(https://www.kunlunxin.com/wp-content/uploads/2023/01/daohang.png)">
+                                      <a href="javascript:;">行业解决方案</a>
+                                  </div>
+
+                <div class="content">
+
+                                      <div class="main">
+                      <ul>
+                                                      <li>
+                                <a href="https://www.kunlunxin.com/landing/1253.html" class="p1">互联网</a>
+                              </li>
+                                                      <li>
+                                <a href="https://www.kunlunxin.com/landing/1252.html" class="p1">智慧工业</a>
+                              </li>
+                                                      <li>
+                                <a href="https://www.kunlunxin.com/landing/1251.html" class="p1">智慧金融</a>
+                              </li>
+                                                      <li>
+                                <a href="https://www.kunlunxin.com/landing/1250.html" class="p1">智慧交通</a>
+                              </li>
+                                                      <li>
+                                <a href="https://www.kunlunxin.com/landing/1249.html" class="p1">智慧物流</a>
+                              </li>
+                                                      <li>
+                                <a href="https://www.kunlunxin.com/landing/1248.html" class="p1">智慧园区</a>
+                              </li>
+                                              </ul>
+                    </div>
+                   
+                  
+                 
+                </div>
+              </div>
+                      </li>
+                    <li class="nav-item ">
+            <a href="https://www.kunlunxin.com/technology">智能计算</a>
+            <!-- 产品信息下拉框 -->
+            
+            <!-- 解决方案下拉框 -->
+                      </li>
+                    <li class="nav-item active">
+            <a href="https://www.kunlunxin.com/news">新闻中心</a>
+            <!-- 产品信息下拉框 -->
+            
+            <!-- 解决方案下拉框 -->
+                      </li>
+                    <li class="nav-item ">
+            <a href="https://www.kunlunxin.com/company-profile">公司介绍</a>
+            <!-- 产品信息下拉框 -->
+            
+            <!-- 解决方案下拉框 -->
+                      </li>
+                    <li class="nav-item ">
+            <a href="https://kunlunxin.zhiye.com/Social?p=1^16,3^12">加入我们</a>
+            <!-- 产品信息下拉框 -->
+            
+            <!-- 解决方案下拉框 -->
+                      </li>
+                  </ul>
+                  <a href="https://www.kunlunxin.com/account/login" class="to_login">注册 / 登录</a>
+              </div>
+    </div>
+  </div>
+  
+  <!-- 小屏幕时导航 -->
+  <a href="javascript:;" title="点我" class="small_nav_btn">
+    <i class="p_transition"></i>
+    <i class="p_transition"></i>
+    <i class="p_transition"></i>
+  </a>
+  <div class="small_nav">
+        <div class="wapper">
+      <div class="btn" >
+      <a href="https://www.kunlunxin.com/">首页</a>
+
+        
+        
+      </div>
+    </div>
+        <div class="wapper">
+      <div class="btn" >
+      <a href="javascript:;">产品信息</a>
+
+                    <i></i>
+            <div class="show">
+                                <a href="https://www.kunlunxin.com/product/2873.html">昆仑芯2代AI芯片</a>
+                                <a href="https://www.kunlunxin.com/product/2837.html">昆仑芯AI加速卡R100</a>
+                                <a href="https://www.kunlunxin.com/product/274.html">昆仑芯AI加速卡R200系列</a>
+                                <a href="https://www.kunlunxin.com/product/2842.html">昆仑芯AI加速卡RG800</a>
+                                <a href="https://www.kunlunxin.com/product/688.html">昆仑芯1代AI芯片</a>
+                                <a href="https://www.kunlunxin.com/product/687.html">昆仑芯AI加速卡K100</a>
+                                <a href="https://www.kunlunxin.com/product/686.html">昆仑芯AI加速卡K200</a>
+                                <a href="https://www.kunlunxin.com/product/272.html">昆仑芯AI加速器组R480-X8</a>
+                          </div>
+        
+        
+      </div>
+    </div>
+        <div class="wapper">
+      <div class="btn" >
+      <a href="javascript:;">解决方案</a>
+
+        
+                    <i></i>
+            <div class="show">
+                                <a href="https://www.kunlunxin.com/landing/1253.html">互联网</a>
+                                <a href="https://www.kunlunxin.com/landing/1252.html">智慧工业</a>
+                                <a href="https://www.kunlunxin.com/landing/1251.html">智慧金融</a>
+                                <a href="https://www.kunlunxin.com/landing/1250.html">智慧交通</a>
+                                <a href="https://www.kunlunxin.com/landing/1249.html">智慧物流</a>
+                                <a href="https://www.kunlunxin.com/landing/1248.html">智慧园区</a>
+                          </div>
+        
+      </div>
+    </div>
+        <div class="wapper">
+      <div class="btn" >
+      <a href="https://www.kunlunxin.com/technology">智能计算</a>
+
+        
+        
+      </div>
+    </div>
+        <div class="wapper">
+      <div class="btn" >
+      <a href="https://www.kunlunxin.com/news">新闻中心</a>
+
+        
+        
+      </div>
+    </div>
+        <div class="wapper">
+      <div class="btn" >
+      <a href="https://www.kunlunxin.com/company-profile">公司介绍</a>
+
+        
+        
+      </div>
+    </div>
+        <div class="wapper">
+      <div class="btn" >
+      <a href="https://kunlunxin.zhiye.com/Social?p=1^16,3^12">加入我们</a>
+
+        
+        
+      </div>
+    </div>
+    
+  </div>
+  <div class="hidebg"></div>    
+
+<div class="news">
+    <div class="all_bg part_banner">
+      <div class="font">
+        <p class="p1">新闻中心</p>
+      </div>
+              <video src="https://www.kunlunxin.com/wp-content/uploads/2023/02/8e677cea8595306d92f2feca7dbe7e82.mp4" muted autoplay loop data-object-fit="" x5-playsinline="" playsinline="" webkit-playsinline="" x5-video-player-type="h5" x5-video-orientation="portraint"></video>
+          </div>
+  <script type="text/javascript">
+    var video1 = $(".news .part_banner video").attr("src")
+    
+    if ( $(window).width() > 1250 ){
+      $(".news .part_banner video").attr("src",video1)
+    }else{
+      $(".news .part_banner video").attr("src","")
+    }
+    // $(window).resize(function(){
+    // if ( $(window).width() > 1250 ){
+    //   $(".news .part_banner video").attr("src",video1)
+    // }else{
+    //   $(".news .part_banner video").attr("src","")
+    // }
+    // })
+  </script>
+    <style type="text/css">
+      @media (max-width: 1250px) {
+        .part_banner{
+          background-image: url(https://www.kunlunxin.com/wp-content/uploads/2023/01/68d2a52b50e7f3f23fea21a8da0dea9a.png)
+        }
+      }
+    </style>
+    <div class="down_top all_bg" style="background:#fff">
+      <div class="contain clear">
+        <div class="nav1">
+            <a href="https://www.kunlunxin.com/news" class="active">全部新闻</a>
+                        <a href="https://www.kunlunxin.com/news?cat_id=60" class="">用芯指南</a>
+                        <a href="https://www.kunlunxin.com/news?cat_id=2" class="">芯见闻</a>
+                        <a href="https://www.kunlunxin.com/news?cat_id=3" class="">芯进展</a>
+                    </div>
+      </div>
+    </div>
+    
+     <input type="hidden" id="paged" value="1">
+
+    <div class="all_bg content" style="background:#f4f6fc">
+      <div class="contain clear">
+
+                <div class="left">
+          <ul class="main">
+                      <li class="clear left_li">
+              <a href="https://www.kunlunxin.com/news/4793.html" class="img">
+                <img src="https://www.kunlunxin.com/wp-content/uploads/2025/12/e34a38db9716e53b078b754e3ea1cf45-scaled.jpg">
+              </a>
+              <div class="font">
+                <a href="https://www.kunlunxin.com/news/4793.html" class="p1">昆仑芯受邀中国电信智算测试与适配优化中心揭牌仪式，携手共建国产算力生态体系</a>
+                <p class="p2">2025-12-24 17:30</p>
+                <p class="p3">近日，在中国电信2025数智科技生态大会期间，“AI+绿色智算生态合作论坛”在广州成功举办。论坛以“绿智融合，惠聚息壤”为主题，汇集了算力...</p>
+                <p class="clear">
+                  <a href="https://www.kunlunxin.com/news/4793.html" class="fr btn">查看详情</a>
+                </p>
+              </div>
+            </li>
+                        <li class="clear left_li">
+              <a href="https://www.kunlunxin.com/news/4795.html" class="img">
+                <img src="https://www.kunlunxin.com/wp-content/uploads/2025/12/e7cf920fd992c8f895257da32ade0b62-scaled.jpg">
+              </a>
+              <div class="font">
+                <a href="https://www.kunlunxin.com/news/4795.html" class="p1">昆仑芯亮相中国移动供应链生态合作大会，携手产业链共筑算力新生态</a>
+                <p class="p2">2025-12-24 17:51</p>
+                <p class="p3">12月11日，中国移动供应链生态合作大会在江苏南京隆重举行。大会以“宁聚生态 共赢未来”为主题，聚焦深化产业链、供应链合作，共同构建开...</p>
+                <p class="clear">
+                  <a href="https://www.kunlunxin.com/news/4795.html" class="fr btn">查看详情</a>
+                </p>
+              </div>
+            </li>
+                        <li class="clear left_li">
+              <a href="https://www.kunlunxin.com/news/4791.html" class="img">
+                <img src="https://www.kunlunxin.com/wp-content/uploads/2025/12/fc2399b9d0e0416dfbf9a69fb3c22fa4.png">
+              </a>
+              <div class="font">
+                <a href="https://www.kunlunxin.com/news/4791.html" class="p1">昆仑芯参与发布超节点智算应用“北京方案”，助力“人工智能+”加速落地</a>
+                <p class="p2">2025-12-16 15:40</p>
+                <p class="p3">9月26日，2025人工智能计算大会（AICC 2025）在京举行，昆仑芯作为国产AI芯片领域的代表，与30多家企业与机构携手，在北京市科委中关村...</p>
+                <p class="clear">
+                  <a href="https://www.kunlunxin.com/news/4791.html" class="fr btn">查看详情</a>
+                </p>
+              </div>
+            </li>
+                        <li class="clear left_li">
+              <a href="https://www.kunlunxin.com/news/4720.html" class="img">
+                <img src="https://www.kunlunxin.com/wp-content/uploads/2025/09/A60I6074-scaled.jpg">
+              </a>
+              <div class="font">
+                <a href="https://www.kunlunxin.com/news/4720.html" class="p1">以技术突破推动AI算力创新，昆仑芯受邀亮相北外滩论坛</a>
+                <p class="p2">2025-09-25 18:32</p>
+                <p class="p3">9月11日，由上海市委网信办指导，中国信息安全测评中心、上海交通大学共同主办的《2025第四届北外滩网络安全论坛》在上海成功举办。本届...</p>
+                <p class="clear">
+                  <a href="https://www.kunlunxin.com/news/4720.html" class="fr btn">查看详情</a>
+                </p>
+              </div>
+            </li>
+                      </ul>
+          <a href="javascript:;" class="more_btn">更多新闻</a>
+        </div>
+                <div class="right">
+          <div class="part1 part">
+            <p class="p1">相关文章</p>
+            <ul class="main">
+                                <li class="clear">
+                    <a href="https://www.kunlunxin.com/news/2525.html" class="img">
+                    <img src="https://www.kunlunxin.com/wp-content/uploads/2023/05/67f7f1ac9426df1162e7b5fa4f0f8ab3.jpeg">
+                    </a>
+                    <a href="https://www.kunlunxin.com/news/2525.html" class="p2">昆仑芯荣获“2022年度吴文俊人工智能专项奖（芯片项目）”</a>
+                </li>
+                                <li class="clear">
+                    <a href="https://www.kunlunxin.com/news/4712.html" class="img">
+                    <img src="https://www.kunlunxin.com/wp-content/uploads/2025/09/44c3e4058705d302ffd53773842eee3c.png">
+                    </a>
+                    <a href="https://www.kunlunxin.com/news/4712.html" class="p2">2025中国算力大会 X 昆仑芯：共启OISA生态建设，共话算力产业未来</a>
+                </li>
+                                <li class="clear">
+                    <a href="https://www.kunlunxin.com/news/4452.html" class="img">
+                    <img src="https://www.kunlunxin.com/wp-content/uploads/2025/04/def2a1acf211c21efbb28d67c96968a7-1.png">
+                    </a>
+                    <a href="https://www.kunlunxin.com/news/4452.html" class="p2">新春启“芯”程！昆仑芯P800万卡集群成功点亮，将进一步点亮3万卡集群</a>
+                </li>
+                            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<ul class="right_slide ">
+        <li>
+        <a href="javascript:;" class="ico1">
+        <i></i>
+        <span>010-65441841</span>
+        </a>
+    </li>
+    
+    
+        <li>
+        <a href="javascript:;" class="backtop ico4">
+        <i></i></a>
+    </li>
+</ul>
+<script>
+    // $('.more_btn').click(function(){
+    //     var key = $('.left_li').length;
+    //     var last_id = $('.left_li').eq(key-1).attr('data-id');
+    //     var cat_id  = getParams();
+    //     $.ajax({
+    //         type:"POST",
+    //         url :"https://www.kunlunxin.com/wp-admin/admin-ajax.php?action=get_news_list",
+    //         data: {
+    //             last_id:last_id,
+    //             cat_id:cat_id,
+    //         },
+    //         dataType:'json',
+    //         success:function(data){
+    //             if(data.status == 1){
+    //                 $(".left .main").append(data.html);
+    //                 if(data.show_btn == 0){
+    //                     $('.more_btn').remove();
+    //                 }
+    //             }else{
+    //                 $('.more_btn').remove();
+    //             }
+    //         },
+    //     });
+    // })
+    
+    $('.more_btn').click(function(){
+
+        $.ajax({
+            type:"POST",
+            url :"https://www.kunlunxin.com/wp-admin/admin-ajax.php?action=new_get_news_list",
+            data: {
+                paged: parseInt($('#paged').val()) + 1,
+                cat_id:"0",
+                posts_per_page:"4",
+            },
+            dataType:'json',
+            success:function(data){
+                if(data.status == 1){
+                    $(".left .main").append(data.html);
+                    $('#paged').val(data.paged);
+                }else{
+                    $('.more_btn').remove();
+                }
+            },
+        });
+    })
+
+    function getParams() {
+        // var result = {} 
+        // var str = window.location.search;
+        // if(str.startsWith('?')) { 
+        //     var strParams  = str.split('?')[1];
+        //     var arrParams = strParams.split('&');
+        //     arrParams.forEach((item) => {
+        //         var temKey = item.split('=')[0];
+        //         var temVal = item.split('=')[1];
+        //         result[temKey] = temVal
+        //     })
+        // }
+        // return result[key]
+
+        // 截取等号后面的id
+        var loc = window.location.search;
+        var n1 = loc.length;//地址的总长度
+        var n2 = loc.indexOf("=");//取得=号的位置
+        var id = loc.substr(n2 + 1, n1 - n2);//从=号后面的内容
+        return id
+    }
+</script>
+
+    <div class="footer">
+
+      <div class="top">
+                  <video src="https://www.kunlunxin.com/wp-content/uploads/2023/01/9977e8cc4518e5ae436afc7bd0801567-1.mp4" autoplay muted loop></video>
+                
+        <img src="/wp-content/uploads/2023/01/shouji2.jpg">
+      </div>
+
+      <div class="contain mid">
+        <div class="clear">
+          <a href="https://www.kunlunxin.com" class="logo fl">
+            <img src="https://www.kunlunxin.com/wp-content/uploads/2023/01/bdcecccecb2ae30cfedceeeaddea9eb5.png">
+          </a>
+          <ul class="main fr">
+            <li>
+              <p class="p1">关于昆仑芯</p>
+                            <a href="/company-profile">公司介绍</a>
+                            <a href="/technology">智能计算</a>
+                            <a href="https://kunlunxin.zhiye.com/Social?p=1^16,3^12">加入我们</a>
+                            <a href="/news">新闻中心</a>
+                            <a href="/隐私政策">法律声明</a>
+                            <a href="/用户协议">用户协议</a>
+                          </li>
+            <li>
+              <p class="p1">办公地址</p>
+                            <!--<a href="javascript:;">北京市海淀区信息路甲9号</a>-->
+              <p class="p2">北京市海淀区信息路甲9号</P>
+                            <!--<a href="javascript:;">上海市浦东新区盛夏路399弄6号楼</a>-->
+              <p class="p2">上海市浦东新区盛夏路399弄6号楼</P>
+                            <!--<a href="javascript:;">上海市临港新片区港城广场一街坊5号楼501室</a>-->
+              <p class="p2">上海市临港新片区港城广场一街坊5号楼501室</P>
+                            <!--<a href="javascript:;">广东省深圳市南山区百度国际大厦东塔16楼</a>-->
+              <p class="p2">广东省深圳市南山区百度国际大厦东塔16楼</P>
+                          </li>
+            <li>
+              <p class="p1">联系我们</p>
+              <p class="p2">市场及业务咨询<br />
+邮箱：marketing@kunlunxin.com<br />
+电话：010-65441841<br />
+<br />
+技术及售后咨询<br />
+邮箱：kunlunxin_service@kunlunxin.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--<div class="search clear">-->
+        <!--  <input type="text" placeholder="成为跨时代的智能计算公司" name="comment_email" id="comment_email">-->
+        <!--  <a href="javascript:;" class="btn" id="sub_comment" style="background-image: url(https://www.kunlunxin.com/wp-content/uploads/2023/01/f_search.png)"></a>-->
+        <!--</div>-->
+      </div>
+      <div class="end">
+        <div class="contain clear">
+          <span class="fl">© 2021 昆仑芯（北京）科技股份有限公司 版权所有  <a href="https://beian.miit.gov.cn/">京ICP备2021036703号</a></span>
+                    <ul class="code fr">
+                        <li>
+              <img src="https://www.kunlunxin.com/wp-content/uploads/2023/02/215feec56c2ae2ebc5c15e0bf7baf63b.svg">
+              <em>昆仑芯科技公众号</em>
+            </li>
+                        <li>
+              <img src="https://www.kunlunxin.com/wp-content/uploads/2025/02/26dcbb29861ef5189f497ec016537b04.jpg">
+              <em>昆仑芯科技留言板</em>
+            </li>
+                      </ul>
+                  </div>
+      </div>
+    </div>
+
+    <script>
+      $('#sub_comment').click(function(){
+        var comment_email = $('#comment_email').val();
+
+        if(comment_email.length == 0){
+            layer.msg('请输入内容');
+            return;
+        }
+
+        $.ajax({
+          type:"POST",
+          url :"https://www.kunlunxin.com/wp-admin/admin-ajax.php?action=do_comment",
+          data: {
+            comment_email:comment_email,
+          },
+          dataType:'json',
+          success:function(data){
+            if(data.status == 1){
+              layer.msg(data.msg,{ shift: -1, time: 1000 },function () {
+                $("#comment_email").val("")
+              });
+            }else{
+              layer.msg(data.msg);
+            }
+          },
+        });
+      })
+    </script>
+
+
+      </body>
+
+</html>

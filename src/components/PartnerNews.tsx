@@ -1,11 +1,19 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Trash2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useNewsData } from '../hooks/useNewsData';
 import { AddNewsDialog } from './AddNewsDialog';
 
 export const PartnerNews: React.FC = () => {
-    const { news, addNews } = useNewsData();
+    const { news, addNews, removeNews } = useNewsData();
+
+    const handleDelete = (e: React.MouseEvent, id: string, isManual?: boolean) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (window.confirm("确定要删除这条新闻吗？")) {
+            removeNews(id, isManual);
+        }
+    };
 
     // Only show the latest 3 items on the dashboard
     const displayNews = news.slice(0, 3);
@@ -41,7 +49,14 @@ export const PartnerNews: React.FC = () => {
                         const CardWrapper = item.link ? 'a' : 'div';
                         const cardProps = item.link ? { href: item.link, target: "_blank", rel: "noopener noreferrer" } : {};
                         return (
-                            <CardWrapper key={item.id} {...cardProps} className="glass-panel group cursor-pointer flex flex-col items-start text-left p-0 bg-white shadow-sm border border-gray-100 hover:border-blue-100 hover:shadow-md transition-all duration-300">
+                            <CardWrapper key={item.id} {...cardProps} className="relative glass-panel group cursor-pointer flex flex-col items-start text-left p-0 bg-white shadow-sm border border-gray-100 hover:border-blue-100 hover:shadow-md transition-all duration-300">
+                                <button
+                                    onClick={(e) => handleDelete(e, item.id, item.isManual)}
+                                    className="absolute top-3 right-3 p-1.5 bg-white/80 hover:bg-red-500 hover:text-white text-gray-500 rounded-full transition-colors z-20 backdrop-blur-sm opacity-0 group-hover:opacity-100"
+                                    title="删除新闻"
+                                >
+                                    <Trash2 className="w-4 h-4" />
+                                </button>
                                 <div className="w-full h-48 overflow-hidden relative">
                                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-transparent to-transparent z-10 transition-opacity group-hover:opacity-40" />
                                     <img
