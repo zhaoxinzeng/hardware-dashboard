@@ -1,5 +1,29 @@
 [
   {
+    "id": "9f109fb4075a6ca34ba24e6eee688f54",
+    "vendor": "NVIDIA Developer News",
+    "title": "Controlling Floating-Point Determinism in NVIDIA CCCL",
+    "url": "https://developer.nvidia.com/blog/controlling-floating-point-determinism-in-nvidia-cccl/",
+    "date": "2026-03-05",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "提升NVIDIA GPU浮点计算确定性，优化DL训练与推理。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/controlling-floating-point-determinism-in-nvidia-cccl/"
+  },
+  {
+    "id": "fd4059adb2ae3ea9524d263b9c67484c",
+    "vendor": "NVIDIA Developer News",
+    "title": "Tuning Flash Attention for Peak Performance in NVIDIA CUDA Tile",
+    "url": "https://developer.nvidia.com/blog/tuning-flash-attention-for-peak-performance-in-nvidia-cuda-tile/",
+    "date": "2026-03-05",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "优化Flash Attention在NVIDIA CUDA Tile上，显著提升LLM训练推理速度与内存效率，支持更长上下文，对AI应用价值巨大。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/tuning-flash-attention-for-peak-performance-in-nvidia-cuda-tile/"
+  },
+  {
     "id": "c38ec9f3c06a6a1e5cde1342630283af",
     "vendor": "NVIDIA Developer News",
     "title": "cuTile.jl Brings NVIDIA CUDA Tile-Based Programming to Julia",
@@ -7,7 +31,7 @@
     "date": "2026-03-03",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "Julia支持NVIDIA CUDA Tile，优化GPU核函数与张量核心访问。",
+    "summary": "Julia利用CUDA Tile简化GPU编程，高效利用Tensor Core。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/cutile-jl-brings-nvidia-cuda-tile-based-programming-to-julia/"
   },
@@ -20,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞国芯高效适配SOTA大模型，优化推理部署，推助国模国芯生态。",
+    "summary": "壁仞科技实现国产硬件高效适配SOTA大模型，优化推理部署，共建“国模国芯”生态。",
     "link": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/"
   },
   {
@@ -32,20 +56,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU适配MOSS-TTS，实现高性能推理，降低AI开发部署成本。",
+    "summary": "壁仞科技国产GPU高性能适配MOSS-TTS模型推理。",
     "link": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/"
-  },
-  {
-    "id": "cf906f1032dc9ba090a4baec21a06b9e",
-    "vendor": "沐曦",
-    "title": "算力筑基 生态聚能 | 沐曦股份长沙生态创新中心正式揭牌 2026-03-02",
-    "url": "https://www.metax-tech.com/ndetail/12566.html",
-    "date": "2026-03-02",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦构建国产GPU生态，促技术适配与规模化应用。",
-    "link": "https://www.metax-tech.com/ndetail/12566.html"
   },
   {
     "id": "c1c8ed3e29d2773dac496dd7d6723c65",
@@ -55,7 +67,7 @@
     "date": "2026-02-27",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "Qwen3.5 VLM在英伟达GPU上实现优化部署与推理服务，深化生态合作。",
+    "summary": "阿里Qwen3.5 VLM在英伟达GPU/NIM上加速部署",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/develop-native-multimodal-agents-with-qwen3-5-vlm-using-nvidia-gpu-accelerated-endpoints/"
   },
@@ -67,21 +79,9 @@
     "date": "2026-02-27",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA Run:ai与NIM智能调度，最大化GPU利用率部署大模型推理。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/maximizing-gpu-utilization-with-nvidia-runai-and-nvidia-nim/"
-  },
-  {
-    "id": "ed26b67a9b1308fa99af444751b0619e",
-    "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU Day 0 适配通义千问Qwen3.5-122B-A10B等三款新模型 2026-02-26 通义千问团队正式开源发布Qwen3.5系列中等规模模型，推出包括Qwen3.5-35B-A3B、Qwen3.5-122B-A10B、Qwen3.5-27B三个版本。沐曦股份旗下曦云C系列GPU已同步完成对上述模型的Day 0 适配工作，为用户提供即时可用的高性能AI算力支持。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12564.html",
-    "date": "2026-02-26",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12564.html"
   },
   {
     "id": "4375c8a113f1ea5c979e5723bec1f5eb",
@@ -106,78 +106,6 @@
     "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/ggml-joins-hf"
-  },
-  {
-    "id": "ef84a58faeacc393c4823b570c7b8e97",
-    "vendor": "NVIDIA Developer News",
-    "title": "Accelerating Data Processing with NVIDIA Multi-Instance GPU and NUMA Node Localization",
-    "url": "https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/",
-    "date": "2026-02-19",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/accelerating-data-processing-with-nvidia-multi-instance-gpu-and-numa-node-localization/"
-  },
-  {
-    "id": "a62c864431016e06da12e92f76ddb4ee",
-    "vendor": "NVIDIA Developer News",
-    "title": "Unlock Massive Token Throughput with GPU Fractioning in NVIDIA Run:ai",
-    "url": "https://developer.nvidia.com/blog/unlock-massive-token-throughput-with-gpu-fractioning-in-nvidia-runai/",
-    "date": "2026-02-18",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/unlock-massive-token-throughput-with-gpu-fractioning-in-nvidia-runai/"
-  },
-  {
-    "id": "8efd78e892c42936295f6c6f61e3db83",
-    "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU 完成通义千问Qwen 3.5 Day 0 适配 2026-02-16 通义千问今天正式发布 Qwen3.5，并推出Qwen3.5系列的第一款模型 Qwen3.5-397B-A17B 的开放权重版本。沐曦股份曦云C系列GPU 完成对Qwen 3.5模型的Day 0 适配。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12563.html",
-    "date": "2026-02-16",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12563.html"
-  },
-  {
-    "id": "61c1871b46c4a5cce780e8f7a0d334cd",
-    "vendor": "沐曦",
-    "title": "曦云C500/C550 24小时内完成MiniMax M2.5 适配 2026-02-14 2月13日晚间，MiniMax正式开源MiniMax M2.5模型。沐曦技术团队依托MXMACA软件栈，在24小时内完成曦云C500/C550 对该模型的深度适配。 本次适配基于MXMACA-3.3.0.X版本，充 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12561.html",
-    "date": "2026-02-14",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12561.html"
-  },
-  {
-    "id": "d8aa7947b2696f0476e92479497bd31c",
-    "vendor": "沐曦",
-    "title": "曦云C系列GPU Day 0 适配智谱全新一代大模型GLM-5 2026-02-12 今日，智谱AI正式上线并开源全新一代大模型 GLM-5，沐曦股份实现 Day 0 深度适配。 GLM-5目前可于曦云 C 系列（C500/C550/C588）上稳定高效运行。 近期，智谱AI相继发布GLM 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12559.html",
-    "date": "2026-02-12",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12559.html"
-  },
-  {
-    "id": "fc7cff4a0c0d070eba641d6e662014f5",
-    "vendor": "沐曦",
-    "title": "沐曦曦索 × AI4S：材料研发新范式 2026-02-06 2026年1月29日，“AI4Science 前沿：材料研发计算新范式——国产算力×深度学习框架技术沙龙·上海站”在张江百度飞桨人工智能产业赋能中心举办。 本次活动由百度飞桨与沐曦联合主办，聚焦 AI for Scienc 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12558.html",
-    "date": "2026-02-06",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12558.html"
   },
   {
     "id": "cece98aad6f721bc33f61df8c6b99532",
@@ -228,18 +156,6 @@
     "link": "https://www.birentech.com/news/jrmdfzx21pff4xh6p2rby6vn/"
   },
   {
-    "id": "f90e0aaa63d13e0490a197a787a31972",
-    "vendor": "沐曦",
-    "title": "曦云C500/C550 Day 0 适配智谱GLM-OCR 2026-02-03 今天，智谱AI正式发布并开源GLM-OCR，以 “小尺寸、高精度” 实现文档解析能力新标杆。沐曦股份曦云C500/C550 GPU充分发挥高生态兼容性、软硬协同能力优势，高效完成与智谱GLM-OCR Day 0适配。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12557.html",
-    "date": "2026-02-03",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12557.html"
-  },
-  {
     "id": "e9336b337aeba89905f7cf915b455dca",
     "vendor": "昆仑芯科技",
     "title": "昆仑芯受邀中国电信智算测试与适配优化中心揭牌仪式，携手共建国产算力生态体系",
@@ -248,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯入驻电信智算中心，加速国产芯片大模型适配优化",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/4793.html"
   },
   {
@@ -260,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯与中国移动共建AI算力生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/4795.html"
   },
   {
@@ -272,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯发布智算超节点方案，优化AI应用部署生态。",
+    "summary": "昆仑芯硬核提升大模型训推效能，构建国产智算生态。",
     "link": "https://www.kunlunxin.com/news/4791.html"
   },
   {
@@ -284,7 +200,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯以芯片技术推动AI算力创新与应用。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/4720.html"
   }
 ]
