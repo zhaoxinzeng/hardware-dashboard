@@ -1,38 +1,26 @@
 [
   {
-    "id": "cff482b74319b6c7fdd7eed200ec4a71",
+    "id": "9df795d4af62a7361e82bbce6a2013c3",
     "vendor": "NVIDIA Developer News",
-    "title": "Validate Kubernetes for GPU Infrastructure with Layered, Reproducible Recipes",
-    "url": "https://developer.nvidia.com/blog/validate-kubernetes-for-gpu-infrastructure-with-layered-reproducible-recipes/",
-    "date": "2026-03-12",
+    "title": "NVIDIA Vera CPU Delivers High Performance, Bandwidth, and Efficiency for AI Factories",
+    "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-delivers-high-performance-bandwidth-and-efficiency-for-ai-factories/",
+    "date": "2026-03-16",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA验证Kubernetes GPU配置，简化AI部署优化",
+    "summary": "NVIDIA Vera CPU 提升AI工厂LLM训练推理效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/validate-kubernetes-for-gpu-infrastructure-with-layered-reproducible-recipes/"
-  },
-  {
-    "id": "3abce94179d9733c88254607e07e492c",
-    "vendor": "NVIDIA Developer News",
-    "title": "Build Next-Gen Physical AI with Edge‑First LLMs for Autonomous Vehicles and Robotics",
-    "url": "https://developer.nvidia.com/blog/build-next-gen-physical-ai-with-edge%e2%80%91first-llms-for-autonomous-vehicles-and-robotics/",
-    "date": "2026-03-12",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA TensorRT优化大模型在Jetson/DRIVE边缘硬件推理部署，赋能自动驾驶与机器人等物理AI。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/build-next-gen-physical-ai-with-edge%e2%80%91first-llms-for-autonomous-vehicles-and-robotics/"
+    "link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-delivers-high-performance-bandwidth-and-efficiency-for-ai-factories/"
   },
   {
     "id": "708512f249b49070a8bd11081c2730fd",
     "vendor": "壁仞科技",
     "title": "1+1>2｜壁仞科技助力DeepLink混推方案，首次实现国产多算力规模化混推",
     "url": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/",
-    "date": "2026-03-10",
+    "date": "2026-03-16",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "DeepLink混推方案实现国产多芯片协同推理，推动大模型高效部署及标准制定。",
+    "summary": "国产异构芯片混推方案，优化大模型算力协同部署。",
     "link": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/"
   },
   {
@@ -40,59 +28,23 @@
     "vendor": "壁仞科技",
     "title": "“国模国芯”新标杆！壁仞科技完成MiniMax M2.5、智谱GLM-5等多款SOTA模型高效适配",
     "url": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/",
-    "date": "2026-03-10",
+    "date": "2026-03-02",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技通过硬软件优化，助力国产大模型高效适配与推理部署。",
+    "summary": "壁仞科技将MiniMax M2.5、GLM-5等主流大模型高效适配至国产硬件壁砺166及自研软件栈，实现极致推理部署，深化“国模国芯”生态。",
     "link": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/"
-  },
-  {
-    "id": "aff3b72dd3d562be81a6968b62546598",
-    "vendor": "NVIDIA Developer News",
-    "title": "CUDA 13.2 Introduces Enhanced CUDA Tile Support and New Python Features",
-    "url": "https://developer.nvidia.com/blog/cuda-13-2-introduces-enhanced-cuda-tile-support-and-new-python-features/",
-    "date": "2026-03-09",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "CUDA 13.2 增强GPU适配性及开发工具，优化深度学习计算效率。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/cuda-13-2-introduces-enhanced-cuda-tile-support-and-new-python-features/"
-  },
-  {
-    "id": "03a059e4e73cf154ddbf0c450ca26a88",
-    "vendor": "NVIDIA Developer News",
-    "title": "Implementing Falcon-H1 Hybrid Architecture in NVIDIA Megatron Core",
-    "url": "https://developer.nvidia.com/blog/implementing-falcon-h1-hybrid-architecture-in-nvidia-megatron-core/",
-    "date": "2026-03-09",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA Megatron Core适配Falcon架构，优化大模型训练效率。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/implementing-falcon-h1-hybrid-architecture-in-nvidia-megatron-core/"
-  },
-  {
-    "id": "c84e6e0d45695cbd52b771f0ca9556be",
-    "vendor": "NVIDIA Developer News",
-    "title": "Enhancing Distributed Inference Performance with the NVIDIA Inference Transfer Library",
-    "url": "https://developer.nvidia.com/blog/enhancing-distributed-inference-performance-with-the-nvidia-inference-transfer-library/",
-    "date": "2026-03-09",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/enhancing-distributed-inference-performance-with-the-nvidia-inference-transfer-library/"
   },
   {
     "id": "3e67f6867d1750e00bf2e14001a14b08",
     "vendor": "壁仞科技",
     "title": "首家适配｜壁仞科技壁砺™ 166M极速支持MOSS-TTS Family",
     "url": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/",
-    "date": "2026-02-27",
+    "date": "2026-03-02",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞GPU适配MOSS-TTS语音大模型，实现高性能推理部署。",
     "link": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/"
   },
   {
@@ -100,11 +52,11 @@
     "vendor": "壁仞科技",
     "title": "壁仞科技Day 0适配Step 3.5 Flash，重塑Agent工作流！",
     "url": "https://www.birentech.com/news/n7fm0qv3ejt57eanl8j7fh37/",
-    "date": "2026-02-27",
+    "date": "2026-03-02",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "国产GPU快速适配大模型，构建软硬生态",
     "link": "https://www.birentech.com/news/n7fm0qv3ejt57eanl8j7fh37/"
   },
   {
@@ -112,24 +64,12 @@
     "vendor": "壁仞科技",
     "title": "壁仞科技亮相“智算申城”高峰论坛，共绘上海智能算力发展新蓝图​",
     "url": "https://www.birentech.com/news/dtzc8a5gu3yq78jbgy1af4ga/",
-    "date": "2026-02-27",
+    "date": "2026-03-02",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技以国产GPU万卡集群方案赋能大模型异构训练与推理。",
     "link": "https://www.birentech.com/news/dtzc8a5gu3yq78jbgy1af4ga/"
-  },
-  {
-    "id": "e6347ef7c53a36ae42c12f9e800d1b2b",
-    "vendor": "壁仞科技",
-    "title": "壁仞科技正式登陆港股，开启国产算力自主新征程​",
-    "url": "https://www.birentech.com/news/sixcmy40vsztocaofhd3dqzb/",
-    "date": "2026-02-27",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/sixcmy40vsztocaofhd3dqzb/"
   },
   {
     "id": "e9336b337aeba89905f7cf915b455dca",
@@ -140,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯与电信共建智算中心，提升大模型在国产芯片训练推理性能。",
     "link": "https://www.kunlunxin.com/news/4793.html"
   },
   {
