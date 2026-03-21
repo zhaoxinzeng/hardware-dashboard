@@ -7,7 +7,7 @@
     "date": "2026-03-16",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA Vera CPU 提升AI工厂LLM训练推理效率。",
+    "summary": "NVIDIA Vera CPU解决AI计算瓶颈，提升大模型效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-delivers-high-performance-bandwidth-and-efficiency-for-ai-factories/"
   },
@@ -20,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产异构芯片混推方案，优化大模型算力协同部署。",
+    "summary": "首次实现国产异构多芯片混合推理，提升大模型算力效能，推动生态标准。",
     "link": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/"
   },
   {
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技将MiniMax M2.5、GLM-5等主流大模型高效适配至国产硬件壁砺166及自研软件栈，实现极致推理部署，深化“国模国芯”生态。",
+    "summary": "壁仞科技硬件深度优化适配国产SOTA大模型，加速AI推理部署。",
     "link": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/"
   },
   {
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU适配MOSS-TTS语音大模型，实现高性能推理部署。",
+    "summary": "壁仞GPU首家适配MOSS-TTS推理，赋能AI应用。",
     "link": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/"
   },
   {
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU快速适配大模型，构建软硬生态",
+    "summary": "壁仞GPU Day 0适配大模型，提升国产AI软硬协同能力。",
     "link": "https://www.birentech.com/news/n7fm0qv3ejt57eanl8j7fh37/"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技以国产GPU万卡集群方案赋能大模型异构训练与推理。",
+    "summary": "壁仞科技基于国产大算力GPU打造万卡集群，优化大模型异构训练与推理，构建智算生态。",
     "link": "https://www.birentech.com/news/dtzc8a5gu3yq78jbgy1af4ga/"
   },
   {
@@ -80,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯与电信共建智算中心，提升大模型在国产芯片训练推理性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/4793.html"
   },
   {
@@ -92,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯P800及OISA架构赋能中移动大模型训练推理与算力生态。",
     "link": "https://www.kunlunxin.com/news/4795.html"
   },
   {
