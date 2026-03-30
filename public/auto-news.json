@@ -7,7 +7,7 @@
     "date": "2026-03-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化GPU资源，提升Kubernetes上大模型推理吞吐",
+    "summary": "优化大模型及AI推理的GPU利用率与吞吐量",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/"
   },
@@ -19,7 +19,7 @@
     "date": "2026-03-23",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "LLM推理分解式部署于Kubernetes，提升GPU利用率和扩展性。",
+    "summary": "LLM推理在Kubernetes上拆分部署与优化利用GPU。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/deploying-disaggregated-llm-inference-workloads-on-kubernetes/"
   },
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "DeepLink实现国产异构芯片大模型混推，提升算力效能与生态合作。",
+    "summary": "提升国产多算力大模型混推效率与生态建设",
     "link": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/"
   },
   {
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU高效适配大模型，构建国产生态。",
+    "summary": "壁仞科技硬核适配国产大模型，实现高效推理部署。",
     "link": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/"
   },
   {
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU/NPU壁砺166M适配MOSS-TTS，实现高效AI语音推理。",
+    "summary": "壁仞科技GPU首家适配MOSS-TTS，提供AI语音推理方案。",
     "link": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU适配大模型，加速推理部署，强化国产生态。",
+    "summary": "壁仞GPU Day 0适配大模型，加速Agent推理及国产生态建设。",
     "link": "https://www.birentech.com/news/n7fm0qv3ejt57eanl8j7fh37/"
   },
   {
@@ -80,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技以国产GPU万卡集群方案突破大模型异构算力瓶颈。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/dtzc8a5gu3yq78jbgy1af4ga/"
   },
   {
