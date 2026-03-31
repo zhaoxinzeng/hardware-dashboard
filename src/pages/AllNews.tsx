@@ -2,11 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { ArrowLeft, Trash2, Pencil } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useNewsData } from '../hooks/useNewsData';
+import { useAuth } from '../contexts/AuthContext';
 import { AddNewsDialog } from '../components/AddNewsDialog';
 import type { NewsItem } from '../types/news';
 
 export const AllNews: React.FC = () => {
     const { news, addNews, updateNews, removeNews } = useNewsData();
+    const { currentUser } = useAuth();
+    const isAdmin = currentUser?.role === 'admin';
     const [editingNews, setEditingNews] = useState<NewsItem | null>(null);
 
     const handleDelete = (e: React.MouseEvent, id: string, isManual?: boolean) => {
@@ -49,12 +52,14 @@ export const AllNews: React.FC = () => {
                     </h1>
                 </div>
 
-                <AddNewsDialog
-                    onAddNews={addNews}
-                    onUpdateNews={(id, updates) => updateNews(id, updates, editingNews?.isManual)}
-                    editingItem={editingNews}
-                    onCancelEdit={() => setEditingNews(null)}
-                />
+                {isAdmin && (
+                    <AddNewsDialog
+                        onAddNews={addNews}
+                        onUpdateNews={(id, updates) => updateNews(id, updates, editingNews?.isManual)}
+                        editingItem={editingNews}
+                        onCancelEdit={() => setEditingNews(null)}
+                    />
+                )}
             </header>
 
             <main className="max-w-[1440px] mx-auto p-4 md:p-8 animate-in fade-in duration-500 fade-in-out slide-in-from-bottom-4">
@@ -73,6 +78,7 @@ export const AllNews: React.FC = () => {
                             const cardProps = item.link ? { href: item.link, target: "_blank", rel: "noopener noreferrer" } : {};
                             return (
                                 <CardWrapper key={item.id} {...cardProps} className="relative glass-panel group cursor-pointer flex flex-col items-start text-left p-0 bg-white shadow-sm border border-gray-100 hover:border-blue-100 hover:shadow-md transition-all duration-300">
+                                {isAdmin && (
                                     <div className="absolute top-3 right-3 flex items-center gap-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
                                         <button
                                             onClick={(e) => handleEdit(e, item)}
@@ -89,7 +95,8 @@ export const AllNews: React.FC = () => {
                                             <Trash2 className="w-4 h-4" />
                                         </button>
                                     </div>
-                                    <div className="w-full h-40 overflow-hidden relative">
+                                )}
+                                <div className="w-full h-40 overflow-hidden relative">
                                         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/40 to-transparent z-10 transition-opacity group-hover:opacity-0" />
                                         <img
                                             src={item.imageUrl}

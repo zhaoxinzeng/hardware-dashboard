@@ -1,0 +1,47 @@
+{
+  "models": [
+    {
+      "id": "m1",
+      "name": "ERNIE-4.5-0.3B",
+      "description": "",
+      "subItems": [
+        { "id": "m1-sub1", "name": "模型服务 (推理)" },
+        { "id": "m1-sub2", "name": "SFT - LoRA" },
+        { "id": "m1-sub3", "name": "SFT - 全量更新" }
+      ]
+    },
+    {
+      "id": "m2",
+      "name": "飞桨 PaddlePaddle",
+      "description": "",
+      "subItems": [
+        { "id": "m2-sub1", "name": "模型服务 (推理)" },
+        { "id": "m2-sub2", "name": "SFT - LoRA" },
+        { "id": "m2-sub3", "name": "SFT - 全量更新" }
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "千帆大模型平台",
+      "description": "",
+      "subItems": [
+        { "id": "m3-sub1", "name": "模型服务 (推理)" },
+        { "id": "m3-sub2", "name": "SFT - LoRA" },
+        { "id": "m3-sub3", "name": "SFT - 全量更新" }
+      ]
+    }
+  ],
+  "hardwares": [
+    { "id": "h1", "vendor": "华为", "specificModel": "910B" },
+    { "id": "h2", "vendor": "昆仑芯", "specificModel": "P800" },
+    { "id": "h3", "vendor": "天数智芯", "specificModel": "天垓150" },
+    { "id": "h4", "vendor": "沐曦", "specificModel": "C550" },
+    { "id": "h5", "vendor": "海光", "specificModel": "K100_AI" },
+    { "id": "h6", "vendor": "燧原", "specificModel": "S60" },
+    { "id": "h7", "vendor": "寒武纪", "specificModel": "370" },
+    { "id": "h8", "vendor": "摩尔线程", "specificModel": "S4000" },
+    { "id": "h9", "vendor": "太初", "specificModel": "T100" },
+    { "id": "h10", "vendor": "Intel", "specificModel": "Gaudi" }
+  ],
+  "matrix": {}
+}

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { toast } from 'sonner';
 import { HardwareProductCard } from '../components/HardwareProductCard';
 import { useHardwareProductsData } from '../hooks/useHardwareProductsData';
+import { useAuth } from '../contexts/AuthContext';
 import type { HardwareProduct } from '../types/hardwareProduct';
 
 const createProductDraft = () => ({
@@ -17,6 +18,8 @@ const createProductDraft = () => ({
 
 export const AllHardwareProducts: React.FC = () => {
     const { sortedProducts, addProduct, updateProduct, toggleFeatured, removeProduct } = useHardwareProductsData();
+    const { currentUser } = useAuth();
+    const isAdmin = currentUser?.role === 'admin';
 
     const [isAdding, setIsAdding] = useState(false);
     const [editingProduct, setEditingProduct] = useState<HardwareProduct | null>(null);
@@ -140,23 +143,25 @@ export const AllHardwareProducts: React.FC = () => {
                     <h1 className="text-lg font-bold tracking-tight text-gray-900">全部多硬件产品</h1>
                 </div>
 
-                <button
-                    onClick={() => {
-                        if (isAdding) {
-                            setIsAdding(false);
-                            resetFormState();
-                            return;
-                        }
-                        setIsAdding(true);
-                    }}
-                    className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-sm font-semibold border transition-colors ${isAdding
-                        ? 'bg-gray-100 text-gray-700 border-gray-200 hover:bg-gray-200'
-                        : 'bg-blue-50 text-[var(--color-tech-blue)] border-blue-100 hover:bg-blue-100'
-                        }`}
-                >
-                    <Plus className="w-4 h-4" />
-                    {isAdding ? '取消新增' : '新增产品'}
-                </button>
+                {isAdmin && (
+                    <button
+                        onClick={() => {
+                            if (isAdding) {
+                                setIsAdding(false);
+                                resetFormState();
+                                return;
+                            }
+                            setIsAdding(true);
+                        }}
+                        className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-sm font-semibold border transition-colors ${isAdding
+                            ? 'bg-gray-100 text-gray-700 border-gray-200 hover:bg-gray-200'
+                            : 'bg-blue-50 text-[var(--color-tech-blue)] border-blue-100 hover:bg-blue-100'
+                            }`}
+                    >
+                        <Plus className="w-4 h-4" />
+                        {isAdding ? '取消新增' : '新增产品'}
+                    </button>
+                )}
             </header>
 
             <main className="max-w-[1440px] mx-auto p-4 md:p-8 animate-in fade-in duration-500">
@@ -164,7 +169,7 @@ export const AllHardwareProducts: React.FC = () => {
                     共 {sortedProducts.length} 个产品，排序规则：高亮优先，其次按最新创建时间。
                 </p>
 
-                {isAdding && (
+                {isAdmin && isAdding && (
                     <section className="mb-6 rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50/90 to-white p-4 md:p-5">
                         <h2 className="text-sm font-bold text-gray-900 mb-4">{editingProduct ? '编辑产品' : '新增产品'}</h2>
                         <p className="text-xs text-gray-500 mb-4">
@@ -284,7 +289,7 @@ export const AllHardwareProducts: React.FC = () => {
                             <HardwareProductCard
                                 key={product.id}
                                 product={product}
-                                footer={(
+                                footer={isAdmin ? (
                                     <div className="flex flex-wrap items-center justify-end gap-2">
                                         <button
                                             onClick={() => handleStartEdit(product)}
@@ -313,7 +318,7 @@ export const AllHardwareProducts: React.FC = () => {
                                             删除
                                         </button>
                                     </div>
-                                )}
+                                ) : undefined}
                             />
                         ))}
                     </div>

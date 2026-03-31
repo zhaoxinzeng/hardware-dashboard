@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { ArrowLeft, ArrowUp, Pin, Plus, PlayCircle, Trash2, ArrowRight, Pencil } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useCoursesData } from '../hooks/useCoursesData';
+import { useAuth } from '../contexts/AuthContext';
 import type { Course, CourseDifficulty } from '../types/course';
 import { generateInvalidCourseUrl } from '../utils/courseUrl';
 
@@ -21,6 +22,8 @@ const createCourseDraft = () => ({
 
 export const AllCourses: React.FC = () => {
     const { sortedCourses, addCourse, togglePinned, removeCourse, updateCourse } = useCoursesData();
+    const { currentUser } = useAuth();
+    const isAdmin = currentUser?.role === 'admin';
 
     const [isAdding, setIsAdding] = useState(false);
     const [editingCourse, setEditingCourse] = useState<Course | null>(null);
@@ -107,23 +110,25 @@ export const AllCourses: React.FC = () => {
                     <h1 className="text-lg font-bold tracking-tight text-gray-900">全部课程</h1>
                 </div>
 
-                <button
-                    onClick={() => {
-                        if (isAdding) {
-                            setIsAdding(false);
-                            resetFormState();
-                            return;
-                        }
-                        setIsAdding(true);
-                    }}
-                    className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-sm font-semibold border transition-colors ${isAdding
-                        ? 'bg-gray-100 text-gray-700 border-gray-200 hover:bg-gray-200'
-                        : 'bg-blue-50 text-[var(--color-tech-blue)] border-blue-100 hover:bg-blue-100'
-                        }`}
-                >
-                    <Plus className="w-4 h-4" />
-                    {isAdding ? '取消新增' : '新增课程'}
-                </button>
+                {isAdmin && (
+                    <button
+                        onClick={() => {
+                            if (isAdding) {
+                                setIsAdding(false);
+                                resetFormState();
+                                return;
+                            }
+                            setIsAdding(true);
+                        }}
+                        className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-sm font-semibold border transition-colors ${isAdding
+                            ? 'bg-gray-100 text-gray-700 border-gray-200 hover:bg-gray-200'
+                            : 'bg-blue-50 text-[var(--color-tech-blue)] border-blue-100 hover:bg-blue-100'
+                            }`}
+                    >
+                        <Plus className="w-4 h-4" />
+                        {isAdding ? '取消新增' : '新增课程'}
+                    </button>
+                )}
             </header>
 
             <main className="max-w-[1440px] mx-auto p-4 md:p-8 animate-in fade-in duration-500">
@@ -131,7 +136,7 @@ export const AllCourses: React.FC = () => {
                     共 {sortedCourses.length} 门课程，排序规则：置顶优先，其次按最新创建时间。
                 </p>
 
-                {isAdding && (
+                {isAdmin && isAdding && (
                     <section className="mb-6 rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50/90 to-white p-4 md:p-5">
                         <h2 className="text-sm font-bold text-gray-900 mb-4">{editingCourse ? '修改课程' : '新增课程'}</h2>
                         <p className="text-xs text-gray-500 mb-4">
@@ -236,34 +241,36 @@ export const AllCourses: React.FC = () => {
                                         去学习 <ArrowRight className="w-3.5 h-3.5" />
                                     </button>
 
-                                    <div className="flex items-center gap-2">
-                                        <button
-                                            onClick={() => handleStartEdit(course)}
-                                            className="inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-xs font-bold text-gray-600 bg-gray-100 border border-gray-200 hover:bg-blue-50 hover:text-[var(--color-tech-blue)] hover:border-blue-200 transition-colors"
-                                        >
-                                            <Pencil className="w-3.5 h-3.5" />
-                                            编辑
-                                        </button>
+                                    {isAdmin && (
+                                        <div className="flex items-center gap-2">
+                                            <button
+                                                onClick={() => handleStartEdit(course)}
+                                                className="inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-xs font-bold text-gray-600 bg-gray-100 border border-gray-200 hover:bg-blue-50 hover:text-[var(--color-tech-blue)] hover:border-blue-200 transition-colors"
+                                            >
+                                                <Pencil className="w-3.5 h-3.5" />
+                                                编辑
+                                            </button>
 
-                                        <button
-                                            onClick={() => togglePinned(course.id)}
-                                            className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-xs font-bold border transition-colors ${course.isPinned
-                                                ? 'text-amber-700 bg-amber-50 border-amber-200 hover:bg-amber-100'
-                                                : 'text-gray-700 bg-gray-100 border-gray-200 hover:bg-gray-200'
-                                                }`}
-                                        >
-                                            <ArrowUp className="w-3.5 h-3.5" />
-                                            {course.isPinned ? '取消置顶' : '置顶'}
-                                        </button>
+                                            <button
+                                                onClick={() => togglePinned(course.id)}
+                                                className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-xs font-bold border transition-colors ${course.isPinned
+                                                    ? 'text-amber-700 bg-amber-50 border-amber-200 hover:bg-amber-100'
+                                                    : 'text-gray-700 bg-gray-100 border-gray-200 hover:bg-gray-200'
+                                                    }`}
+                                            >
+                                                <ArrowUp className="w-3.5 h-3.5" />
+                                                {course.isPinned ? '取消置顶' : '置顶'}
+                                            </button>
 
-                                        <button
-                                            onClick={() => handleDelete(course.id)}
-                                            className="inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-xs font-bold text-rose-600 bg-rose-50 border border-rose-200 hover:bg-rose-100 transition-colors"
-                                        >
-                                            <Trash2 className="w-3.5 h-3.5" />
-                                            删除
-                                        </button>
-                                    </div>
+                                            <button
+                                                onClick={() => handleDelete(course.id)}
+                                                className="inline-flex items-center gap-1.5 px-3 py-2 rounded-md text-xs font-bold text-rose-600 bg-rose-50 border border-rose-200 hover:bg-rose-100 transition-colors"
+                                            >
+                                                <Trash2 className="w-3.5 h-3.5" />
+                                                删除
+                                            </button>
+                                        </div>
+                                    )}
                                 </div>
                             </article>
                         ))}

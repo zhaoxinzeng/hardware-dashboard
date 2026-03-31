@@ -3,6 +3,7 @@ import { ArrowLeft, MessageSquare, Send, ThumbsUp, AlertCircle, Lightbulb, Penci
 import { Link } from 'react-router-dom';
 import { toast } from 'sonner';
 import { useFeedbackData } from '../hooks/useFeedbackData';
+import { useAuth } from '../contexts/AuthContext';
 import type { FeedbackItem, FeedbackType } from '../types/feedback';
 
 const MODEL_OPTIONS = ['文心一言 4.0', '飞桨 PaddlePaddle', '千帆大模型平台', '通义千问', '其他'];
@@ -66,6 +67,8 @@ const FeedbackTypeIcon: React.FC<{ type: FeedbackType }> = ({ type }) => {
 
 export const AllFeedback: React.FC = () => {
     const { sortedFeedbacks, addFeedback, updateFeedback, removeFeedback } = useFeedbackData();
+    const { currentUser } = useAuth();
+    const isAdmin = currentUser?.role === 'admin';
 
     const [editingItem, setEditingItem] = useState<FeedbackItem | null>(null);
     const [model, setModel] = useState(MODEL_OPTIONS[0]);
@@ -154,9 +157,10 @@ export const AllFeedback: React.FC = () => {
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x divide-border-subtle/50">
-                        <div className="p-6 bg-gray-50/30">
-                            <form className="space-y-5" onSubmit={handleSubmit}>
-                                <h2 className="text-sm font-bold text-gray-900">{editingItem ? '编辑反馈' : '新增反馈'}</h2>
+                        {isAdmin && (
+                            <div className="p-6 bg-gray-50/30">
+                                <form className="space-y-5" onSubmit={handleSubmit}>
+                                    <h2 className="text-sm font-bold text-gray-900">{editingItem ? '编辑反馈' : '新增反馈'}</h2>
 
                                 <div className="grid grid-cols-2 gap-4">
                                     <div className="space-y-1.5">
@@ -234,8 +238,9 @@ export const AllFeedback: React.FC = () => {
                                 </div>
                             </form>
                         </div>
+                        )}
 
-                        <div className="p-6 bg-white overflow-y-auto max-h-[620px]">
+                        <div className={`p-6 bg-white overflow-y-auto max-h-[620px] ${!isAdmin ? 'lg:col-span-2' : ''}`}>
                             <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-4 flex items-center gap-2">
                                 <MessageSquare className="w-4 h-4" /> Feedback Timeline
                             </h3>
@@ -265,20 +270,22 @@ export const AllFeedback: React.FC = () => {
                                                         {item.description}
                                                     </p>
 
-                                                    <div className="mt-3 pt-2 border-t border-gray-100 flex items-center justify-end gap-2">
-                                                        <button
-                                                            onClick={() => handleStartEdit(item)}
-                                                            className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-md text-[11px] font-bold text-gray-600 bg-gray-100 border border-gray-200 hover:bg-blue-50 hover:text-[var(--color-tech-blue)] hover:border-blue-200 transition-colors"
-                                                        >
-                                                            <Pencil className="w-3.5 h-3.5" /> 编辑
-                                                        </button>
-                                                        <button
-                                                            onClick={() => handleDelete(item.id)}
-                                                            className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-md text-[11px] font-bold text-rose-600 bg-rose-50 border border-rose-200 hover:bg-rose-100 transition-colors"
-                                                        >
-                                                            <Trash2 className="w-3.5 h-3.5" /> 删除
-                                                        </button>
-                                                    </div>
+                                                    {isAdmin && (
+                                                        <div className="mt-3 pt-2 border-t border-gray-100 flex items-center justify-end gap-2">
+                                                            <button
+                                                                onClick={() => handleStartEdit(item)}
+                                                                className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-md text-[11px] font-bold text-gray-600 bg-gray-100 border border-gray-200 hover:bg-blue-50 hover:text-[var(--color-tech-blue)] hover:border-blue-200 transition-colors"
+                                                            >
+                                                                <Pencil className="w-3.5 h-3.5" /> 编辑
+                                                            </button>
+                                                            <button
+                                                                onClick={() => handleDelete(item.id)}
+                                                                className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-md text-[11px] font-bold text-rose-600 bg-rose-50 border border-rose-200 hover:bg-rose-100 transition-colors"
+                                                            >
+                                                                <Trash2 className="w-3.5 h-3.5" /> 删除
+                                                            </button>
+                                                        </div>
+                                                    )}
                                                 </div>
                                             </div>
                                         );
