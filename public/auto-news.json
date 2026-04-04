@@ -1,5 +1,17 @@
 [
   {
+    "id": "88bb5c6db1072201bdfa27056a1df629",
+    "vendor": "NVIDIA Developer News",
+    "title": "CUDA Tile Programming Now Available for BASIC!",
+    "url": "https://developer.nvidia.com/blog/cuda-tile-programming-now-available-for-basic/",
+    "date": "2026-04-01",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "CUDA Tile增强GPU多语言编程，提升并行计算效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/cuda-tile-programming-now-available-for-basic/"
+  },
+  {
     "id": "478829164b264848d2f99b07c29032e6",
     "vendor": "NVIDIA Developer News",
     "title": "Stream High-Fidelity Spatial Computing Content to Any Device with NVIDIA CloudXR 6.0",
@@ -7,7 +19,7 @@
     "date": "2026-03-31",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA CloudXR 6.0优化GPU高性能XR串流，实现多硬件适配与部署。",
+    "summary": "NVIDIA CloudXR与Apple Vision Pro深度合作，实现RTX内容高效串流与部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/stream-high-fidelity-spatial-computing-content-to-any-device-with-nvidia-cloudxr-6-0/"
   },
@@ -19,21 +31,9 @@
     "date": "2026-03-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化GPU资源利用，实现大模型高效推理部署。",
+    "summary": "利用GPU分区技术优化K8s上AI大模型推理部署，提升吞吐率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/"
-  },
-  {
-    "id": "090fba37ff71a260bc68e9912448ce04",
-    "vendor": "NVIDIA Developer News",
-    "title": "Deploying Disaggregated LLM Inference Workloads on Kubernetes",
-    "url": "https://developer.nvidia.com/blog/deploying-disaggregated-llm-inference-workloads-on-kubernetes/",
-    "date": "2026-03-23",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "优化Kubernetes上LLM推理部署，提高GPU利用与弹性。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/deploying-disaggregated-llm-inference-workloads-on-kubernetes/"
   },
   {
     "id": "708512f249b49070a8bd11081c2730fd",
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "助力国产异构算力规模化混推，优化AI模型部署",
+    "summary": "国产异构算力大模型混推优化与生态构建。",
     "link": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/"
   },
   {
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞芯片深度优化适配国产SOTA大模型，提供高效推理部署方案。",
+    "summary": "壁仞GPU高效适配智谱、MiniMax等大模型推理部署，赋能国模国芯生态。",
     "link": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU适配MOSS-TTS，加速AI模型推理部署。",
+    "summary": "壁仞GPU适配MOSS-TTS，实现AI模型高效推理部署，赋能国产应用。",
     "link": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/"
   },
   {
