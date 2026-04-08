@@ -7,7 +7,7 @@
     "date": "2026-04-01",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "CUDA Tile使GPU编程更开放灵活，扩展并行计算生态。",
+    "summary": "CUDA Tile开放GPU并行编程范式，增强跨语言生态适配与加速。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/cuda-tile-programming-now-available-for-basic/"
   },
@@ -19,7 +19,7 @@
     "date": "2026-03-31",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "将RTX GPU算力高保真流式部署至Vision Pro及XR设备，实现硬核生态合作。",
+    "summary": "英伟达CloudXR 6.0利用RTX GPU，将高保真空间计算内容串流至多硬件，硬核支持Vision Pro。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/stream-high-fidelity-spatial-computing-content-to-any-device-with-nvidia-cloudxr-6-0/"
   },
@@ -31,7 +31,7 @@
     "date": "2026-03-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "通过NVIDIA MIG等技术优化Kubernetes GPU资源，提升AI模型推理效率和吞吐量。",
+    "summary": "优化GPU资源利用，提高AI推理部署效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/"
   },
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "助力国产异构芯片大规模混推效能提升及标准制定",
+    "summary": "助力国产异构芯片混推，提升AI大模型算力效能。",
     "link": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/"
   },
   {
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产芯片深度适配主流大模型，提供高效推理方案。",
+    "summary": "壁仞国产算力平台高效适配大模型，优化推理部署。",
     "link": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU成功适配MOSS-TTS模型，实现高性能推理部署，降低AI应用门槛。",
+    "summary": "壁仞GPU芯片适配MOSS-TTS，实现高性能AI推理部署。",
     "link": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/"
   },
   {
@@ -80,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞GPU适配阶跃大模型，加速国产软硬协同，优化LLM推理部署。",
     "link": "https://www.birentech.com/news/n7fm0qv3ejt57eanl8j7fh37/"
   },
   {
@@ -128,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯P800芯片集群为大模型提供国产高性能训练部署算力与生态。",
     "link": "https://www.kunlunxin.com/news/4720.html"
   }
 ]
