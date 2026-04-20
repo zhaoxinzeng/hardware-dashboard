@@ -7,9 +7,21 @@
     "date": "2026-04-14",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "通过优化GPU内存互联性能，提升大模型运行效率。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/nvidia-nvbandwidth-your-essential-tool-for-measuring-gpu-interconnect-and-memory-performance/"
+  },
+  {
+    "id": "cb929f08664bb38779487350b89beb1f",
+    "vendor": "Hugging Face Blog",
+    "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
+    "url": "https://huggingface.co/blog/waypoint-1-5",
+    "date": "2026-04-09",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "RELEVANT - 优化大模型在消费级GPU上的实时生成与交互体验。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/waypoint-1-5"
   },
   {
     "id": "acd8008a1356af1e315adcb5e4ad03bc",
@@ -19,7 +31,7 @@
     "date": "2026-04-09",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA整合Slurm与Kubernetes，优化大规模GPU AI训练集群调度和资源管理。",
+    "summary": "整合Slurm与K8s，优化大规模GPU AI训练资源调度。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/"
   },
@@ -31,7 +43,7 @@
     "date": "2026-04-09",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化LLM训练检查点，利用NVIDIA nvCOMP和Python代码，显著降低存储成本，提升大规模GPU训练效率。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/"
   },
@@ -43,7 +55,7 @@
     "date": "2026-04-08",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "Safetensors加入PyTorch基金会，确保LLM等模型权重安全高效分发，提升深度学习生态效率。",
+    "summary": "标准化深度学习模型权重，提升生态安全与效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation"
   },
@@ -56,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU高效适配智谱GLM-5.1，助力国产大模型规模部署。",
+    "summary": "壁仞GPU高效适配智谱GLM-5.1大模型，深化国产软硬生态。",
     "link": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/"
   },
   {
