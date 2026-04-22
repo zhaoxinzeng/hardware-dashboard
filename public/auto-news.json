@@ -1,5 +1,41 @@
 [
   {
+    "id": "3bae0f41fcd4c06a729f6239d1843a42",
+    "vendor": "壁仞科技",
+    "title": "Day0适配 | 壁仞科技光速支持阿里Qwen3.6-35B-A3B大模型，强力赋能智能体编程",
+    "url": "https://www.birentech.com/news/jp7my68x18x60j7isg7kvhzl/",
+    "date": "2026-04-21",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU及软件栈实现大模型光速适配部署。",
+    "link": "https://www.birentech.com/news/jp7my68x18x60j7isg7kvhzl/"
+  },
+  {
+    "id": "f342f676a98552140a129139501965a5",
+    "vendor": "壁仞科技",
+    "title": "Day 0适配GLM-5.1｜壁仞科技率先完成智谱新一代旗舰模型适配",
+    "url": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/",
+    "date": "2026-04-21",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/"
+  },
+  {
+    "id": "f15bea6472aa60634a274cf8ae497dc2",
+    "vendor": "NVIDIA Developer News",
+    "title": "Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision",
+    "url": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/",
+    "date": "2026-04-20",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "利用FP8精度加速大模型RL训练与推理，提升吞吐。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/"
+  },
+  {
     "id": "c2e8305c3b9f2d2539858a9afc449893",
     "vendor": "NVIDIA Developer News",
     "title": "NVIDIA NVbandwidth: Your Essential Tool for Measuring GPU Interconnect and Memory Performance",
@@ -7,7 +43,7 @@
     "date": "2026-04-14",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "NVIDIA工具测算GPU性能，助LLM训练部署优化。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/nvidia-nvbandwidth-your-essential-tool-for-measuring-gpu-interconnect-and-memory-performance/"
   },
@@ -19,64 +55,16 @@
     "date": "2026-04-09",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "RELEVANT - 优化大模型在消费级GPU上的实时生成与交互体验。",
+    "summary": "总结：优化大模型以在消费级GPU上高效运行，提升实时生成世界体验。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/waypoint-1-5"
-  },
-  {
-    "id": "acd8008a1356af1e315adcb5e4ad03bc",
-    "vendor": "NVIDIA Developer News",
-    "title": "Running Large-Scale GPU Workloads on Kubernetes with Slurm",
-    "url": "https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/",
-    "date": "2026-04-09",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "整合Slurm与K8s，优化大规模GPU AI训练资源调度。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/running-large-scale-gpu-workloads-on-kubernetes-with-slurm/"
-  },
-  {
-    "id": "0d75c4480157f3c7b04a568abd03ce2c",
-    "vendor": "NVIDIA Developer News",
-    "title": "Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP",
-    "url": "https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/",
-    "date": "2026-04-09",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/cut-checkpoint-costs-with-about-30-lines-of-python-and-nvidia-nvcomp/"
-  },
-  {
-    "id": "36a2eccf90d1666aea9c6976c28c2e40",
-    "vendor": "Hugging Face Blog",
-    "title": "Safetensors is Joining the PyTorch Foundation",
-    "url": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
-    "date": "2026-04-08",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "标准化深度学习模型权重，提升生态安全与效率。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation"
-  },
-  {
-    "id": "f342f676a98552140a129139501965a5",
-    "vendor": "壁仞科技",
-    "title": "Day 0适配GLM-5.1｜壁仞科技率先完成智谱新一代旗舰模型适配",
-    "url": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/",
-    "date": "2026-04-08",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU高效适配智谱GLM-5.1大模型，深化国产软硬生态。",
-    "link": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/"
   },
   {
     "id": "708512f249b49070a8bd11081c2730fd",
     "vendor": "壁仞科技",
     "title": "1+1>2｜壁仞科技助力DeepLink混推方案，首次实现国产多算力规模化混推",
     "url": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/",
-    "date": "2026-03-31",
+    "date": "2026-04-08",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
@@ -88,24 +76,12 @@
     "vendor": "壁仞科技",
     "title": "“国模国芯”新标杆！壁仞科技完成MiniMax M2.5、智谱GLM-5等多款SOTA模型高效适配",
     "url": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/",
-    "date": "2026-03-31",
+    "date": "2026-04-08",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/"
-  },
-  {
-    "id": "3e67f6867d1750e00bf2e14001a14b08",
-    "vendor": "壁仞科技",
-    "title": "首家适配｜壁仞科技壁砺™ 166M极速支持MOSS-TTS Family",
-    "url": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/",
-    "date": "2026-03-31",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/qietw9hk6a4t7jcqto004ujr/"
   },
   {
     "id": "e9336b337aeba89905f7cf915b455dca",
@@ -116,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯与电信共建中心，优化国产AI芯片大模型适配",
     "link": "https://www.kunlunxin.com/news/4793.html"
   },
   {
@@ -140,7 +116,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯超节点P800模组优化大模型训练推理，建国产AI硬件生态。",
     "link": "https://www.kunlunxin.com/news/4791.html"
   },
   {
