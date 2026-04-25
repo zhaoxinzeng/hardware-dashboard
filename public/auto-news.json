@@ -1,5 +1,65 @@
 [
   {
+    "id": "5743d839b28068721e1a398353ae3dd3",
+    "vendor": "NVIDIA Developer News",
+    "title": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints",
+    "url": "https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/",
+    "date": "2026-04-24",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "DeepSeek V4大模型优化NVIDIA Blackwell GPU推理效能。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/"
+  },
+  {
+    "id": "e5184975857ac12d5f7c500a235963f4",
+    "vendor": "NVIDIA Developer News",
+    "title": "Winning a Kaggle Competition with Generative AI–Assisted Coding",
+    "url": "https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/",
+    "date": "2026-04-23",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "LLM代理与GPU加速协同，大幅提升机器学习模型开发效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/"
+  },
+  {
+    "id": "3d218f349878089f414787e92a3e2638",
+    "vendor": "NVIDIA Developer News",
+    "title": "Scaling the AI-Ready Data Center with NVIDIA RTX PRO 4500 Blackwell Server Edition and NVIDIA vGPU 20",
+    "url": "https://developer.nvidia.com/blog/scaling-the-ai-ready-data-center-with-nvidia-rtx-pro-4500-blackwell-server-edition-and-nvidia-vgpu-20/",
+    "date": "2026-04-22",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA MIG与vGPU软件结合Blackwell架构GPU，优化数据中心资源，提升多用户AI模型训练与部署效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/scaling-the-ai-ready-data-center-with-nvidia-rtx-pro-4500-blackwell-server-edition-and-nvidia-vgpu-20/"
+  },
+  {
+    "id": "db0848c76b3c5c45c409b1f4ecf9b583",
+    "vendor": "NVIDIA Developer News",
+    "title": "Advancing Emerging Optimizers for Accelerated LLM Training with NVIDIA Megatron",
+    "url": "https://developer.nvidia.com/blog/advancing-emerging-optimizers-for-accelerated-llm-training-with-nvidia-megatron/",
+    "date": "2026-04-22",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "RELEVANT: NVIDIA Megatron集成高级优化器，提升LLM在GB300上的训练效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/advancing-emerging-optimizers-for-accelerated-llm-training-with-nvidia-megatron/"
+  },
+  {
+    "id": "200ccf22b4732b199020e3e33ca2c538",
+    "vendor": "Hugging Face Blog",
+    "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+    "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+    "date": "2026-04-21",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "为阿拉伯语大模型提供可靠的质量评估基准，推动模型发展。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard"
+  },
+  {
     "id": "3bae0f41fcd4c06a729f6239d1843a42",
     "vendor": "壁仞科技",
     "title": "Day0适配 | 壁仞科技光速支持阿里Qwen3.6-35B-A3B大模型，强力赋能智能体编程",
@@ -8,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU及软件栈实现大模型光速适配部署。",
+    "summary": "国产GPU光速适配大模型，加速AI应用部署。",
     "link": "https://www.birentech.com/news/jp7my68x18x60j7isg7kvhzl/"
   },
   {
@@ -31,33 +91,9 @@
     "date": "2026-04-20",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "利用FP8精度加速大模型RL训练与推理，提升吞吐。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/"
-  },
-  {
-    "id": "c2e8305c3b9f2d2539858a9afc449893",
-    "vendor": "NVIDIA Developer News",
-    "title": "NVIDIA NVbandwidth: Your Essential Tool for Measuring GPU Interconnect and Memory Performance",
-    "url": "https://developer.nvidia.com/blog/nvidia-nvbandwidth-your-essential-tool-for-measuring-gpu-interconnect-and-memory-performance/",
-    "date": "2026-04-14",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA工具测算GPU性能，助LLM训练部署优化。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/nvidia-nvbandwidth-your-essential-tool-for-measuring-gpu-interconnect-and-memory-performance/"
-  },
-  {
-    "id": "cb929f08664bb38779487350b89beb1f",
-    "vendor": "Hugging Face Blog",
-    "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
-    "url": "https://huggingface.co/blog/waypoint-1-5",
-    "date": "2026-04-09",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "总结：优化大模型以在消费级GPU上高效运行，提升实时生成世界体验。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/waypoint-1-5"
   },
   {
     "id": "708512f249b49070a8bd11081c2730fd",
@@ -92,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯与电信共建中心，优化国产AI芯片大模型适配",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/4793.html"
   },
   {
@@ -116,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯超节点P800模组优化大模型训练推理，建国产AI硬件生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/4791.html"
   },
   {
