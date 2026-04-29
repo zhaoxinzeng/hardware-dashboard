@@ -1,5 +1,89 @@
 [
   {
+    "id": "62fed09afce87998fc5b4a4293d2adf7",
+    "vendor": "壁仞科技",
+    "title": "Day0适配 | 壁仞科技高效完成商汤日日新SenseNova U1推理验证",
+    "url": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/",
+    "date": "2026-04-29",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU适配商汤大模型，加速推理部署，强化国产生态。",
+    "link": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/"
+  },
+  {
+    "id": "0ac0987f9cf4385d887342b555ebe146",
+    "vendor": "壁仞科技",
+    "title": "国产算力x央企大模型 | 壁仞科技率先完成中国移动九天35B大模型预适配",
+    "url": "https://www.birentech.com/news/id6rz98v3obczy77cmxzfgk3/",
+    "date": "2026-04-29",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "国产算力为央企大模型提供高效推理与全栈适配。",
+    "link": "https://www.birentech.com/news/id6rz98v3obczy77cmxzfgk3/"
+  },
+  {
+    "id": "fed8e7a666d1fdcdc6ed38477590c717",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技壁砺™166系列完成DeepSeek-V4适配验证与优化",
+    "url": "https://www.birentech.com/news/lo81mr3idb49bsdjf8hdd2bb/",
+    "date": "2026-04-28",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU适配优化DeepSeek-V4，加速大模型推理。",
+    "link": "https://www.birentech.com/news/lo81mr3idb49bsdjf8hdd2bb/"
+  },
+  {
+    "id": "cc63fc0de9234633a238ae1f19824bdc",
+    "vendor": "壁仞科技",
+    "title": "Day0适配 | 壁仞科技x腾讯混元，率先支持Hy3 preview语言模型",
+    "url": "https://www.birentech.com/news/g52jeufohux7w6b9eq0v9pue/",
+    "date": "2026-04-28",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU Day0适配腾讯混元，提升LLM推理部署效率。",
+    "link": "https://www.birentech.com/news/g52jeufohux7w6b9eq0v9pue/"
+  },
+  {
+    "id": "91ce0a2424457589a45b090af3f4c11d",
+    "vendor": "壁仞科技",
+    "title": "Day0适配 | 壁仞科技率先支持Kimi K2.6模型，高效赋能AI编程",
+    "url": "https://www.birentech.com/news/wcvvx06ly55lfxyekvrogt0l/",
+    "date": "2026-04-28",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技硬件适配Kimi K2.6模型，高效赋能AI编程。",
+    "link": "https://www.birentech.com/news/wcvvx06ly55lfxyekvrogt0l/"
+  },
+  {
+    "id": "3bae0f41fcd4c06a729f6239d1843a42",
+    "vendor": "壁仞科技",
+    "title": "Day0适配 | 壁仞科技光速支持阿里Qwen3.6-35B-A3B大模型，强力赋能智能体编程",
+    "url": "https://www.birentech.com/news/jp7my68x18x60j7isg7kvhzl/",
+    "date": "2026-04-28",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技通过全栈自研，快速适配主流大模型至其国产GPU，加速AI应用落地。",
+    "link": "https://www.birentech.com/news/jp7my68x18x60j7isg7kvhzl/"
+  },
+  {
+    "id": "f342f676a98552140a129139501965a5",
+    "vendor": "壁仞科技",
+    "title": "Day 0适配GLM-5.1｜壁仞科技率先完成智谱新一代旗舰模型适配",
+    "url": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/",
+    "date": "2026-04-28",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/"
+  },
+  {
     "id": "5743d839b28068721e1a398353ae3dd3",
     "vendor": "NVIDIA Developer News",
     "title": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints",
@@ -7,7 +91,7 @@
     "date": "2026-04-24",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "DeepSeek V4大模型优化架构，高效利用NVIDIA GPU部署，支持百万级长上下文推理与智能体应用。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/"
   },
@@ -19,7 +103,7 @@
     "date": "2026-04-23",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "利用LLM与GPU加速框架，大幅提升机器学习模型开发效率。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/"
   },
@@ -31,7 +115,7 @@
     "date": "2026-04-22",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "英伟达MIG/vGPU优化GPU资源，提升数据中心AI训练效率。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/scaling-the-ai-ready-data-center-with-nvidia-rtx-pro-4500-blackwell-server-edition-and-nvidia-vgpu-20/"
   },
@@ -43,7 +127,7 @@
     "date": "2026-04-22",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "RELEVANT: NVIDIA Megatron支持新兴优化器，加速LLM在GB200/GB300上的训练效率。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/advancing-emerging-optimizers-for-accelerated-llm-training-with-nvidia-megatron/"
   },
@@ -55,69 +139,9 @@
     "date": "2026-04-21",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "建立高质量阿拉伯语大模型排行榜，驱动模型优化。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard"
-  },
-  {
-    "id": "3bae0f41fcd4c06a729f6239d1843a42",
-    "vendor": "壁仞科技",
-    "title": "Day0适配 | 壁仞科技光速支持阿里Qwen3.6-35B-A3B大模型，强力赋能智能体编程",
-    "url": "https://www.birentech.com/news/jp7my68x18x60j7isg7kvhzl/",
-    "date": "2026-04-21",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞国产GPU光速适配大模型Qwen，构筑AI算力生态。",
-    "link": "https://www.birentech.com/news/jp7my68x18x60j7isg7kvhzl/"
-  },
-  {
-    "id": "f342f676a98552140a129139501965a5",
-    "vendor": "壁仞科技",
-    "title": "Day 0适配GLM-5.1｜壁仞科技率先完成智谱新一代旗舰模型适配",
-    "url": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/",
-    "date": "2026-04-21",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU率先适配智谱GLM-5.1大模型，并进行深度推理优化。",
-    "link": "https://www.birentech.com/news/e1igzr4exfdajmlb6g4dcj2h/"
-  },
-  {
-    "id": "f15bea6472aa60634a274cf8ae497dc2",
-    "vendor": "NVIDIA Developer News",
-    "title": "Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision",
-    "url": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/",
-    "date": "2026-04-20",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/"
-  },
-  {
-    "id": "708512f249b49070a8bd11081c2730fd",
-    "vendor": "壁仞科技",
-    "title": "1+1>2｜壁仞科技助力DeepLink混推方案，首次实现国产多算力规模化混推",
-    "url": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/",
-    "date": "2026-04-08",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "首次实现国产异构算力大模型规模化混推与效能提升。",
-    "link": "https://www.birentech.com/news/k7oyn41fl4qecdhj28uh77e9/"
-  },
-  {
-    "id": "ccd539ba9f59544de2b5c708c542b68d",
-    "vendor": "壁仞科技",
-    "title": "“国模国芯”新标杆！壁仞科技完成MiniMax M2.5、智谱GLM-5等多款SOTA模型高效适配",
-    "url": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/",
-    "date": "2026-04-08",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/v4g0g610bvnl1pqei4pfd5c0/"
   },
   {
     "id": "e9336b337aeba89905f7cf915b455dca",
@@ -164,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯国产算力赋能大模型万卡集群训练。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/4720.html"
   }
 ]
