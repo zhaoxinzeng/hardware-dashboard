@@ -7,7 +7,7 @@
     "date": "2026-04-30",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "AI智能体实现GPU核函数跨语言转换，加速高性能计算开发。",
+    "summary": "AI代理自动化GPU内核跨语言移植，提升Julia科学计算效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/"
   },
@@ -19,7 +19,7 @@
     "date": "2026-04-29",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "该新闻涉及IBM的Granite 4.1大模型构建细节，包括训练优化、架构选择及性能提升，与LLM核心技术相关。  总结：IBM Granite 4.1大模型技术揭秘，强调训练优化、架构创新与性能提升。",
+    "summary": "总结：IBM Granite 4.1 LLM技术细节：多阶段训练、长上下文优化、SFT与RLHF提升模型性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/ibm-granite/granite-4-1"
   },
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU高效适配商汤LLM，优化推理部署，共建国产生态。",
+    "summary": "壁仞GPU高效适配商汤大模型，赋能国产AI推理与生态建设。",
     "link": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/"
   },
   {
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技国产GPU适配优化中移九天大模型，提供高性能推理算力。",
+    "summary": "壁仞GPU适配移动九天大模型，提供国产自主算力。",
     "link": "https://www.birentech.com/news/id6rz98v3obczy77cmxzfgk3/"
   },
   {
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU完成DeepSeek-V4适配，优化LLM推理加速。",
+    "summary": "壁仞GPU快速优化适配大模型推理部署",
     "link": "https://www.birentech.com/news/lo81mr3idb49bsdjf8hdd2bb/"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技国芯Day0适配腾讯混元Hy3，加速大模型部署与优化。",
+    "summary": "壁仞国芯深度适配混元大模型，加速国产AI落地。",
     "link": "https://www.birentech.com/news/g52jeufohux7w6b9eq0v9pue/"
   },
   {
@@ -140,7 +140,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯携手中国电信，优化国产AI芯片适配，共建智算生态。",
     "link": "https://www.kunlunxin.com/news/4793.html"
   },
   {
@@ -176,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯P800万卡集群赋能大模型训练与国产算力生态。",
     "link": "https://www.kunlunxin.com/news/4720.html"
   }
 ]
