@@ -116,9 +116,10 @@ const moveInboxFilesToProcessed = async (files) => {
 const stageDailyOutputs = async () => {
     await run('git', [
         'add',
+        '-A',
+        '--',
         'public/auto-news.json',
-        'data/wechat-news/articles.json',
-        'data/wechat-news/failed.json',
+        'data/wechat-news',
         'data/ruliu-kb/raw'
     ]);
 };
