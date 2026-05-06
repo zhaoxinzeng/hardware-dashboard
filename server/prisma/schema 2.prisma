@@ -1,0 +1,116 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+enum NewsType {
+  AUTO
+  MANUAL
+}
+
+enum CourseDifficulty {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum FeedbackType {
+  ISSUE
+  IDEA
+  KUDOS
+}
+
+enum UserRole {
+  ADMIN
+  USER
+}
+
+model News {
+  id            String   @id @default(cuid())
+  title         String
+  url           String
+  source        String
+  coverImage    String?
+  summary       String?
+  publishedDate String?
+  type          NewsType @default(MANUAL)
+  isDeleted     Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([createdAt])
+  @@index([type])
+  @@index([isDeleted])
+}
+
+model Course {
+  id          String           @id @default(cuid())
+  title       String
+  description String?
+  url         String
+  duration    String
+  difficulty  CourseDifficulty
+  isPinned    Boolean          @default(false)
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@index([createdAt])
+  @@index([difficulty])
+  @@index([isPinned])
+}
+
+model Activity {
+  id        String   @id @default(cuid())
+  title     String
+  dateMonth String
+  dateDay   String
+  location  String
+  formatTag String
+  url       String
+  isPinned  Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([createdAt])
+  @@index([isPinned])
+}
+
+model HardwareProduct {
+  id         String   @id @default(cuid())
+  title      String
+  subtitle   String
+  vendorTag  String
+  logoDataUrl String?
+  features   Json
+  isFeatured Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([createdAt])
+  @@index([isFeatured])
+}
+
+model Feedback {
+  id          String       @id @default(cuid())
+  model       String
+  hardware    String
+  type        FeedbackType @default(ISSUE)
+  description String
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  @@index([createdAt])
+  @@index([type])
+}
+
+model User {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  passwordHash String
+  role         UserRole @default(USER)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}

@@ -1,25 +1,9 @@
-import React, { useEffect, useState, useMemo } from 'react';
-import { ArrowLeft, ArrowUp, ExternalLink, Pin, Plus, Trash2, Pencil, Search, X, Info } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { ArrowLeft, ArrowUp, ExternalLink, Pin, Plus, Trash2, Pencil } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useCasesData } from '../hooks/useCasesData';
 import { useAuth } from '../contexts/AuthContext';
 import type { EcoCase } from '../types/ecoCase';
-
-// 硬件兼容矩阵：模型/场景 -> 推荐硬件
-const HARDWARE_COMPATIBILITY = {
-    'LLM推理': ['昇腾 910B', '昆仑芯 2', '海光 DCU', '壁仞 BR104', '燧原邃思 2.0'],
-    'LLM训练': ['昇腾 910B', '昆仑芯 R200', '海光 DCU', '沐曦 MXNACA'],
-    'CV图像处理': ['昇腾 310P', '寒武纪 MLU370', '海光 DCU', '壁仞 BR104'],
-    '自动驾驶感知': ['昇腾 910B', '地平线 J5', '寒武纪 MLU370'],
-    '科学计算': ['海光 DCU', 'AMD MI100', 'NVIDIA A100'],
-    '语音识别': ['昇腾 310P', '昆仑芯 R200', '寒武纪 MLU370'],
-    '推荐系统': ['昇腾 910B', '昆仑芯 2', '海光 DCU'],
-    '风控模型': ['昆仑芯 2', '海光 DCU', '昇腾 910B'],
-    '医疗影像': ['海光 DCU', '昇腾 910B', '寒武纪 MLU370'],
-    '智慧城市': ['昇腾 910B', '昆仑芯 R200', '寒武纪 MLU370'],
-} as const;
-
-type HardwareScenario = keyof typeof HARDWARE_COMPATIBILITY;
 
 const createCaseDraft = () => ({
     title: '',
@@ -37,46 +21,6 @@ export const AllCases: React.FC = () => {
     const [isAdding, setIsAdding] = useState(false);
     const [editingCase, setEditingCase] = useState<EcoCase | null>(null);
     const [draft, setDraft] = useState(createCaseDraft);
-    const [searchQuery, setSearchQuery] = useState('');
-    const [filterIndustry, setFilterIndustry] = useState('');
-    const [filterHardware, setFilterHardware] = useState('');
-    const [showCompatibility, setShowCompatibility] = useState(false);
-    const [selectedScenario, setSelectedScenario] = useState<HardwareScenario | ''>('');
-
-    // 获取所有唯一的行业和硬件选项
-    const { industries, hardwareOptions } = useMemo(() => {
-        const indSet = new Set<string>();
-        const hwSet = new Set<string>();
-        sortedCases.forEach(c => {
-            if (c.industry) indSet.add(c.industry);
-            if (c.hardware) hwSet.add(c.hardware);
-        });
-        return {
-            industries: Array.from(indSet).sort(),
-            hardwareOptions: Array.from(hwSet).sort()
-        };
-    }, [sortedCases]);
-
-    // 过滤后的案例
-    const filteredCases = useMemo(() => {
-        return sortedCases.filter(c => {
-            const matchSearch = !searchQuery ||
-                c.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                c.description.toLowerCase().includes(searchQuery.toLowerCase());
-            const matchIndustry = !filterIndustry || c.industry === filterIndustry;
-            const matchHardware = !filterHardware || c.hardware.toLowerCase().includes(filterHardware.toLowerCase());
-            return matchSearch && matchIndustry && matchHardware;
-        });
-    }, [sortedCases, searchQuery, filterIndustry, filterHardware]);
-
-    // 清除所有过滤条件
-    const clearFilters = () => {
-        setSearchQuery('');
-        setFilterIndustry('');
-        setFilterHardware('');
-    };
-
-    const hasActiveFilters = searchQuery || filterIndustry || filterHardware;
 
     const resetFormState = () => {
         setDraft(createCaseDraft());
@@ -170,147 +114,9 @@ export const AllCases: React.FC = () => {
             </header>
 
             <main className="max-w-[1440px] mx-auto p-4 md:p-8 animate-in fade-in duration-500">
-                {/* 搜索与筛选 */}
-                <div className="mb-6 space-y-4">
-                    {/* 搜索框 */}
-                    <div className="relative">
-                        <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-                        <input
-                            type="text"
-                            placeholder="搜索案例名称或描述..."
-                            value={searchQuery}
-                            onChange={e => setSearchQuery(e.target.value)}
-                            className="w-full pl-10 pr-4 py-2 text-sm rounded-md border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 bg-white"
-                        />
-                        {searchQuery && (
-                            <button
-                                onClick={() => setSearchQuery('')}
-                                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
-                            >
-                                <X className="w-4 h-4" />
-                            </button>
-                        )}
-                    </div>
-
-                    {/* 筛选器 */}
-                    <div className="flex flex-wrap gap-3 items-center">
-                        <select
-                            value={filterIndustry}
-                            onChange={e => setFilterIndustry(e.target.value)}
-                            className="px-3 py-2 text-sm rounded-md border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 bg-white"
-                        >
-                            <option value="">全部行业</option>
-                            {industries.map(ind => (
-                                <option key={ind} value={ind}>{ind}</option>
-                            ))}
-                        </select>
-
-                        <select
-                            value={filterHardware}
-                            onChange={e => setFilterHardware(e.target.value)}
-                            className="px-3 py-2 text-sm rounded-md border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 bg-white"
-                        >
-                            <option value="">全部硬件</option>
-                            {hardwareOptions.map(hw => (
-                                <option key={hw} value={hw}>{hw}</option>
-                            ))}
-                        </select>
-
-                        {hasActiveFilters && (
-                            <button
-                                onClick={clearFilters}
-                                className="inline-flex items-center gap-1 px-3 py-2 text-sm text-gray-500 hover:text-gray-700"
-                            >
-                                <X className="w-4 h-4" /> 清除筛选
-                            </button>
-                        )}
-
-                        <div className="flex-1" />
-
-                        {/* 硬件兼容分析入口 */}
-                        <button
-                            onClick={() => setShowCompatibility(!showCompatibility)}
-                            className={`inline-flex items-center gap-1.5 px-3 py-2 text-sm font-semibold rounded-md border transition-colors ${showCompatibility
-                                ? 'bg-purple-50 text-purple-700 border-purple-200'
-                                : 'bg-gray-50 text-gray-600 border-gray-200 hover:bg-purple-50 hover:text-purple-700 hover:border-purple-200'
-                                }`}
-                        >
-                            <Info className="w-4 h-4" />
-                            硬件兼容分析
-                        </button>
-                    </div>
-
-                    {/* 硬件兼容分析面板 */}
-                    {showCompatibility && (
-                        <div className="rounded-lg border border-purple-200 bg-purple-50/50 p-4">
-                            <h3 className="text-sm font-bold text-purple-900 mb-3">选择场景，获取硬件推荐</h3>
-                            <div className="flex flex-wrap gap-2 mb-4">
-                                {(Object.keys(HARDWARE_COMPATIBILITY) as HardwareScenario[]).map(scenario => (
-                                    <button
-                                        key={scenario}
-                                        onClick={() => setSelectedScenario(selectedScenario === scenario ? '' : scenario)}
-                                        className={`px-3 py-1.5 text-xs font-medium rounded-full border transition-colors ${selectedScenario === scenario
-                                            ? 'bg-purple-600 text-white border-purple-600'
-                                            : 'bg-white text-purple-700 border-purple-200 hover:bg-purple-100'
-                                            }`}
-                                    >
-                                        {scenario}
-                                    </button>
-                                ))}
-                            </div>
-                            {selectedScenario && (
-                                <div className="bg-white rounded-md p-3 border border-purple-100">
-                                    <p className="text-xs text-gray-500 mb-2">推荐硬件（按优先级排序）：</p>
-                                    <div className="flex flex-wrap gap-2">
-                                        {HARDWARE_COMPATIBILITY[selectedScenario].map((hw, idx) => (
-                                            <span key={hw} className={`inline-flex items-center px-2.5 py-1 rounded text-xs font-bold ${idx === 0 ? 'bg-green-100 text-green-700 border border-green-200' : 'bg-gray-100 text-gray-600 border border-gray-200'
-                                                }`}>
-                                                {idx === 0 && '✨ '}{hw}
-                                            </span>
-                                        ))}
-                                    </div>
-                                    <p className="text-xs text-gray-400 mt-3">
-                                        以上推荐基于现有生态案例统计。查看相关案例：
-                                        <button
-                                            onClick={() => {
-                                                setFilterHardware(HARDWARE_COMPATIBILITY[selectedScenario][0]);
-                                                setShowCompatibility(false);
-                                            }}
-                                            className="ml-1 text-purple-600 hover:underline"
-                                        >
-                                            筛选 {HARDWARE_COMPATIBILITY[selectedScenario][0]} 案例
-                                        </button>
-                                    </p>
-                                </div>
-                            )}
-                        </div>
-                    )}
-
-                    {/* 结果统计 */}
-                    <p className="text-gray-500 font-medium text-sm">
-                        {hasActiveFilters
-                            ? `筛选结果：${filteredCases.length} / ${sortedCases.length} 个案例`
-                            : `共 ${sortedCases.length} 个案例，排序规则：置顶优先，其次按最新创建时间`}
-                    </p>
-                </div>
-
-                {/* 案例录入引导（仅非管理员可见） */}
-                {!isAdmin && (
-                    <div className="mb-6 rounded-lg border border-dashed border-blue-200 bg-blue-50/50 p-4">
-                        <div className="flex items-start gap-3">
-                            <Info className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                            <div>
-                                <p className="text-sm font-semibold text-blue-900 mb-1">如何提交新的硬件适配案例？</p>
-                                <p className="text-xs text-blue-700 mb-2">
-                                    请联系管理员提交案例。案例信息需包含：案例名称、行业领域、适配硬件、案例链接（可选）和简介描述。
-                                </p>
-                                <p className="text-xs text-blue-600">
-                                    示例：某自动驾驶企业基于昇腾 910B 的感知模型推理加速实践 | 行业：自动驾驶 | 硬件：昇腾 910B
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                )}
+                <p className="text-gray-500 font-medium text-sm mb-6">
+                    共 {sortedCases.length} 个案例，排序规则：置顶优先，其次按最新创建时间。
+                </p>
 
                 {isAdmin && isAdding && (
                     <section className="mb-6 rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50/90 to-white p-4 md:p-5">
@@ -377,13 +183,13 @@ export const AllCases: React.FC = () => {
                     </section>
                 )}
 
-                {filteredCases.length === 0 ? (
+                {sortedCases.length === 0 ? (
                     <div className="w-full py-20 flex flex-col items-center justify-center bg-white/50 rounded-2xl border border-dashed border-gray-200">
                         <p className="text-gray-500 font-medium">暂无案例数据</p>
                     </div>
                 ) : (
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-                        {filteredCases.map(ecoCase => (
+                        {sortedCases.map(ecoCase => (
                             <article key={ecoCase.id} className="bg-white rounded-xl border border-gray-200/70 shadow-sm flex flex-col overflow-hidden">
                                 {/* Card Content */}
                                 <a

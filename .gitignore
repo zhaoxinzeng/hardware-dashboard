@@ -27,3 +27,9 @@ dist-ssr
 .env
 .env.local
 .env.*.local
+
+# Ruliu KB import queue/cache. Raw archives remain tracked under data/ruliu-kb/raw/.
+data/ruliu-kb/inbox/*
+!data/ruliu-kb/inbox/.gitkeep
+data/ruliu-kb/processed/*
+!data/ruliu-kb/processed/.gitkeep

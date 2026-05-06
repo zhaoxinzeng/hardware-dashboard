@@ -15,6 +15,8 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const OUTPUT_PATH = path.join(__dirname, '../public/auto-news.json');
+const WECHAT_NEWS_LIBRARY_PATH = path.join(__dirname, '../data/wechat-news/articles.json');
+const DASHBOARD_NEWS_LIMIT = 100;
 
 // ==========================================
 // 1. 初始化与配置 (数据源字典 & 关键词)
@@ -259,6 +261,46 @@ function extractDateFromText(text) {
 
 const parser = new Parser();
 
+async function loadLocalWechatNews() {
+    try {
+        const raw = await fs.readFile(WECHAT_NEWS_LIBRARY_PATH, 'utf-8');
+        const parsed = JSON.parse(raw);
+        if (!Array.isArray(parsed)) {
+            return [];
+        }
+
+        return parsed.map((item) => ({
+            ...item,
+            sourceType: item.sourceType || 'WeChat',
+            isManual: false,
+            link: item.link || item.url,
+            url: item.url || item.link
+        })).filter((item) => item.id && item.title && (item.url || item.link));
+    } catch (error) {
+        if (error.code !== 'ENOENT') {
+            console.warn(`[本地公众号新闻] 读取失败，跳过 ${WECHAT_NEWS_LIBRARY_PATH}: ${error.message}`);
+        }
+        return [];
+    }
+}
+
+function mergeNewsById(newsItems) {
+    const byId = new Map();
+    for (const item of newsItems) {
+        if (!item?.id) continue;
+        byId.set(item.id, {
+            ...(byId.get(item.id) || {}),
+            ...item
+        });
+    }
+
+    return [...byId.values()].sort((a, b) => {
+        const timeA = new Date(a.date).getTime() || 0;
+        const timeB = new Date(b.date).getTime() || 0;
+        return timeB - timeA;
+    });
+}
+
 // 抓取 RSS 通道
 async function fetchRssNews() {
     let results = [];
@@ -441,6 +483,10 @@ async function fetchAllNews() {
     const rssNews = await fetchRssNews();
     const apiNews = await fetchApiNews();
     const htmlNews = await fetchHtmlNews();
+    const localWechatNews = await loadLocalWechatNews();
+    if (localWechatNews.length > 0) {
+        console.log(`[本地公众号新闻] 已载入 ${localWechatNews.length} 条来自 data/wechat-news/articles.json 的新闻。`);
+    }
 
     const rawCombinedNews = [...rssNews, ...apiNews, ...htmlNews];
 
@@ -471,8 +517,11 @@ async function fetchAllNews() {
         }
     }
 
+    // 合并如流/公众号本地库，避免自动抓取脚本覆盖手动下载导入的 Markdown 新闻
+    const mergedFinalNews = mergeNewsById([...localWechatNews, ...finalNews]);
+
     // 【任务三】滑动窗口：仅保留最新的 100 条高质量新闻
-    const finalNewsCapped = finalNews.slice(0, 100);
+    const finalNewsCapped = mergedFinalNews.slice(0, DASHBOARD_NEWS_LIMIT);
 
     try {
         await fs.writeFile(OUTPUT_PATH, JSON.stringify(finalNewsCapped, null, 2), 'utf-8');

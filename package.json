@@ -12,7 +12,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch-news": "node scripts/fetch-news.js"
+    "fetch-news": "node scripts/fetch-news.js",
+    "import:ruliu-news": "node scripts/import-ruliu-news.js",
+    "sync:ruliu-news": "node scripts/sync-ruliu-news.js"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
