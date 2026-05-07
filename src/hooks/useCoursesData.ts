@@ -6,6 +6,16 @@ const COURSE_STORAGE_KEY = 'xinghe_courses_data';
 
 const DEFAULT_COURSES: Course[] = [
     {
+        id: 'course_ernie_image_ascend_910a_deploy',
+        title: 'ERNIE-Image 昇腾 910A 单卡镜像部署指南',
+        description: '面向昇腾 910A 单卡环境，提供 ERNIE-Image 镜像下载、Docker 启动、模型权重准备、服务验证与性能预期说明。',
+        url: '/docs/ERNIE-Image-昇腾910A-单卡镜像部署说明.md',
+        duration: '30min',
+        difficulty: '进阶',
+        isPinned: true,
+        createdAt: Date.now()
+    },
+    {
         id: 'c1',
         title: '飞桨多硬件生态基础认知',
         description: '本课程主要介绍飞桨在大模型时代的硬件生态布局，以及基础的适配调优理念。',
@@ -50,22 +60,30 @@ const sortPinnedThenLatest = (a: Course, b: Course) => {
 };
 
 const loadCoursesFromStorage = (): Course[] => {
+    const normalizeCourse = (course: Course): Course => ({
+        ...course,
+        url: getSafeCourseUrl(typeof course.url === 'string' ? course.url : '', course.id)
+    });
+
     const saved = localStorage.getItem(COURSE_STORAGE_KEY);
     if (saved) {
         try {
             const parsed = JSON.parse(saved);
             if (Array.isArray(parsed) && parsed.length > 0) {
-                return parsed.map((course) => ({
-                    ...course,
-                    url: getSafeCourseUrl(typeof course.url === 'string' ? course.url : '', course.id)
-                }));
+                const savedCourses = parsed.map(normalizeCourse);
+                const savedIds = new Set(savedCourses.map((course) => course.id));
+                const missingDefaultCourses = DEFAULT_COURSES
+                    .filter((course) => !savedIds.has(course.id))
+                    .map(normalizeCourse);
+
+                return [...missingDefaultCourses, ...savedCourses];
             }
         } catch (error) {
             console.error('Failed to parse courses data', error);
         }
     }
 
-    return DEFAULT_COURSES;
+    return DEFAULT_COURSES.map(normalizeCourse);
 };
 
 const buildHomepageCourses = (allCourses: Course[]): Course[] => {
