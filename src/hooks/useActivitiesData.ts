@@ -3,13 +3,28 @@ import type { Activity, CreateActivityInput } from '../types/activity';
 import { getSafeActivityUrl } from '../utils/activityUrl';
 
 const ACTIVITY_STORAGE_KEY = 'xinghe_activities_data';
+const DELETED_DEFAULT_ACTIVITY_IDS_KEY = 'xinghe_deleted_default_activity_ids';
 const DEPRECATED_ACTIVITY_IDS = new Set([
     'a1',
     'a2',
     'a3'
 ]);
 
-const DEFAULT_ACTIVITIES: Activity[] = [];
+const DEFAULT_ACTIVITIES: Activity[] = [
+    {
+        id: 'activity_deepin_paddle_meetup_chengdu_20260418',
+        title: 'deepin x 百度飞桨（PaddlePaddle）Meetup 成都站',
+        dateMonth: '04月',
+        dateDay: '18日',
+        location: '成都市锦江区 · 成都IFS二号办公楼43楼 水调歌头会议室',
+        formatTag: '线下',
+        url: '/docs/deepin-paddle-meetup-chengdu-20260418.pdf',
+        isPinned: true,
+        createdAt: new Date('2026-04-18T14:00:00+08:00').getTime()
+    }
+];
+
+const DEFAULT_ACTIVITY_IDS = new Set(DEFAULT_ACTIVITIES.map((activity) => activity.id));
 
 const sortPinnedThenLatest = (a: Activity, b: Activity) => {
     if (a.isPinned !== b.isPinned) {
@@ -25,14 +40,31 @@ const loadActivitiesFromStorage = (): Activity[] => {
         url: getSafeActivityUrl(typeof activity.url === 'string' ? activity.url : '', activity.id)
     });
 
+    const readDeletedDefaultActivityIds = (): Set<string> => {
+        try {
+            const parsed = JSON.parse(localStorage.getItem(DELETED_DEFAULT_ACTIVITY_IDS_KEY) || '[]');
+            return new Set(Array.isArray(parsed) ? parsed.filter((id): id is string => typeof id === 'string') : []);
+        } catch (error) {
+            console.error('Failed to parse deleted default activity ids', error);
+            return new Set();
+        }
+    };
+
     const saved = localStorage.getItem(ACTIVITY_STORAGE_KEY);
     if (saved !== null) {
         try {
             const parsed = JSON.parse(saved);
             if (Array.isArray(parsed)) {
-                return parsed
+                const savedActivities = parsed
                     .map(normalizeActivity)
                     .filter((activity) => !DEPRECATED_ACTIVITY_IDS.has(activity.id));
+                const savedIds = new Set(savedActivities.map((activity) => activity.id));
+                const deletedDefaultIds = readDeletedDefaultActivityIds();
+                const missingDefaultActivities = DEFAULT_ACTIVITIES
+                    .filter((activity) => !savedIds.has(activity.id) && !deletedDefaultIds.has(activity.id))
+                    .map(normalizeActivity);
+
+                return [...missingDefaultActivities, ...savedActivities];
             }
         } catch (error) {
             console.error('Failed to parse activities data', error);
@@ -91,6 +123,17 @@ export const useActivitiesData = () => {
     };
 
     const removeActivity = (id: string) => {
+        if (DEFAULT_ACTIVITY_IDS.has(id)) {
+            try {
+                const parsed = JSON.parse(localStorage.getItem(DELETED_DEFAULT_ACTIVITY_IDS_KEY) || '[]');
+                const deletedIds = new Set(Array.isArray(parsed) ? parsed.filter((item): item is string => typeof item === 'string') : []);
+                deletedIds.add(id);
+                localStorage.setItem(DELETED_DEFAULT_ACTIVITY_IDS_KEY, JSON.stringify([...deletedIds]));
+            } catch (error) {
+                console.error('Failed to save deleted default activity id', error);
+            }
+        }
+
         setActivities(prev => prev.filter(activity => activity.id !== id));
     };
 
