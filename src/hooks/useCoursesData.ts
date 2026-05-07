@@ -3,17 +3,50 @@ import type { Course, CourseDifficulty, CreateCourseInput } from '../types/cours
 import { getSafeCourseUrl } from '../utils/courseUrl';
 
 const COURSE_STORAGE_KEY = 'xinghe_courses_data';
+const DEPRECATED_COURSE_IDS = new Set([
+    'course_ernie_image_ascend_910a_deploy'
+]);
 
 const DEFAULT_COURSES: Course[] = [
     {
-        id: 'course_ernie_image_ascend_910a_deploy',
-        title: 'ERNIE-Image 昇腾 910A 单卡镜像部署指南',
-        description: '面向昇腾 910A 单卡环境，提供 ERNIE-Image 镜像下载、Docker 启动、模型权重准备、服务验证与性能预期说明。',
+        id: 'course_ernie_image_ascend_910b_local_deploy',
+        title: '昇腾 910B 平台 ERNIE-Image 本地部署教程',
+        description: '面向昇腾 910B 环境，提供 NPU 运行镜像、diffusers 适配依赖、模型目录准备、最小推理脚本与验证流程。',
+        url: '/docs/ernie-image-ascend910b-local-deploy.pdf',
+        duration: '45min',
+        difficulty: '进阶',
+        isPinned: true,
+        createdAt: Date.now()
+    },
+    {
+        id: 'course_ernie_image_ascend_910a_single_card',
+        title: 'ERNIE-Image 昇腾 910A 单卡镜像部署说明',
+        description: '面向昇腾 910A 单卡环境，提供镜像下载、Docker 启动、模型权重准备、服务验证与性能预期说明。',
         url: '/docs/ernie-image-ascend910a-single-card-deploy.pdf',
         duration: '30min',
         difficulty: '进阶',
         isPinned: true,
-        createdAt: Date.now()
+        createdAt: Date.now() - 100
+    },
+    {
+        id: 'course_ernie_image_metax_c500',
+        title: 'ERNIE-Image 曦云 MetaX C500 适配与性能测试',
+        description: '整理 ERNIE-Image 在 MetaX C500 环境下的适配流程、API 服务、Web UI 部署与基础性能测试结论。',
+        url: '/docs/ernie-image-metax-c500-adaptation-performance.pdf',
+        duration: '60min',
+        difficulty: '高阶',
+        isPinned: true,
+        createdAt: Date.now() - 200
+    },
+    {
+        id: 'course_ernie_image_enflame_s60',
+        title: 'ERNIE-Image 燧原 Enflame S60 部署与性能测试',
+        description: '覆盖 Enflame S60 云实例上的主推理链路、API 服务、Gradio Web UI、兼容性问题与工程评估。',
+        url: '/docs/ernie-image-enflame-s60-deployment-performance.pdf',
+        duration: '60min',
+        difficulty: '高阶',
+        isPinned: true,
+        createdAt: Date.now() - 300
     },
     {
         id: 'c1',
@@ -70,22 +103,9 @@ const loadCoursesFromStorage = (): Course[] => {
         try {
             const parsed = JSON.parse(saved);
             if (Array.isArray(parsed) && parsed.length > 0) {
-                const savedCourses = parsed.map(normalizeCourse).map((course) => {
-                    if (
-                        course.id === 'course_ernie_image_ascend_910a_deploy'
-                        && (
-                            course.url.endsWith('/docs/ERNIE-Image-昇腾910A-单卡镜像部署说明.md')
-                            || course.url.endsWith('/docs/ERNIE-Image-昇腾910A-单卡镜像部署说明.pdf')
-                        )
-                    ) {
-                        return {
-                            ...course,
-                            url: '/docs/ernie-image-ascend910a-single-card-deploy.pdf'
-                        };
-                    }
-
-                    return course;
-                });
+                const savedCourses = parsed
+                    .map(normalizeCourse)
+                    .filter((course) => !DEPRECATED_COURSE_IDS.has(course.id));
                 const savedIds = new Set(savedCourses.map((course) => course.id));
                 const missingDefaultCourses = DEFAULT_COURSES
                     .filter((course) => !savedIds.has(course.id))
