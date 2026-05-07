@@ -9,7 +9,7 @@ const DEFAULT_COURSES: Course[] = [
         id: 'course_ernie_image_ascend_910a_deploy',
         title: 'ERNIE-Image 昇腾 910A 单卡镜像部署指南',
         description: '面向昇腾 910A 单卡环境，提供 ERNIE-Image 镜像下载、Docker 启动、模型权重准备、服务验证与性能预期说明。',
-        url: '/docs/ERNIE-Image-昇腾910A-单卡镜像部署说明.md',
+        url: '/docs/ernie-image-ascend910a-single-card-deploy.pdf',
         duration: '30min',
         difficulty: '进阶',
         isPinned: true,
@@ -70,7 +70,22 @@ const loadCoursesFromStorage = (): Course[] => {
         try {
             const parsed = JSON.parse(saved);
             if (Array.isArray(parsed) && parsed.length > 0) {
-                const savedCourses = parsed.map(normalizeCourse);
+                const savedCourses = parsed.map(normalizeCourse).map((course) => {
+                    if (
+                        course.id === 'course_ernie_image_ascend_910a_deploy'
+                        && (
+                            course.url.endsWith('/docs/ERNIE-Image-昇腾910A-单卡镜像部署说明.md')
+                            || course.url.endsWith('/docs/ERNIE-Image-昇腾910A-单卡镜像部署说明.pdf')
+                        )
+                    ) {
+                        return {
+                            ...course,
+                            url: '/docs/ernie-image-ascend910a-single-card-deploy.pdf'
+                        };
+                    }
+
+                    return course;
+                });
                 const savedIds = new Set(savedCourses.map((course) => course.id));
                 const missingDefaultCourses = DEFAULT_COURSES
                     .filter((course) => !savedIds.has(course.id))
