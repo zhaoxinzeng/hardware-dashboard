@@ -3,39 +3,13 @@ import type { EcoCase, CreateEcoCaseInput } from '../types/ecoCase';
 
 const CASES_STORAGE_KEY = 'xinghe_cases_data';
 const MAX_PINNED = 3;
+const DEPRECATED_CASE_IDS = new Set([
+    'ec1',
+    'ec2',
+    'ec3'
+]);
 
-const DEFAULT_CASES: EcoCase[] = [
-    {
-        id: 'ec1',
-        title: '某自动驾驶企业基于昇腾 910B 的感知模型推理加速实践',
-        description: '通过飞桨框架将感知模型迁移至昇腾 910B，推理延迟降低 42%，单卡吞吐提升 2.3 倍，已在量产车型中规模化部署。',
-        industry: '自动驾驶',
-        hardware: '昇腾 910B',
-        url: 'https://invalid.local/pending-case-ec1',
-        isPinned: false,
-        createdAt: Date.now() - 3000
-    },
-    {
-        id: 'ec2',
-        title: '某头部银行基于昆仑芯 2 的风控大模型全栈国产化替代',
-        description: '金融场景下完成从 GPU 至昆仑芯 2 的全量迁移，训练成本下降 35%，同时满足数据合规与算力自主可控要求。',
-        industry: '金融风控',
-        hardware: '昆仑芯 2',
-        url: 'https://invalid.local/pending-case-ec2',
-        isPinned: false,
-        createdAt: Date.now() - 2000
-    },
-    {
-        id: 'ec3',
-        title: '某三甲医院基于海光 DCU 的医学影像大模型训练实践',
-        description: '利用飞桨框架在海光 DCU 集群上完成 CT 影像分割模型的分布式训练，收敛速度与 A100 基线持平，已通过 NMPA 备案。',
-        industry: '医疗影像',
-        hardware: '海光 DCU',
-        url: 'https://invalid.local/pending-case-ec3',
-        isPinned: false,
-        createdAt: Date.now() - 1000
-    }
-];
+const DEFAULT_CASES: EcoCase[] = [];
 
 const sortByCreatedAtDesc = (a: EcoCase, b: EcoCase) => b.createdAt - a.createdAt;
 
@@ -47,18 +21,27 @@ const sortPinnedThenLatest = (a: EcoCase, b: EcoCase) => {
 };
 
 const loadCasesFromStorage = (): EcoCase[] => {
+    const normalizeCase = (ecoCase: EcoCase): EcoCase => ({
+        ...ecoCase,
+        url: typeof ecoCase.url === 'string' && ecoCase.url.trim()
+            ? ecoCase.url.trim()
+            : `https://invalid.local/pending-case-${ecoCase.id}`
+    });
+
     const saved = localStorage.getItem(CASES_STORAGE_KEY);
-    if (saved) {
+    if (saved !== null) {
         try {
             const parsed = JSON.parse(saved);
-            if (Array.isArray(parsed) && parsed.length > 0) {
-                return parsed as EcoCase[];
+            if (Array.isArray(parsed)) {
+                return parsed
+                    .map(normalizeCase)
+                    .filter((ecoCase) => !DEPRECATED_CASE_IDS.has(ecoCase.id));
             }
         } catch (error) {
             console.error('Failed to parse eco-cases data', error);
         }
     }
-    return DEFAULT_CASES;
+    return DEFAULT_CASES.map(normalizeCase);
 };
 
 const buildFeaturedCases = (allCases: EcoCase[]): EcoCase[] => {

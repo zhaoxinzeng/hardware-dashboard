@@ -2,33 +2,13 @@ import { useEffect, useMemo, useState } from 'react';
 import type { CreateFeedbackInput, FeedbackItem, FeedbackType } from '../types/feedback';
 
 const FEEDBACK_STORAGE_KEY = 'xinghe_feedback_data';
+const DEPRECATED_FEEDBACK_IDS = new Set([
+    'f1',
+    'f2',
+    'f3'
+]);
 
-const DEFAULT_FEEDBACKS: FeedbackItem[] = [
-    {
-        id: 'f1',
-        model: '文心一言 4.0',
-        hardware: 'NVIDIA GPU',
-        type: 'ISSUE',
-        description: '在燧原平台运行推理服务时，长文本截断会导致 OOM，希望增加可调截断参数。',
-        createdAt: Date.now() - 1000 * 60 * 10
-    },
-    {
-        id: 'f2',
-        model: '飞桨 PaddlePaddle',
-        hardware: '昇腾 NPU',
-        type: 'IDEA',
-        description: '建议在算力规划工具中加入多卡并行效率预测，方便做集群预算。',
-        createdAt: Date.now() - 1000 * 60 * 60
-    },
-    {
-        id: 'f3',
-        model: '千帆大模型平台',
-        hardware: '昆仑芯',
-        type: 'KUDOS',
-        description: '最近版本的推理稳定性有明显提升，冷启动速度表现很好。',
-        createdAt: Date.now() - 1000 * 60 * 60 * 3
-    }
-];
+const DEFAULT_FEEDBACKS: FeedbackItem[] = [];
 
 const FEEDBACK_TYPES: FeedbackType[] = ['ISSUE', 'IDEA', 'KUDOS'];
 
@@ -64,24 +44,23 @@ const sanitizeFeedback = (raw: unknown): FeedbackItem | null => {
 
 const loadFeedbacksFromStorage = (): FeedbackItem[] => {
     const saved = localStorage.getItem(FEEDBACK_STORAGE_KEY);
-    if (saved) {
+    if (saved !== null) {
         try {
             const parsed = JSON.parse(saved);
-            if (Array.isArray(parsed) && parsed.length > 0) {
-                const items = parsed
+            if (Array.isArray(parsed)) {
+                return parsed
                     .map(sanitizeFeedback)
-                    .filter((item): item is FeedbackItem => item !== null);
-
-                if (items.length > 0) {
-                    return items;
-                }
+                    .filter((item): item is FeedbackItem => item !== null)
+                    .filter((item) => !DEPRECATED_FEEDBACK_IDS.has(item.id));
             }
         } catch (error) {
             console.error('Failed to parse feedback data', error);
         }
     }
 
-    return DEFAULT_FEEDBACKS;
+    return DEFAULT_FEEDBACKS
+        .map(sanitizeFeedback)
+        .filter((item): item is FeedbackItem => item !== null);
 };
 
 export const useFeedbackData = () => {
@@ -136,4 +115,3 @@ export const useFeedbackData = () => {
         removeFeedback
     };
 };
-

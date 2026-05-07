@@ -3,42 +3,13 @@ import type { Activity, CreateActivityInput } from '../types/activity';
 import { getSafeActivityUrl } from '../utils/activityUrl';
 
 const ACTIVITY_STORAGE_KEY = 'xinghe_activities_data';
+const DEPRECATED_ACTIVITY_IDS = new Set([
+    'a1',
+    'a2',
+    'a3'
+]);
 
-const DEFAULT_ACTIVITIES: Activity[] = [
-    {
-        id: 'a1',
-        title: 'WAVE SUMMIT 2025 深度学习开发者大会',
-        dateMonth: '12月',
-        dateDay: '10日',
-        location: '北京 · 线上同步',
-        formatTag: '线下/线上',
-        url: 'https://invalid.local/pending-activity-a1',
-        isPinned: false,
-        createdAt: Date.now() - 3000
-    },
-    {
-        id: 'a2',
-        title: '星河杯多硬件异构计算挑战赛启动',
-        dateMonth: '12月',
-        dateDay: '22日',
-        location: '线上直播',
-        formatTag: '线上',
-        url: 'https://invalid.local/pending-activity-a2',
-        isPinned: false,
-        createdAt: Date.now() - 2000
-    },
-    {
-        id: 'a3',
-        title: '星河开发者硬件适配闭门工作坊',
-        dateMonth: '01月',
-        dateDay: '08日',
-        location: '上海 · 线下',
-        formatTag: '线下',
-        url: 'https://invalid.local/pending-activity-a3',
-        isPinned: false,
-        createdAt: Date.now() - 1000
-    }
-];
+const DEFAULT_ACTIVITIES: Activity[] = [];
 
 const sortPinnedThenLatest = (a: Activity, b: Activity) => {
     if (a.isPinned !== b.isPinned) {
@@ -49,22 +20,26 @@ const sortPinnedThenLatest = (a: Activity, b: Activity) => {
 };
 
 const loadActivitiesFromStorage = (): Activity[] => {
+    const normalizeActivity = (activity: Activity): Activity => ({
+        ...activity,
+        url: getSafeActivityUrl(typeof activity.url === 'string' ? activity.url : '', activity.id)
+    });
+
     const saved = localStorage.getItem(ACTIVITY_STORAGE_KEY);
-    if (saved) {
+    if (saved !== null) {
         try {
             const parsed = JSON.parse(saved);
-            if (Array.isArray(parsed) && parsed.length > 0) {
-                return parsed.map((activity) => ({
-                    ...activity,
-                    url: getSafeActivityUrl(typeof activity.url === 'string' ? activity.url : '', activity.id)
-                }));
+            if (Array.isArray(parsed)) {
+                return parsed
+                    .map(normalizeActivity)
+                    .filter((activity) => !DEPRECATED_ACTIVITY_IDS.has(activity.id));
             }
         } catch (error) {
             console.error('Failed to parse activities data', error);
         }
     }
 
-    return DEFAULT_ACTIVITIES;
+    return DEFAULT_ACTIVITIES.map(normalizeActivity);
 };
 
 export const useActivitiesData = () => {
@@ -129,4 +104,3 @@ export const useActivitiesData = () => {
         removeActivity
     };
 };
-

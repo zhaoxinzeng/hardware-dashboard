@@ -2,37 +2,12 @@ import { useEffect, useMemo, useState } from 'react';
 import type { CreateHardwareProductInput, HardwareProduct } from '../types/hardwareProduct';
 
 const HARDWARE_PRODUCTS_STORAGE_KEY = 'xinghe_hardware_products_data';
+const DEPRECATED_PRODUCT_IDS = new Set([
+    'p1',
+    'p2'
+]);
 
-const DEFAULT_PRODUCTS: HardwareProduct[] = [
-    {
-        id: 'p1',
-        title: '昇腾 910B 集群',
-        subtitle: '面向万亿级参数大模型训练的智算中心底座',
-        vendorTag: 'Ascend',
-        logoDataUrl: '',
-        features: [
-            '单芯片提供 320 TFLOPS FP16 算力',
-            'HCCS 互联带宽直达 392GB/s',
-            '无缝对接飞桨分布式训练框架'
-        ],
-        isFeatured: true,
-        createdAt: Date.now() - 3000
-    },
-    {
-        id: 'p2',
-        title: 'NVIDIA DGX SuperPOD',
-        subtitle: '突破性能极限的全栈式 AI 数据中心基础设施',
-        vendorTag: 'NVIDIA',
-        logoDataUrl: '',
-        features: [
-            '搭载 32 个 H200 Tensor Core GPU',
-            'NVLink 4.0 实现 900 GB/s 极速互联',
-            '提供端到端全生命周期开发软件栈'
-        ],
-        isFeatured: false,
-        createdAt: Date.now() - 2000
-    }
-];
+const DEFAULT_PRODUCTS: HardwareProduct[] = [];
 
 const sortFeaturedThenLatest = (a: HardwareProduct, b: HardwareProduct) => {
     if (a.isFeatured !== b.isFeatured) {
@@ -70,24 +45,23 @@ const sanitizeProduct = (raw: unknown): HardwareProduct | null => {
 
 const loadProductsFromStorage = (): HardwareProduct[] => {
     const saved = localStorage.getItem(HARDWARE_PRODUCTS_STORAGE_KEY);
-    if (saved) {
+    if (saved !== null) {
         try {
             const parsed = JSON.parse(saved);
-            if (Array.isArray(parsed) && parsed.length > 0) {
-                const products = parsed
+            if (Array.isArray(parsed)) {
+                return parsed
                     .map(sanitizeProduct)
-                    .filter((item): item is HardwareProduct => item !== null);
-
-                if (products.length > 0) {
-                    return products;
-                }
+                    .filter((item): item is HardwareProduct => item !== null)
+                    .filter((product) => !DEPRECATED_PRODUCT_IDS.has(product.id));
             }
         } catch (error) {
             console.error('Failed to parse hardware products data', error);
         }
     }
 
-    return DEFAULT_PRODUCTS;
+    return DEFAULT_PRODUCTS
+        .map(sanitizeProduct)
+        .filter((item): item is HardwareProduct => item !== null);
 };
 
 export const useHardwareProductsData = () => {
@@ -151,4 +125,3 @@ export const useHardwareProductsData = () => {
         removeProduct
     };
 };
-
