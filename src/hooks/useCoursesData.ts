@@ -4,7 +4,10 @@ import { getSafeCourseUrl } from '../utils/courseUrl';
 
 const COURSE_STORAGE_KEY = 'xinghe_courses_data';
 const DEPRECATED_COURSE_IDS = new Set([
-    'course_ernie_image_ascend_910a_deploy'
+    'course_ernie_image_ascend_910a_deploy',
+    'c1',
+    'c2',
+    'c3'
 ]);
 
 const DEFAULT_COURSES: Course[] = [
@@ -47,36 +50,6 @@ const DEFAULT_COURSES: Course[] = [
         difficulty: '高阶',
         isPinned: true,
         createdAt: Date.now() - 300
-    },
-    {
-        id: 'c1',
-        title: '飞桨多硬件生态基础认知',
-        description: '本课程主要介绍飞桨在大模型时代的硬件生态布局，以及基础的适配调优理念。',
-        url: 'https://invalid.local/pending-course-c1',
-        duration: '2.5h',
-        difficulty: '入门',
-        isPinned: false,
-        createdAt: Date.now() - 3000
-    },
-    {
-        id: 'c2',
-        title: '昇腾 910B 算力底座深度调优',
-        description: '深入讲解华为昇腾 910B 的架构特性与飞桨框架的深度适配调优技巧。',
-        url: 'https://invalid.local/pending-course-c2',
-        duration: '4h',
-        difficulty: '进阶',
-        isPinned: false,
-        createdAt: Date.now() - 2000
-    },
-    {
-        id: 'c3',
-        title: '跨架构极速分布式训练实战',
-        description: '实战演练多硬件异构集群下的分布式训练策略，涵盖昇腾、昆仑芯等多平台协同。',
-        url: 'https://invalid.local/pending-course-c3',
-        duration: '6h',
-        difficulty: '高阶',
-        isPinned: false,
-        createdAt: Date.now() - 1000
     }
 ];
 
