@@ -18,13 +18,14 @@ const DEFAULT_ACTIVITIES: Activity[] = [
         dateDay: '18日',
         location: '成都市锦江区 · 成都IFS二号办公楼43楼 水调歌头会议室',
         formatTag: '线下',
-        url: '/docs/deepin-paddle-meetup-chengdu-20260418.pdf',
+        url: 'https://mp.weixin.qq.com/s/vXsjyekPmhXlpf3wonNmVg',
         isPinned: true,
         createdAt: new Date('2026-04-18T14:00:00+08:00').getTime()
     }
 ];
 
 const DEFAULT_ACTIVITY_IDS = new Set(DEFAULT_ACTIVITIES.map((activity) => activity.id));
+const DEFAULT_ACTIVITY_BY_ID = new Map(DEFAULT_ACTIVITIES.map((activity) => [activity.id, activity]));
 
 const sortPinnedThenLatest = (a: Activity, b: Activity) => {
     if (a.isPinned !== b.isPinned) {
@@ -55,11 +56,16 @@ const loadActivitiesFromStorage = (): Activity[] => {
         try {
             const parsed = JSON.parse(saved);
             if (Array.isArray(parsed)) {
+                const deletedDefaultIds = readDeletedDefaultActivityIds();
                 const savedActivities = parsed
                     .map(normalizeActivity)
-                    .filter((activity) => !DEPRECATED_ACTIVITY_IDS.has(activity.id));
+                    .filter((activity) => !DEPRECATED_ACTIVITY_IDS.has(activity.id))
+                    .filter((activity) => !(DEFAULT_ACTIVITY_IDS.has(activity.id) && deletedDefaultIds.has(activity.id)))
+                    .map((activity) => {
+                        const defaultActivity = DEFAULT_ACTIVITY_BY_ID.get(activity.id);
+                        return defaultActivity ? normalizeActivity({ ...activity, ...defaultActivity }) : activity;
+                    });
                 const savedIds = new Set(savedActivities.map((activity) => activity.id));
-                const deletedDefaultIds = readDeletedDefaultActivityIds();
                 const missingDefaultActivities = DEFAULT_ACTIVITIES
                     .filter((activity) => !savedIds.has(activity.id) && !deletedDefaultIds.has(activity.id))
                     .map(normalizeActivity);
