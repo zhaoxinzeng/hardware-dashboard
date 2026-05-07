@@ -18,7 +18,9 @@ interface AuthContextValue {
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
-const SESSION_KEY = 'mock_session';
+const SESSION_KEY = 'mock_session_v2';
+const ADMIN_USERNAME = 'admin';
+const ADMIN_PASSWORD = 'paddlepaddle2020';
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
 
@@ -64,7 +66,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         const trimmedPass = password.trim();
         if (!trimmedUser || !trimmedPass) return false;
 
-        const role: UserRole = trimmedUser === 'admin' && trimmedPass === 'admin' ? 'admin' : 'user';
+        const role: UserRole = trimmedUser === ADMIN_USERNAME && trimmedPass === ADMIN_PASSWORD ? 'admin' : 'user';
         setCurrentUser({ username: trimmedUser, role });
         return true;
     }, []);

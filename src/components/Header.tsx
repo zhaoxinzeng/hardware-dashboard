@@ -29,7 +29,7 @@ const LoginDialog: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             <div className="w-full max-w-sm mx-4 bg-white rounded-2xl shadow-2xl p-7 animate-in fade-in zoom-in-95 duration-200">
                 <h2 className="text-lg font-bold text-gray-900 mb-1">登录</h2>
                 <p className="text-xs text-gray-400 mb-6">
-                    输入 <span className="font-mono font-semibold text-gray-600">admin / admin</span> 获取管理员权限
+                    输入管理员账号与密码获取管理员权限
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-3">
