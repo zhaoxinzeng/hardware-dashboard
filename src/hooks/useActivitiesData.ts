@@ -21,6 +21,17 @@ const DEFAULT_ACTIVITIES: Activity[] = [
         url: 'https://mp.weixin.qq.com/s/vXsjyekPmhXlpf3wonNmVg',
         isPinned: true,
         createdAt: new Date('2026-04-18T14:00:00+08:00').getTime()
+    },
+    {
+        id: 'activity_phytium_openkylin_meetup_changsha_20260517',
+        title: '文心合作伙伴赛道 × 飞腾 & openKylin Meetup 长沙站',
+        dateMonth: '05月',
+        dateDay: '17日',
+        location: '湖南省长沙市开福区芙蓉中路一段303号CFC富兴时代T3栋28楼',
+        formatTag: '线下',
+        url: 'https://mp.weixin.qq.com/s/M4UcS5gXbC2JcxASIlLEWw',
+        isPinned: true,
+        createdAt: new Date('2026-05-17T13:30:00+08:00').getTime()
     }
 ];
 
