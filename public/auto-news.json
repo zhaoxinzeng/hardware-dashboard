@@ -7,7 +7,7 @@
     "date": "2026-05-21",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化Kubernetes上AI工作负载的GPU资源利用率。",
+    "summary": "监控Kubernetes GPU使用，优化AI/LLM训练推理。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/get-real-time-visibility-into-gpu-usage-across-kubernetes-clusters/"
   },
@@ -20,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU高效适配商汤大模型推理，赋能国产AI生态",
+    "summary": "壁仞科技GPU高效适配商汤大模型，实现低成本高性能推理部署。",
     "link": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/"
   },
   {
@@ -31,7 +31,7 @@
     "date": "2026-05-06",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "vLLM引擎升级，纠正RL训练偏差，确保大模型精度。",
+    "summary": "提升vLLM在强化学习训练中的准确性和稳定性，优化大模型训练部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections"
   },
@@ -179,7 +179,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技国产GPU成功适配中移动九天35B大模型，实现高性能推理优化，为央企大模型规模化部署提供全栈国产算力底座。",
+    "summary": "国产GPU适配优化央企大模型，构建全栈国产AI底座。",
     "link": "https://www.birentech.com/news/id6rz98v3obczy77cmxzfgk3/"
   },
   {
@@ -191,7 +191,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU深度优化DeepSeek-V4，赋能大模型高效推理部署。",
+    "summary": "壁仞GPU优化适配DeepSeek-V4大模型推理",
     "link": "https://www.birentech.com/news/lo81mr3idb49bsdjf8hdd2bb/"
   },
   {
@@ -203,7 +203,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞国芯适配混元等国产大模型，软硬协同优化推理性能，加速AI应用落地。",
+    "summary": "壁仞GPU Day0适配腾讯混元，实现大模型推理性能优化。",
     "link": "https://www.birentech.com/news/g52jeufohux7w6b9eq0v9pue/"
   },
   {
