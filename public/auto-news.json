@@ -1,5 +1,17 @@
 [
   {
+    "id": "29edf2026ca629a8e825a08adb78150b",
+    "vendor": "NVIDIA Developer News",
+    "title": "Train Models Faster with JAX and MaxText Using NVFP4 on NVIDIA Blackwell",
+    "url": "https://developer.nvidia.com/blog/train-models-faster-with-jax-and-maxtext-using-nvfp4-on-nvidia-blackwell/",
+    "date": "2026-06-08",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVFP4在NVIDIA Blackwell上加速JAX/MaxText大模型训练。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/train-models-faster-with-jax-and-maxtext-using-nvfp4-on-nvidia-blackwell/"
+  },
+  {
     "id": "ac4e7d830b1a41257106281818227897",
     "vendor": "壁仞科技",
     "title": "Day0适配丨壁仞科技高效完成阶跃星辰Step 3.7 Flash推理验证",
@@ -8,8 +20,32 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技完成阶跃星辰大模型在国产GPU上的Day0适配与高效推理优化。",
+    "summary": "壁仞GPU高效适配大模型，强化国产软硬协同生态。",
     "link": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/"
+  },
+  {
+    "id": "0f1725b5f465c13ba54b2b8cf0b1bfbc",
+    "vendor": "昆仑芯科技",
+    "title": "昆仑芯Day 0适配智谱全新一代大模型GLM-5",
+    "url": "https://www.kunlunxin.com/news/5002.html",
+    "date": "2026-06-08",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.kunlunxin.com/news/5002.html"
+  },
+  {
+    "id": "f15bde96f6c74098de5748185e5dc199",
+    "vendor": "昆仑芯科技",
+    "title": "Day 0支持｜昆仑芯完成MiniMax M2.7模型极速适配",
+    "url": "https://www.kunlunxin.com/news/5021.html",
+    "date": "2026-06-08",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.kunlunxin.com/news/5021.html"
   },
   {
     "id": "3bc6dfbb4ff04e535bc697591ff13687",
@@ -20,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯成功适配商汤多模态大模型U1，实现其在国产硬件上高效推理，展现软硬协同与生态支持。",
+    "summary": "昆仑芯完成商汤U1大模型硬件适配与性能优化。",
     "link": "https://www.kunlunxin.com/news/5025.html"
   },
   {
@@ -32,44 +68,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯Day 0适配小米大模型，实现硬件高吞吐低延迟推理。",
-    "link": "https://www.kunlunxin.com/news/5024.html"
-  },
-  {
-    "id": "0bfd1ea29438c5ee4c91c0b7e4fadf85",
-    "vendor": "昆仑芯科技",
-    "title": "昆仑芯全面支撑中国移动九天35B大模型，国产AI方案加速落地",
-    "url": "https://www.kunlunxin.com/news/5023.html",
-    "date": "2026-06-05",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯NPU支持中国移动大模型，加速国产AI方案落地。",
-    "link": "https://www.kunlunxin.com/news/5023.html"
-  },
-  {
-    "id": "db9c7ca1d669659d12c8f247ce369214",
-    "vendor": "NVIDIA Developer News",
-    "title": "NVIDIA Vera CPU Sets a New Standard for Agentic Workloads in AI Factories",
-    "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories/",
-    "date": "2026-06-01",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA Vera CPU提升AI工厂智能体和RL工作流效率。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories/"
-  },
-  {
-    "id": "442e91c104b635b71ff2f2269b688f83",
-    "vendor": "Hugging Face Blog",
-    "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-    "url": "https://huggingface.co/blog/torch-profiler",
-    "date": "2026-05-29",
-    "sourceType": "RSS",
-    "isManual": false,
     "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/torch-profiler"
+    "link": "https://www.kunlunxin.com/news/5024.html"
   },
   {
     "id": "62fed09afce87998fc5b4a4293d2adf7",
@@ -80,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技GPU高效适配商汤大模型，优化推理部署。",
     "link": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/"
   },
   {
