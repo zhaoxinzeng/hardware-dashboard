@@ -1,5 +1,17 @@
 [
   {
+    "id": "949809568138ce08e286a385cafde89a",
+    "vendor": "壁仞科技",
+    "title": "Day0适配丨壁仞科技率先支持MiniMax M3大模型",
+    "url": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/",
+    "date": "2026-06-16",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技GPU高效适配主流大模型推理，支撑国产AI生态。",
+    "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
+  },
+  {
     "id": "9a812e42d024237f8677a46262918d7a",
     "vendor": "Hugging Face Blog",
     "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
@@ -7,21 +19,9 @@
     "date": "2026-06-11",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "PyTorch框架在NVIDIA A100 GPU上优化MLP性能的深度剖析，提升大模型训练与推理效率。",
+    "summary": "在NVIDIA GPU上使用PyTorch进行深度学习模型性能剖析与优化。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/torch-mlp-fusion"
-  },
-  {
-    "id": "29edf2026ca629a8e825a08adb78150b",
-    "vendor": "NVIDIA Developer News",
-    "title": "Train Models Faster with JAX and MaxText Using NVFP4 on NVIDIA Blackwell",
-    "url": "https://developer.nvidia.com/blog/train-models-faster-with-jax-and-maxtext-using-nvfp4-on-nvidia-blackwell/",
-    "date": "2026-06-08",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA Blackwell平台，JAX与MaxText框架整合NVFP4技术，实现LLM低精度高效训练，显著提升吞吐量，降低成本。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/train-models-faster-with-jax-and-maxtext-using-nvfp4-on-nvidia-blackwell/"
   },
   {
     "id": "ac4e7d830b1a41257106281818227897",
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技实现国产大模型Step 3.7 Flash在自研GPU上高效推理部署与深度优化，推动国产AI生态发展。",
+    "summary": "壁仞科技大模型在自研GPU上Day0适配，实现推理优化。",
     "link": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/"
   },
   {
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU高效适配商汤大模型推理，强化国产AI生态。",
+    "summary": "壁仞GPU高效适配商汤大模型，助力国产AI生态建设与部署优化。",
     "link": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/"
   },
   {
@@ -56,20 +56,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU适配央企大模型，构建全栈可控AI算力底座。",
+    "summary": "国产GPU为央企大模型提供自主可控的推理适配与优化。",
     "link": "https://www.birentech.com/news/id6rz98v3obczy77cmxzfgk3/"
-  },
-  {
-    "id": "fed8e7a666d1fdcdc6ed38477590c717",
-    "vendor": "壁仞科技",
-    "title": "壁仞科技壁砺™166系列完成DeepSeek-V4适配验证与优化",
-    "url": "https://www.birentech.com/news/lo81mr3idb49bsdjf8hdd2bb/",
-    "date": "2026-06-08",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU适配优化DeepSeek-V4，赋能大模型推理加速。",
-    "link": "https://www.birentech.com/news/lo81mr3idb49bsdjf8hdd2bb/"
   },
   {
     "id": "0f1725b5f465c13ba54b2b8cf0b1bfbc",
@@ -80,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯Day 0适配智谱GLM-5，优化大模型推理性能。",
     "link": "https://www.kunlunxin.com/news/5002.html"
   },
   {
@@ -94,6 +82,18 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5021.html"
+  },
+  {
+    "id": "72954882a02a7d6a8fa939ea66b35639",
+    "vendor": "沐曦",
+    "title": "沐曦芯生，开源共创 | 沐曦股份 × SGLang联合举办技术交流Meetup，共同探索AI推理落地新路径 2026-06-08",
+    "url": "https://www.metax-tech.com/ndetail/12615.html",
+    "date": "2026-06-08",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12615.html"
   },
   {
     "id": "3bc6dfbb4ff04e535bc697591ff13687",
@@ -118,6 +118,102 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5024.html"
+  },
+  {
+    "id": "e7164e89868f8d15816bc87b48171bf8",
+    "vendor": "沐曦",
+    "title": "生态共荣｜打通国产异构算力“通信关”，沐曦GPU与InfiniCCL开源框架完成首发适配 2026-06-03",
+    "url": "https://www.metax-tech.com/ndetail/12613.html",
+    "date": "2026-06-03",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12613.html"
+  },
+  {
+    "id": "87f1d1cfeae2b81174a874d04d009854",
+    "vendor": "沐曦",
+    "title": "合作签约|国产算力赋能AI文旅，沐曦股份深度参与国家人工智能应用中试基地（文化旅游）项目建设 2026-06-01 5月28日，国家人工智能应用中试基地（文化旅游）（以下简称：中试基地）项目启动会在杭州隆重举行。沐曦股份受邀参会，并完成生态合作签约。根据协议，沐曦股份将协同浙江省文化人工智能科技有限公司，围绕算力支撑、数据服务、大模型研发应用等方面展开深度合作，为基地AI文旅中试研发和技术创新提供坚实算力底座。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12614.html",
+    "date": "2026-06-01",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12614.html"
+  },
+  {
+    "id": "0e689d846d1511cc9bda1ddc24ef3cdd",
+    "vendor": "沐曦",
+    "title": "降低每 Token 成本，攻坚国产推理生态｜沐曦两大赛题登陆 2026 揭榜挂帅擂台赛，诚邀青年共破局！ 2026-05-30 2026 年度中国青年科技创新「揭榜挂帅」擂台赛正式启幕。沐曦股份重磅发布两大 AI 算力硬核榜题，聚焦国产 GPU 大模型推理算子优化，依托硬核赛事搭建科研攻关平台，诚邀全国青年学子、科研人才揭榜攻坚，以技术重构推理效率，用创新拉低每 Token 算力成本！ 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12612.html",
+    "date": "2026-05-30",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12612.html"
+  },
+  {
+    "id": "f22eb4690d4ea401bd7d5459a1c574a0",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU Day 0 适配阶跃星辰 Step 3.7 Flash 2026-05-29 5 月 29 日，阶跃星辰正式开源面向Agent 生产化阶段推出的新一代 Flash 模型Step 3.7 Flash。沐曦股份率先完成曦云 C 系列GPU Day 0 深度适配，以全栈自研算力底座，为国产 Agent 生态再添核心支撑，持续领跑国产大模型极速适配赛道。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12611.html",
+    "date": "2026-05-29",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12611.html"
+  },
+  {
+    "id": "2bc3ca5874960281fc1e661d0ce7793f",
+    "vendor": "沐曦",
+    "title": "权威认证 | 沐曦股份MXC600通过国家《安全可靠测评》 2026-05-28 5月26日，中国信息安全测评中心与国家保密科技测评中心发布《安全可靠测评结果公告（2026 年第 2 号）》，沐曦股份新一代人工智能训练推理旗舰芯片MXC600正式通过测评。按照《安全可靠测评工作指南 V3.0》规定，该安全可靠测评结果自发布之日起，有效期为三年。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12610.html",
+    "date": "2026-05-28",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12610.html"
+  },
+  {
+    "id": "80d4e813b7ca68570f58131a1155e623",
+    "vendor": "沐曦",
+    "title": "沐曦股份出席CCF 2026青年精英大会，共建多架构GPU时代人才生态 2026-05-26 5月21日至23日，2026年中国计算机学会青年精英大会（CCF YEF）在四川绵阳举办，沐曦股份受邀出席并发表主题演讲——《开源为桥：多架构GPU时代的人才培养体系重构与产学研协同实践》，系统分享了沐曦股份以开源为核心战略，在人才培养、生态建设和产学研协同三大维度上的深度实践与前沿探索。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12609.html",
+    "date": "2026-05-26",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12609.html"
+  },
+  {
+    "id": "c72f6463b0680f1f0bfe80834a580d59",
+    "vendor": "沐曦",
+    "title": "沐曦股份携手迈富时，国产GPU赋能企业级AI智能体规模落地 2026-05-25 5月22日，沐曦股份（688802.SH）与迈富时（02556.HK）正式签署战略合作协议。双方宣布将围绕算力基础设施、企业级智能体中台及行业场景落地展开深度协同，共同推动国产高性能算力与企业级AI智能体的一体化融合应用。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12607.html",
+    "date": "2026-05-25",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12607.html"
+  },
+  {
+    "id": "ad41c3d926a68035c8296a473440e87d",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU完成腾讯混元翻译模型Hy-MT2 Day 0 深度适配 2026-05-21 5月21日，腾讯混元翻译模型Hy-MT2正式开源，包含3个尺寸的模型Hy-MT2-1.8B、Hy-MT2-7B、Hy-MT2-30B-A3B。沐曦股份曦云C系列GPU凭借全栈自研技术优势，率先实现对三个模型的Day 0深度适配。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12606.html",
+    "date": "2026-05-21",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12606.html"
   },
   {
     "id": "42ba97334494e6e83f9c45cf2762f67e",
