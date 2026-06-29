@@ -7,7 +7,7 @@
     "date": "2026-06-26",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "LLM推理服务在特定硬件上快速部署与优化。",
+    "summary": "提供vLLM服务器部署方案，加速大模型在GPU上的测试与推理。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/vllm-jobs"
   },
@@ -19,7 +19,7 @@
     "date": "2026-06-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化Vulkan GPU资源绑定与内存管理，提升硬件渲染计算效率。",
+    "summary": "优化Vulkan GPU资源绑定，提升现代硬件（含光线追踪）性能，支持跨平台高效部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/"
   },
@@ -31,7 +31,7 @@
     "date": "2026-06-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "TensorRT 11.0实现多GPU大模型推理部署优化。",
+    "summary": "TensorRT 11.0多GPU推理，提升大模型部署性能与扩展性。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/scaling-ai-inference-across-multiple-gpus-using-nvidia-tensorrt-with-multi-device-inference-support/"
   },
@@ -43,33 +43,9 @@
     "date": "2026-06-24",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "加速BEV模型在英伟达GPU上的推理部署与性能优化。",
+    "summary": "加速英伟达GPU上BEV Pooling算子，优化物理AI应用的深度学习推理部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/"
-  },
-  {
-    "id": "07d3db98f368d48076799aec15355209",
-    "vendor": "沐曦",
-    "title": "沐曦股份陈维良出席“浦江纵横大讲堂”，分享GPU算力与生态建设思考 2026-06-18",
-    "url": "https://www.metax-tech.com/ndetail/12617.html",
-    "date": "2026-06-18",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配AI框架模型，构建自主算力生态。",
-    "link": "https://www.metax-tech.com/ndetail/12617.html"
-  },
-  {
-    "id": "abae6a08a1e57f0fe7b7886ebb7027f9",
-    "vendor": "沐曦",
-    "title": "低碳算力获认可 | 沐曦股份液冷智算项目入选 “2026 年企业数字化绿色化协同转型发展案例” 2026-06-18 近日，由全国工商联、海南省政府共同主办的 2026 全国民营企业绿色发展大会在海南海口隆重举行。本次会上揭晓了“2026年度数字化绿色化协同转型发展案例”名单，沐曦股份凭借长沙生态创新中心液冷智算底座建设项目的扎实成果，成为行业唯一入选单位。全国政协副主席、全国工商联主席高云龙，海南省委书记冯飞，海南省政协主席李荣灿等领导嘉宾齐聚现场共同揭晓本届名单。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12619.html",
-    "date": "2026-06-18",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦股份GPU液冷智算底座提供高能效国产算力，支撑AI训练与绿色数据中心。",
-    "link": "https://www.metax-tech.com/ndetail/12619.html"
   },
   {
     "id": "ce602b9c455ab74380ff25b4ce993e97",
@@ -80,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦GPU及软件栈赋能大模型微调，促生态发展。",
     "link": "https://www.metax-tech.com/ndetail/12620.html"
   },
   {
@@ -164,7 +140,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯Day 0适配智谱GLM-5，实现大模型高效推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5002.html"
   },
   {
@@ -236,20 +212,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "国产GPU为文旅大模型提供算力与研发支持",
     "link": "https://www.metax-tech.com/ndetail/12614.html"
-  },
-  {
-    "id": "0e689d846d1511cc9bda1ddc24ef3cdd",
-    "vendor": "沐曦",
-    "title": "降低每 Token 成本，攻坚国产推理生态｜沐曦两大赛题登陆 2026 揭榜挂帅擂台赛，诚邀青年共破局！ 2026-05-30 2026 年度中国青年科技创新「揭榜挂帅」擂台赛正式启幕。沐曦股份重磅发布两大 AI 算力硬核榜题，聚焦国产 GPU 大模型推理算子优化，依托硬核赛事搭建科研攻关平台，诚邀全国青年学子、科研人才揭榜攻坚，以技术重构推理效率，用创新拉低每 Token 算力成本！ 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12612.html",
-    "date": "2026-05-30",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12612.html"
   },
   {
     "id": "42ba97334494e6e83f9c45cf2762f67e",
