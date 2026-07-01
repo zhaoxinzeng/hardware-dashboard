@@ -1,5 +1,17 @@
 [
   {
+    "id": "20cc7919f44ede1d7658c04219ccc097",
+    "vendor": "NVIDIA Developer News",
+    "title": "Designing GPU-Accelerated Query Engines with NVIDIA GQE",
+    "url": "https://developer.nvidia.com/blog/designing-gpu-accelerated-query-engines-with-nvidia-gqe/",
+    "date": "2026-06-30",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA GQE利用先进GPU硬件及CUDA-X库，优化查询引擎，加速大规模数据处理，赋能AI/DL工作负载。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/designing-gpu-accelerated-query-engines-with-nvidia-gqe/"
+  },
+  {
     "id": "61fe0e4252aee858d0d8d2a45ce349cb",
     "vendor": "Hugging Face Blog",
     "title": "Run a vLLM Server on HF Jobs in One Command",
@@ -7,21 +19,33 @@
     "date": "2026-06-26",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "提供vLLM服务器部署方案，加速大模型在GPU上的测试与推理。",
+    "summary": "提供在HF平台一键部署vLLM推理服务器，优化LLM推理部署效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/vllm-jobs"
   },
   {
-    "id": "f03a4216fbc4b7b3ec31b52bb10063c2",
-    "vendor": "NVIDIA Developer News",
-    "title": "Streamlining Resource Binding with End-to-End Support for Vulkan Descriptor Heaps",
-    "url": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/",
-    "date": "2026-06-25",
-    "sourceType": "RSS",
+    "id": "fcca25942498a75f29d6d2e457c93175",
+    "vendor": "壁仞科技",
+    "title": "Day0适配｜壁仞科技高效支持智谱旗舰模型GLM-5.2",
+    "url": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/",
+    "date": "2026-06-26",
+    "sourceType": "HTML",
     "isManual": false,
-    "summary": "优化Vulkan GPU资源绑定，提升现代硬件（含光线追踪）性能，支持跨平台高效部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/"
+    "summary": "壁仞科技通过软硬件协同优化，实现智谱GLM-5.2等大模型在国产硬件上的高效适配与推理部署，加速大模型落地。",
+    "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
+  },
+  {
+    "id": "949809568138ce08e286a385cafde89a",
+    "vendor": "壁仞科技",
+    "title": "Day0适配丨壁仞科技率先支持MiniMax M3大模型",
+    "url": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/",
+    "date": "2026-06-26",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU Day0适配M3大模型，强化国产软硬协同AI生态。",
+    "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
     "id": "636c51e38583ed6f44a43b14fe920f91",
@@ -31,7 +55,7 @@
     "date": "2026-06-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "TensorRT 11.0多GPU推理，提升大模型部署性能与扩展性。",
+    "summary": "优化并扩展大模型在多GPU上的高性能推理部署，打破单设备限制。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/scaling-ai-inference-across-multiple-gpus-using-nvidia-tensorrt-with-multi-device-inference-support/"
   },
@@ -43,9 +67,21 @@
     "date": "2026-06-24",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "加速英伟达GPU上BEV Pooling算子，优化物理AI应用的深度学习推理部署。",
+    "summary": "加速GPU上BEV池化，提升自动驾驶AI感知性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/"
+  },
+  {
+    "id": "abae6a08a1e57f0fe7b7886ebb7027f9",
+    "vendor": "沐曦",
+    "title": "低碳算力获认可 | 沐曦股份液冷智算项目入选 “2026 年企业数字化绿色化协同转型发展案例” 2026-06-18 近日，由全国工商联、海南省政府共同主办的 2026 全国民营企业绿色发展大会在海南海口隆重举行。本次会上揭晓了“2026年度数字化绿色化协同转型发展案例”名单，沐曦股份凭借长沙生态创新中心液冷智算底座建设项目的扎实成果，成为行业唯一入选单位。全国政协副主席、全国工商联主席高云龙，海南省委书记冯飞，海南省政协主席李荣灿等领导嘉宾齐聚现场共同揭晓本届名单。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12619.html",
+    "date": "2026-06-18",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12619.html"
   },
   {
     "id": "ce602b9c455ab74380ff25b4ce993e97",
@@ -56,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU及软件栈赋能大模型微调，促生态发展。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12620.html"
   },
   {
@@ -72,16 +108,40 @@
     "link": "https://www.metax-tech.com/ndetail/12616.html"
   },
   {
-    "id": "949809568138ce08e286a385cafde89a",
-    "vendor": "壁仞科技",
-    "title": "Day0适配丨壁仞科技率先支持MiniMax M3大模型",
-    "url": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/",
-    "date": "2026-06-16",
+    "id": "07d3db98f368d48076799aec15355209",
+    "vendor": "沐曦",
+    "title": "沐曦股份陈维良出席“浦江纵横大讲堂”，分享GPU算力与生态建设思考 2026-06-17 近日，上海市政协经济和金融委员会举行第七次全体会议暨“浦江纵横大讲堂”——“财经议事厅”专题活动，市政协副主席肖贵玉、寿子琪出席并为“财经议事厅”嘉宾颁发协商议政纪念证。市政协委员、沐曦股份创始人、董事长兼总经理陈维良受邀出席并发表主旨 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12617.html",
+    "date": "2026-06-17",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
+    "link": "https://www.metax-tech.com/ndetail/12617.html"
+  },
+  {
+    "id": "ac4e7d830b1a41257106281818227897",
+    "vendor": "壁仞科技",
+    "title": "Day0适配丨壁仞科技高效完成阶跃星辰Step 3.7 Flash推理验证",
+    "url": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/",
+    "date": "2026-06-12",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/"
+  },
+  {
+    "id": "62fed09afce87998fc5b4a4293d2adf7",
+    "vendor": "壁仞科技",
+    "title": "Day0适配 | 壁仞科技高效完成商汤日日新SenseNova U1推理验证",
+    "url": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/",
+    "date": "2026-06-12",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/"
   },
   {
     "id": "643a49fe003f580697ce2eeabcb8b800",
@@ -94,42 +154,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12618.html"
-  },
-  {
-    "id": "ac4e7d830b1a41257106281818227897",
-    "vendor": "壁仞科技",
-    "title": "Day0适配丨壁仞科技高效完成阶跃星辰Step 3.7 Flash推理验证",
-    "url": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/",
-    "date": "2026-06-08",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/"
-  },
-  {
-    "id": "62fed09afce87998fc5b4a4293d2adf7",
-    "vendor": "壁仞科技",
-    "title": "Day0适配 | 壁仞科技高效完成商汤日日新SenseNova U1推理验证",
-    "url": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/",
-    "date": "2026-06-08",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/"
-  },
-  {
-    "id": "0ac0987f9cf4385d887342b555ebe146",
-    "vendor": "壁仞科技",
-    "title": "国产算力x央企大模型 | 壁仞科技率先完成中国移动九天35B大模型预适配",
-    "url": "https://www.birentech.com/news/id6rz98v3obczy77cmxzfgk3/",
-    "date": "2026-06-08",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/id6rz98v3obczy77cmxzfgk3/"
   },
   {
     "id": "0f1725b5f465c13ba54b2b8cf0b1bfbc",
@@ -168,6 +192,18 @@
     "link": "https://www.metax-tech.com/ndetail/12615.html"
   },
   {
+    "id": "b25b07e21e85c5951e29f55e49fbdfed",
+    "vendor": "沐曦",
+    "title": "开源协同｜沐曦股份携手上海人工智能实验室突破多芯异构推理，共建国产推理新生态 2026-06-06 近日，上海人工智能实验室升级并开源DeepLink多元算力混合推理技术方案。沐曦股份作为参与共建的核心芯片合作伙伴之一，已首批上线公司标准推理镜像，积极融入这一面向国产异构算力生态的开源协同体系。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12623.html",
+    "date": "2026-06-06",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦与上海AI实验室开源DeepLink，实现大模型多芯异构推理优化。",
+    "link": "https://www.metax-tech.com/ndetail/12623.html"
+  },
+  {
     "id": "3bc6dfbb4ff04e535bc697591ff13687",
     "vendor": "昆仑芯科技",
     "title": "昆仑芯Day 0极速适配商汤日日新SenseNova U1模型",
@@ -176,7 +212,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯硬核适配商汤U1大模型，实现国产AI芯片高效推理。",
     "link": "https://www.kunlunxin.com/news/5025.html"
   },
   {
@@ -188,7 +224,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯快速适配小米大模型，加速国产算力部署。",
     "link": "https://www.kunlunxin.com/news/5024.html"
   },
   {
@@ -200,20 +236,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "InfiniCCL适配沐曦GPU，打通国产异构算力通信，优化大模型训练推理效率，助力国产硬件生态建设。",
     "link": "https://www.metax-tech.com/ndetail/12613.html"
-  },
-  {
-    "id": "87f1d1cfeae2b81174a874d04d009854",
-    "vendor": "沐曦",
-    "title": "合作签约|国产算力赋能AI文旅，沐曦股份深度参与国家人工智能应用中试基地（文化旅游）项目建设 2026-06-01 5月28日，国家人工智能应用中试基地（文化旅游）（以下简称：中试基地）项目启动会在杭州隆重举行。沐曦股份受邀参会，并完成生态合作签约。根据协议，沐曦股份将协同浙江省文化人工智能科技有限公司，围绕算力支撑、数据服务、大模型研发应用等方面展开深度合作，为基地AI文旅中试研发和技术创新提供坚实算力底座。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12614.html",
-    "date": "2026-06-01",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU为文旅大模型提供算力与研发支持",
-    "link": "https://www.metax-tech.com/ndetail/12614.html"
   },
   {
     "id": "42ba97334494e6e83f9c45cf2762f67e",
