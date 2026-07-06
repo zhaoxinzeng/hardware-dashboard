@@ -7,9 +7,21 @@
     "date": "2026-06-30",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA GQE优化GPU查询引擎，加速数据处理与计算，提升数据库性能。",
+    "summary": "NVIDIA GQE加速GPU数据查询与处理性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/designing-gpu-accelerated-query-engines-with-nvidia-gqe/"
+  },
+  {
+    "id": "61fe0e4252aee858d0d8d2a45ce349cb",
+    "vendor": "Hugging Face Blog",
+    "title": "Run a vLLM Server on HF Jobs in One Command",
+    "url": "https://huggingface.co/blog/vllm-jobs",
+    "date": "2026-06-26",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "部署vLLM服务以优化大模型在GPU上的快速测试与推理。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/vllm-jobs"
   },
   {
     "id": "fcca25942498a75f29d6d2e457c93175",
@@ -20,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技硬核适配智谱GLM-5.2大模型，提供高效推理与部署方案。",
+    "summary": "壁仞科技GPU适配智谱GLM-5.2，优化vLLM推理，加速大模型部署与长程任务。",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -32,8 +44,20 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU适配MiniMax M3大模型，实现高效部署。",
+    "summary": "壁仞科技国产GPU深度适配MiniMax M3大模型，优化推理部署，赋能国产AI生态。",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
+  },
+  {
+    "id": "f03a4216fbc4b7b3ec31b52bb10063c2",
+    "vendor": "NVIDIA Developer News",
+    "title": "Streamlining Resource Binding with End-to-End Support for Vulkan Descriptor Heaps",
+    "url": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/",
+    "date": "2026-06-25",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "优化Vulkan GPU资源绑定，提升深度学习性能。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/streamlining-resource-binding-with-end-to-end-support-for-vulkan-descriptor-heaps/"
   },
   {
     "id": "636c51e38583ed6f44a43b14fe920f91",
@@ -43,7 +67,7 @@
     "date": "2026-06-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "TensorRT 11.0多GPU推理，优化大规模AI模型部署性能。",
+    "summary": "NVIDIA TensorRT 11.0多设备推理，使大模型能在多GPU上高效部署，突破单卡限制，优化生成式AI性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/scaling-ai-inference-across-multiple-gpus-using-nvidia-tensorrt-with-multi-device-inference-support/"
   },
@@ -68,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU赋能魔搭社区大模型微调，验证国产算力LLM训练优化能力。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12620.html"
   },
   {
@@ -104,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技实现阶跃星辰大模型在自研GPU上高效Day0推理。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/"
   },
   {
