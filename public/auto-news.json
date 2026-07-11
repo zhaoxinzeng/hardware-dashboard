@@ -1,5 +1,89 @@
 [
   {
+    "id": "ec381c2ce49c390bda14e7dc67b259d5",
+    "vendor": "Hugging Face Blog",
+    "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+    "url": "https://huggingface.co/blog/torch-attention-profile",
+    "date": "2026-07-10",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "使用PyTorch在NVIDIA GPU上对Transformer注意力机制进行性能剖析与优化。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/torch-attention-profile"
+  },
+  {
+    "id": "0d499e1c92bb6d5fa8e3f5cfedcd9d89",
+    "vendor": "NVIDIA Developer News",
+    "title": "Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
+    "url": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/",
+    "date": "2026-07-10",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "JAX优化LLM训练，通过主机卸载缓解GPU HBM瓶颈。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/"
+  },
+  {
+    "id": "d5ce7141c796ced2e5eae49609d0f85a",
+    "vendor": "NVIDIA Developer News",
+    "title": "Kernel Fusion in NVIDIA CUDA: Optimizing Memory Traffic and Launch Overhead",
+    "url": "https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/",
+    "date": "2026-07-10",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA CUDA内核融合，通过优化内存与启动开销，显著提升GPU计算性能。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/"
+  },
+  {
+    "id": "6765cac91a5cc60dca6f1bd98d7e466e",
+    "vendor": "NVIDIA Developer News",
+    "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
+    "url": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/",
+    "date": "2026-07-10",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "优化LLM模型设计，提升硬件运行性能与效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/"
+  },
+  {
+    "id": "98cc976d986a03efadc1ed6d19060a28",
+    "vendor": "NVIDIA Developer News",
+    "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
+    "url": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/",
+    "date": "2026-07-09",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "利用NVIDIA NeMo及Nemotron模型，生成金融合成数据，优化LLM训练，解决数据稀缺性。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/"
+  },
+  {
+    "id": "94cec3e278b95b9fd424f89d006ecdad",
+    "vendor": "Hugging Face Blog",
+    "title": "Native-speed vLLM transformers modeling backend",
+    "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "date": "2026-07-08",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend"
+  },
+  {
+    "id": "adcb9aeb5d5dec9e8b262b54d9af8a45",
+    "vendor": "NVIDIA Developer News",
+    "title": "Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72",
+    "url": "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72/",
+    "date": "2026-07-08",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72/"
+  },
+  {
     "id": "1b6edf751966a05dda4f89d819d90a5b",
     "vendor": "NVIDIA Developer News",
     "title": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
@@ -7,21 +91,9 @@
     "date": "2026-07-07",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA Vera CPU协同GPU加速Agentic AI，提升LLM推理吞吐。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/"
-  },
-  {
-    "id": "44afdffbf2f9fae2df94fbb791322e11",
-    "vendor": "NVIDIA Developer News",
-    "title": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
-    "url": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/",
-    "date": "2026-07-06",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "非均匀张量并行提升大模型GPU训练吞吐和弹性",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism/"
   },
   {
     "id": "ae1b371d45293a6c70e0a5dd03a824d7",
@@ -32,32 +104,20 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU软硬一体，深度适配美团万亿大模型。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12624.html"
   },
   {
     "id": "aa51b58bbd456a182c2fde943e738179",
     "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU率先实现腾讯混元混合专家模型 Hy3 Day 0适配 2026-07-06",
+    "title": "沐曦股份曦云C系列GPU率先实现腾讯混元混合专家模型 Hy3 Day 0适配 2026-07-06 7月6日，腾讯混元研发的快慢思考融合的混合专家模型 Hy3 正式发布并开源，沐曦股份曦云 C 系列 GPU 率先完成Day 0 全链路适配。依托沐曦股份全栈自研 MXMACA 软件栈，企业可实现零代码快速部署，一站式解锁 Hy3 代码、智能体、超长文档全场景业务能力。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12625.html",
     "date": "2026-07-06",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配腾讯混元Hy3模型，实现大模型训练推理国产化。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12625.html"
-  },
-  {
-    "id": "20cc7919f44ede1d7658c04219ccc097",
-    "vendor": "NVIDIA Developer News",
-    "title": "Designing GPU-Accelerated Query Engines with NVIDIA GQE",
-    "url": "https://developer.nvidia.com/blog/designing-gpu-accelerated-query-engines-with-nvidia-gqe/",
-    "date": "2026-06-30",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA GQE硬核优化GPU查询引擎性能",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/designing-gpu-accelerated-query-engines-with-nvidia-gqe/"
   },
   {
     "id": "fcca25942498a75f29d6d2e457c93175",
@@ -68,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "大型语言模型在国产GPU上的Day0适配与优化，提供高效部署方案。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -202,18 +262,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5021.html"
-  },
-  {
-    "id": "72954882a02a7d6a8fa939ea66b35639",
-    "vendor": "沐曦",
-    "title": "沐曦芯生，开源共创 | 沐曦股份 × SGLang联合举办技术交流Meetup，共同探索AI推理落地新路径 2026-06-08 6月6日，由沐曦股份联合SGLang开源社区、阿里云、龙蜥社区、腾讯云及融科资讯中心举办的“沐曦芯生，开源共创——SGLang技术交流Meetup”，在北京圆满举办。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12615.html",
-    "date": "2026-06-08",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12615.html"
   },
   {
     "id": "3bc6dfbb4ff04e535bc697591ff13687",
