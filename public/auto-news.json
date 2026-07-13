@@ -7,7 +7,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "使用PyTorch在NVIDIA GPU上对Transformer注意力机制进行性能剖析与优化。",
+    "summary": "优化PyTorch注意力机制GPU性能",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/torch-attention-profile"
   },
@@ -19,7 +19,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "JAX优化LLM训练，通过主机卸载缓解GPU HBM瓶颈。",
+    "summary": "JAX大模型训练内存优化，通过主机卸载提升NVIDIA硬件性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/"
   },
@@ -31,7 +31,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA CUDA内核融合，通过优化内存与启动开销，显著提升GPU计算性能。",
+    "summary": "NVIDIA CUDA内核融合优化GPU内存与启动开销，提升计算效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/"
   },
@@ -43,7 +43,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化LLM模型设计，提升硬件运行性能与效率。",
+    "summary": "大模型硬件协同设计，优化推理性能与部署成本。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/"
   },
@@ -55,9 +55,21 @@
     "date": "2026-07-09",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "利用NVIDIA NeMo及Nemotron模型，生成金融合成数据，优化LLM训练，解决数据稀缺性。",
+    "summary": "NVIDIA NeMo为金融大模型微调生成高质量合成数据",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/"
+  },
+  {
+    "id": "fe859b0d269d920dc69e575e4e132bb8",
+    "vendor": "NVIDIA Developer News",
+    "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
+    "url": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale/",
+    "date": "2026-07-09",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "优化分子动力学模拟在多GPU系统上的通信效率，通过GPU主动通信机制，解决CPU-centric MPI瓶颈，提升超大规模计算性能。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale/"
   },
   {
     "id": "94cec3e278b95b9fd424f89d006ecdad",
