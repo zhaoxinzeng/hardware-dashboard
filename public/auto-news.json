@@ -7,7 +7,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化PyTorch注意力机制GPU性能",
+    "summary": "PyTorch分析器用于优化GPU上大模型注意力机制。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/torch-attention-profile"
   },
@@ -19,7 +19,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "JAX大模型训练内存优化，通过主机卸载提升NVIDIA硬件性能。",
+    "summary": "JAX主机卸载优化LLM训练HBM瓶颈，适配NVIDIA Blackwell/Grace Blackwell。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/"
   },
@@ -31,7 +31,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA CUDA内核融合优化GPU内存与启动开销，提升计算效率。",
+    "summary": "NVIDIA CUDA内核融合优化GPU内存与启动开销，显著提升深度学习在NVIDIA硬件上的训练推理效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/"
   },
@@ -43,33 +43,9 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "大模型硬件协同设计，优化推理性能与部署成本。",
+    "summary": "软硬件协同优化大模型设计，提升部署效率与性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/"
-  },
-  {
-    "id": "98cc976d986a03efadc1ed6d19060a28",
-    "vendor": "NVIDIA Developer News",
-    "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
-    "url": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/",
-    "date": "2026-07-09",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA NeMo为金融大模型微调生成高质量合成数据",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/"
-  },
-  {
-    "id": "fe859b0d269d920dc69e575e4e132bb8",
-    "vendor": "NVIDIA Developer News",
-    "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
-    "url": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale/",
-    "date": "2026-07-09",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "优化分子动力学模拟在多GPU系统上的通信效率，通过GPU主动通信机制，解决CPU-centric MPI瓶颈，提升超大规模计算性能。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale/"
   },
   {
     "id": "94cec3e278b95b9fd424f89d006ecdad",
@@ -79,44 +55,20 @@
     "date": "2026-07-08",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "整合transformers与vLLM，实现大模型高效推理。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend"
   },
   {
-    "id": "adcb9aeb5d5dec9e8b262b54d9af8a45",
-    "vendor": "NVIDIA Developer News",
-    "title": "Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72",
-    "url": "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72/",
-    "date": "2026-07-08",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72/"
-  },
-  {
-    "id": "1b6edf751966a05dda4f89d819d90a5b",
-    "vendor": "NVIDIA Developer News",
-    "title": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
-    "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/",
-    "date": "2026-07-07",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/"
-  },
-  {
     "id": "ae1b371d45293a6c70e0a5dd03a824d7",
     "vendor": "沐曦",
-    "title": "沐曦股份曦云 C 系列GPU率先 Day 0 适配美团新一代万亿参数大模型 LongCat-2.0 2026-07-06",
+    "title": "沐曦股份曦云 C 系列GPU率先 Day 0 适配美团新一代万亿参数大模型 LongCat-2.0 2026-07-06 7月6日，美团宣布正式开源新一代万亿参数大模型 LongCat-2.0。LongCat-2.0从零开始预训练，原生支持 1M 超长上下文，旨在让模型在真实的 Agentic Coding 任务中，更高效、更稳定地完成代码理解、生成与执行。依托“自研GPU硬件+MXMACA全栈软件”的软硬一体技术优势，沐曦股份率先完成曦云 C 系列 GPU对LongCat-2.0 Day 0 深度适配。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12624.html",
     "date": "2026-07-06",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦GPU Day 0适配美团万亿大模型，推动国产AI软硬协同落地。",
     "link": "https://www.metax-tech.com/ndetail/12624.html"
   },
   {
@@ -238,18 +190,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/otr0bf5evzdwwivrjt6h3322/"
-  },
-  {
-    "id": "643a49fe003f580697ce2eeabcb8b800",
-    "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU Day 0 适配 MiniMax M3，国产算力支撑前沿Coding与Agentic能力 2026-06-12 6月12日，MiniMax正式开源新一代原生多模态旗舰模型M3。沐曦股份曦云C系列GPU凭借全栈自研的软硬一体技术优势，完成对M3的Day 0深度适配，成为率先支持该模型的国产算力平台，持续领跑国产GPU极速适配赛道。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12618.html",
-    "date": "2026-06-12",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12618.html"
   },
   {
     "id": "0f1725b5f465c13ba54b2b8cf0b1bfbc",
