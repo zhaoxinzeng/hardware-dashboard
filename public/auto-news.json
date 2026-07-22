@@ -1,5 +1,29 @@
 [
   {
+    "id": "e6be44c4be041be7fd772a4295ecfcbd",
+    "vendor": "NVIDIA Developer News",
+    "title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
+    "url": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/",
+    "date": "2026-07-21",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "英伟达Rubin GPU架构，为Agentic AI优化大模型推理与部署，提升效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/"
+  },
+  {
+    "id": "464b02d741dc08500a9f0cc4dd9b2ba5",
+    "vendor": "NVIDIA Developer News",
+    "title": "NVIDIA Vera CPU: Olympus Cores Built for Maximum Single-Thread Performance in Agentic AI",
+    "url": "https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai/",
+    "date": "2026-07-21",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA Vera CPU及Olympus核心专为Agentic AI设计，优化LLM任务CPU性能，深化GPU-CPU协同，提升AI部署效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai/"
+  },
+  {
     "id": "fcca25942498a75f29d6d2e457c93175",
     "vendor": "壁仞科技",
     "title": "Day0适配｜壁仞科技高效支持智谱旗舰模型GLM-5.2",
@@ -8,20 +32,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU通过vLLM优化智谱GLM-5.2模型推理，提供高效部署方案。",
+    "summary": "壁仞科技GPU适配智谱GLM-5.2，优化长程任务推理性能与部署。",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
-  },
-  {
-    "id": "f4f55322209ff220f420d3a422eea65d",
-    "vendor": "NVIDIA Developer News",
-    "title": "Building Faster Cryptography with Carryless Multiplication in NVIDIA CUDA 13.3 ",
-    "url": "https://developer.nvidia.com/blog/building-faster-cryptography-with-carryless-multiplication-in-nvidia-cuda-13-3/",
-    "date": "2026-07-15",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "CUDA 13.3为NVIDIA GPU引入无进位乘法硬件加速，显著提升加密和零知识证明性能。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/building-faster-cryptography-with-carryless-multiplication-in-nvidia-cuda-13-3/"
   },
   {
     "id": "ec381c2ce49c390bda14e7dc67b259d5",
@@ -31,7 +43,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "利用PyTorch剖析并优化GPU上大模型的注意力机制性能。",
+    "summary": "PyTorch剖析GPU上Transformer注意力以优化性能",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/torch-attention-profile"
   },
@@ -43,7 +55,7 @@
     "date": "2026-07-08",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "vLLM集成Transformers模型后端，加速大模型推理部署",
+    "summary": "Transformers模型与vLLM深度集成，优化LLM推理性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend"
   },
@@ -56,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU深度适配美团大模型，软硬协同促国产AI算力。",
+    "summary": "沐曦GPU适配美团万亿参数大模型，赋能国产AI算力生态。",
     "link": "https://www.metax-tech.com/ndetail/12624.html"
   },
   {
@@ -68,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU实现腾讯混元Hy3大模型零代码部署及国产生态协同。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12625.html"
   },
   {
