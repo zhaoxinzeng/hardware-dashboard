@@ -1,17 +1,5 @@
 [
   {
-    "id": "2915ae7c196d7e628b962e027767031a",
-    "vendor": "NVIDIA Developer News",
-    "title": "Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit",
-    "url": "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/",
-    "date": "2026-07-23",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA OptiX工具包增强GPU光线追踪调试与优化，提升硬件应用部署效率。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/"
-  },
-  {
     "id": "e6be44c4be041be7fd772a4295ecfcbd",
     "vendor": "NVIDIA Developer News",
     "title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
@@ -19,7 +7,7 @@
     "date": "2026-07-21",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA Rubin GPU架构，大幅优化大模型Agentic AI推理性能。",
+    "summary": "NVIDIA Rubin GPU专为Agentic AI推理优化，提升效率与规模。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/"
   },
@@ -31,7 +19,7 @@
     "date": "2026-07-21",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA新CPU为Agentic AI优化，提升AI工厂执行效率。",
+    "summary": "NVIDIA CPU为Agentic AI设计，优化大模型推理与多任务执行。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai/"
   },
@@ -44,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦发布全栈国产GPU智算方案，覆盖超节点硬件、MXMACA软件栈及生态，赋能大模型训练推理与科学计算。",
+    "summary": "交付面向大模型与科学计算的全栈国产算力解决方案。",
     "link": "https://www.metax-tech.com/ndetail/12629.html"
   },
   {
@@ -56,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技硬件支持大模型快速适配与高效推理。",
+    "summary": "壁仞科技硬件高效适配主流大模型推理部署。",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -67,7 +55,7 @@
     "date": "2026-07-10",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "PyTorch在A100 GPU上优化Transformer注意力机制的性能分析。",
+    "summary": "PyTorch下利用Profiler优化GPU上Transformer注意力的性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/torch-attention-profile"
   },
