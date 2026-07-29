@@ -1,27 +1,39 @@
 [
   {
-    "id": "e6be44c4be041be7fd772a4295ecfcbd",
-    "vendor": "NVIDIA Developer News",
-    "title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
-    "url": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/",
-    "date": "2026-07-21",
+    "id": "9a40059e627f1169d8db746ec751a290",
+    "vendor": "Hugging Face Blog",
+    "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+    "date": "2026-07-28",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA Rubin GPU专为Agentic AI推理优化，提升效率与规模。",
+    "summary": "LLM在CPU上进行长上下文推理的优化模型与框架。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/"
+    "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders"
   },
   {
-    "id": "464b02d741dc08500a9f0cc4dd9b2ba5",
+    "id": "4d531ade00a7cdd8dc13b65a0d3451ad",
     "vendor": "NVIDIA Developer News",
-    "title": "NVIDIA Vera CPU: Olympus Cores Built for Maximum Single-Thread Performance in Agentic AI",
-    "url": "https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai/",
-    "date": "2026-07-21",
+    "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
+    "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
+    "date": "2026-07-28",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA CPU为Agentic AI设计，优化大模型推理与多任务执行。",
+    "summary": "GPU原生仿真加速医疗机器人RL训练，解决数据稀缺与泛化挑战，助力安全高效AI部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai/"
+    "link": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/"
+  },
+  {
+    "id": "2915ae7c196d7e628b962e027767031a",
+    "vendor": "NVIDIA Developer News",
+    "title": "Debugging Ray Tracing Applications Using NVIDIA OptiX Toolkit",
+    "url": "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/",
+    "date": "2026-07-23",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA OptiX Toolkit强化GPU应用调试，优化特定硬件性能部署。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit/"
   },
   {
     "id": "060060a216c36c46d9f4e6950699c6d4",
@@ -32,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "交付面向大模型与科学计算的全栈国产算力解决方案。",
+    "summary": "发布专为大模型优化GPU硬件与软件栈，深化AI框架适配及开源生态合作，提升训推效能。",
     "link": "https://www.metax-tech.com/ndetail/12629.html"
   },
   {
@@ -44,20 +56,20 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技硬件高效适配主流大模型推理部署。",
+    "summary": "壁仞科技通过硬件/软件栈适配优化，实现智谱GLM-5.2等大模型在国产硬件上的Day0高效推理部署，加速AI落地。",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
-    "id": "ec381c2ce49c390bda14e7dc67b259d5",
-    "vendor": "Hugging Face Blog",
-    "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-    "url": "https://huggingface.co/blog/torch-attention-profile",
-    "date": "2026-07-10",
-    "sourceType": "RSS",
+    "id": "523f354ebc288d37c0994ea0c8c91551",
+    "vendor": "沐曦",
+    "title": "WAIC 2026倒计时！来沐曦股份开源专区打卡十大社区，赢限定周边！ 2026-07-11 在这场全球AI盛会中，沐曦股份将在世博展览馆H2-B401展位设立开源专区，届时将携手十大开源社区及单位，共同呈现AI Infra开放协作链路。从芯片算力到操作系统，从推理引擎到云原生调度——每一个Token的生成，都经过了一条漫长的AI Infra软件栈。而这条链路上的每一环，都是通过开源协作的方式共同定义、迭代和优化。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12628.html",
+    "date": "2026-07-11",
+    "sourceType": "HTML",
     "isManual": false,
-    "summary": "PyTorch下利用Profiler优化GPU上Transformer注意力的性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/torch-attention-profile"
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12628.html"
   },
   {
     "id": "424685a7693d366394098a0a4e609547",
@@ -68,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "校企共育国产GPU大模型/AI应用开发人才，强化生态。",
     "link": "https://www.metax-tech.com/ndetail/12626.html"
   },
   {
@@ -80,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦GPU Day 0适配美团万亿大模型LongCat-2.0",
     "link": "https://www.metax-tech.com/ndetail/12624.html"
   },
   {
@@ -108,42 +120,6 @@
     "link": "https://www.metax-tech.com/ndetail/12622.html"
   },
   {
-    "id": "abae6a08a1e57f0fe7b7886ebb7027f9",
-    "vendor": "沐曦",
-    "title": "低碳算力获认可 | 沐曦股份液冷智算项目入选 “2026 年企业数字化绿色化协同转型发展案例” 2026-06-18 近日，由全国工商联、海南省政府共同主办的 2026 全国民营企业绿色发展大会在海南海口隆重举行。本次会上揭晓了“2026年度数字化绿色化协同转型发展案例”名单，沐曦股份凭借长沙生态创新中心液冷智算底座建设项目的扎实成果，成为行业唯一入选单位。全国政协副主席、全国工商联主席高云龙，海南省委书记冯飞，海南省政协主席李荣灿等领导嘉宾齐聚现场共同揭晓本届名单。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12619.html",
-    "date": "2026-06-18",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12619.html"
-  },
-  {
-    "id": "ce602b9c455ab74380ff25b4ce993e97",
-    "vendor": "沐曦",
-    "title": "沐曦股份 × 魔搭社区｜开源实战挑战赛第一期圆满收官 2026-06-18 2026年4月30日至5月31日，沐曦股份携手魔搭社区（ModelScope）共同发起的「开源实战挑战赛」第一期圆满收官。围绕沐曦MXMACA自研软件栈计算生态与Swift框架，本次活动吸引了超百名开发者报名参与，累计消耗GPU算力时长超3,000小时——这一数字不仅印证了参赛者对国产算力平台的高度投入，更充分彰显了沐曦MXMACA澎湃而稳定的算力供给能力，为每一位开发者提供了从零到一、反复试炼的坚实底座。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12620.html",
-    "date": "2026-06-18",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12620.html"
-  },
-  {
-    "id": "0484e8ad2132fb52c156091b1cc044c4",
-    "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU Day 0 适配智谱GLM-5.2旗舰模型 2026-06-17 6月17日，智谱AI全新旗舰大模型GLM-5.2正式开源发布。沐曦股份曦云C系列GPU率先完成该模型Day 0适配，再度凭借全栈自主软硬件技术实力，领跑国产GPU生态适配赛道。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12616.html",
-    "date": "2026-06-17",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12616.html"
-  },
-  {
     "id": "949809568138ce08e286a385cafde89a",
     "vendor": "壁仞科技",
     "title": "Day0适配丨壁仞科技率先支持MiniMax M3大模型",
@@ -152,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技成功将MiniMax M3大模型深度适配至其国产GPU，优化推理性能，强化了国芯国模的生态协同和部署能力。",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
@@ -164,7 +140,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞GPU高效适配阶跃大模型，优化推理部署，赋能国产AI生态。",
     "link": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/"
   },
   {
@@ -176,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯Day 0适配智谱GLM-5大模型，实现自研芯片高效推理。",
     "link": "https://www.kunlunxin.com/news/5002.html"
   },
   {
@@ -188,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯快速适配优化MiniMax大模型，提升国产AI算力性能与部署效率。",
     "link": "https://www.kunlunxin.com/news/5021.html"
   },
   {
@@ -200,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯GPU极速适配商汤大模型，优化推理部署，提升国产算力生态效能。",
     "link": "https://www.kunlunxin.com/news/5025.html"
   },
   {
@@ -212,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯适配小米大模型，助力国产算力高效部署。",
     "link": "https://www.kunlunxin.com/news/5024.html"
   },
   {
