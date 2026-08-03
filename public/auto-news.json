@@ -7,7 +7,7 @@
     "date": "2026-07-30",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "提升GPU利用率，优化AI模型训练与推理部署效率和成本。",
+    "summary": "提升企业AI GPU利用率，降本增效。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/Dharma-AI/gpu-management"
   },
@@ -19,7 +19,7 @@
     "date": "2026-07-30",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "赋能Python用户在NVIDIA GPU上高效运行AI/科学计算。",
+    "summary": "nvmath-python整合NVIDIA GPU/CUDA-X，赋能Python，加速AI模型训练推理和稀疏计算。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/"
   },
@@ -31,7 +31,7 @@
     "date": "2026-07-28",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "模型优化与CPU推理，低成本长文本NLP应用",
+    "summary": "专注于CPU长上下文推理的编码器模型，优化成本和性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders"
   },
@@ -43,7 +43,7 @@
     "date": "2026-07-28",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "利用GPU仿真加速医疗机器人深度学习训练，提升泛化与安全。",
+    "summary": "GPU原生仿真加速医疗机器人深度学习训练。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/"
   },
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU随卫星入轨验证，赋能AI模型太空部署，共建空天算力生态。",
+    "summary": "沐曦GPU随卫星入轨，验证国产AI算力太空部署。",
     "link": "https://www.metax-tech.com/ndetail/12630.html"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "发布自研大模型GPU及AI4S芯片，适配主流框架，共建开源生态",
+    "summary": "沐曦股份发布超节点与科学智能GPU，实现大模型训练推理及AI4S国产算力软硬协同优化。",
     "link": "https://www.metax-tech.com/ndetail/12629.html"
   },
   {
