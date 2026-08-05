@@ -1,5 +1,77 @@
 [
   {
+    "id": "7ad49f079899264c247f73603744fbdf",
+    "vendor": "NVIDIA Developer News",
+    "title": "How to Run Isolated Tenant Kubernetes Clusters on Shared GPU Infrastructure",
+    "url": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/",
+    "date": "2026-08-03",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "实现共享GPU基础设施多租户隔离，优化AI/ML训练部署效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/"
+  },
+  {
+    "id": "a887e828998c12d0d04e468b29f2a5f6",
+    "vendor": "壁仞科技",
+    "title": "Day0适配丨壁仞科技完成MiniMax H3大模型推理验证",
+    "url": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/",
+    "date": "2026-08-03",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU完成MiniMax大模型Day0推理适配优化。",
+    "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
+  },
+  {
+    "id": "626c357b2400e40c645474d51cdcd784",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技智领WAIC 2026：打造算力基础设施新范式，荣获SAIL之星",
+    "url": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/",
+    "date": "2026-08-03",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "国产GPU联合光互连技术构建千卡集群，显著提升大模型训练推理性能。",
+    "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
+  },
+  {
+    "id": "fcca25942498a75f29d6d2e457c93175",
+    "vendor": "壁仞科技",
+    "title": "Day0适配｜壁仞科技高效支持智谱旗舰模型GLM-5.2",
+    "url": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/",
+    "date": "2026-08-03",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "大模型GLM-5.2在壁仞科技GPU上实现Day0适配与vLLM优化部署",
+    "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
+  },
+  {
+    "id": "949809568138ce08e286a385cafde89a",
+    "vendor": "壁仞科技",
+    "title": "Day0适配丨壁仞科技率先支持MiniMax M3大模型",
+    "url": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/",
+    "date": "2026-08-03",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技GPU平台及软件栈，Day0适配MiniMax M3大模型，加速国产LLM在自研硬件上的高效推理部署与生态建设。",
+    "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
+  },
+  {
+    "id": "ec13adf55acfbb399316071361b1cb27",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU Day 0 适配多模态生成模型 MiniMax H3 2026-08-03",
+    "url": "https://www.metax-tech.com/ndetail/12632.html",
+    "date": "2026-08-03",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦GPU适配MiniMax多模态大模型，强化国产AI生态。",
+    "link": "https://www.metax-tech.com/ndetail/12632.html"
+  },
+  {
     "id": "bac0f01a5321efbc27a3bb66c8ed58c7",
     "vendor": "Hugging Face Blog",
     "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
@@ -7,7 +79,7 @@
     "date": "2026-07-30",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "提升企业AI GPU利用率，降本增效。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/Dharma-AI/gpu-management"
   },
@@ -19,44 +91,20 @@
     "date": "2026-07-30",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "nvmath-python整合NVIDIA GPU/CUDA-X，赋能Python，加速AI模型训练推理和稀疏计算。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/"
   },
   {
-    "id": "9a40059e627f1169d8db746ec751a290",
-    "vendor": "Hugging Face Blog",
-    "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-    "date": "2026-07-28",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "专注于CPU长上下文推理的编码器模型，优化成本和性能。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders"
-  },
-  {
-    "id": "4d531ade00a7cdd8dc13b65a0d3451ad",
-    "vendor": "NVIDIA Developer News",
-    "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
-    "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
-    "date": "2026-07-28",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "GPU原生仿真加速医疗机器人深度学习训练。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/"
-  },
-  {
     "id": "03256b86b48239d6be7538bd26930eb2",
     "vendor": "沐曦",
-    "title": "沐曦股份太空算力落子！“云尖沐曦号”卫星成功发射入轨 2026-07-25",
+    "title": "沐曦股份太空算力落子！“云尖沐曦号”卫星成功发射入轨 2026-07-25 7月24日7时33分，“力箭一号” 遥十五运载火箭在东风商业航天创新试验区成功将智能计算卫星“云尖沐曦号”（“吉天星A-04星”）发射入轨。“云尖沐曦号”卫星是由之江实验室联合沐曦股份、云尖信息、巡天千河、浙大城市学院等合作单位共同研制的智能计算卫星，该卫星实现了从设计制造到卫星运行、管控的全链路智能。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12630.html",
     "date": "2026-07-25",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU随卫星入轨，验证国产AI算力太空部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12630.html"
   },
   {
@@ -68,20 +116,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦股份发布超节点与科学智能GPU，实现大模型训练推理及AI4S国产算力软硬协同优化。",
-    "link": "https://www.metax-tech.com/ndetail/12629.html"
-  },
-  {
-    "id": "fcca25942498a75f29d6d2e457c93175",
-    "vendor": "壁仞科技",
-    "title": "Day0适配｜壁仞科技高效支持智谱旗舰模型GLM-5.2",
-    "url": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/",
-    "date": "2026-07-16",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
+    "link": "https://www.metax-tech.com/ndetail/12629.html"
   },
   {
     "id": "523f354ebc288d37c0994ea0c8c91551",
@@ -142,30 +178,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12622.html"
-  },
-  {
-    "id": "949809568138ce08e286a385cafde89a",
-    "vendor": "壁仞科技",
-    "title": "Day0适配丨壁仞科技率先支持MiniMax M3大模型",
-    "url": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/",
-    "date": "2026-06-16",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
-  },
-  {
-    "id": "ac4e7d830b1a41257106281818227897",
-    "vendor": "壁仞科技",
-    "title": "Day0适配丨壁仞科技高效完成阶跃星辰Step 3.7 Flash推理验证",
-    "url": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/",
-    "date": "2026-06-16",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/roeqvfafgszbovkuzppuugn7/"
   },
   {
     "id": "0f1725b5f465c13ba54b2b8cf0b1bfbc",
