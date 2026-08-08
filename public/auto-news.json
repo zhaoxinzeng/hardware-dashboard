@@ -7,7 +7,7 @@
     "date": "2026-08-03",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "实现共享GPU基础设施多租户隔离，优化AI/ML训练部署效率。",
+    "summary": "优化共享GPU集群多租户隔离部署，提升AI资源利用率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/"
   },
@@ -20,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU完成MiniMax大模型Day0推理适配优化。",
+    "summary": "壁仞GPU完成MiniMax H3大模型Day0推理适配与优化。",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU联合光互连技术构建千卡集群，显著提升大模型训练推理性能。",
+    "summary": "壁仞科技联合伙伴，通过光互连千卡集群与GPU+RDMA等技术，显著提升大模型训练与推理性能，构建国产AI算力生态。",
     "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
   },
   {
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "大模型GLM-5.2在壁仞科技GPU上实现Day0适配与vLLM优化部署",
+    "summary": "壁仞科技GPU Day0适配智谱GLM-5.2，优化推理部署，加速大模型生态落地。",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -56,19 +56,19 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU平台及软件栈，Day0适配MiniMax M3大模型，加速国产LLM在自研硬件上的高效推理部署与生态建设。",
+    "summary": "壁仞科技GPU Day0适配MiniMax M3大模型，优化推理部署。",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
     "id": "ec13adf55acfbb399316071361b1cb27",
     "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU Day 0 适配多模态生成模型 MiniMax H3 2026-08-03",
+    "title": "沐曦股份曦云C系列GPU Day 0 适配多模态生成模型 MiniMax H3 2026-08-03 8月3日，MiniMax宣布开源新一代多模态生成模型MiniMax H3。沐曦股份曦云C系列GPU率先完成对该模型的Day 0适配。依托沐曦股份全栈自研 MXMACA 软件栈，实现快速部署MiniMax H3，调用 MiniMax H3 强大的多模态创作能力。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12632.html",
     "date": "2026-08-03",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配MiniMax多模态大模型，强化国产AI生态。",
+    "summary": "沐曦GPU通过软件栈赋能，加速适配部署MiniMax H3等国产大模型。",
     "link": "https://www.metax-tech.com/ndetail/12632.html"
   },
   {
@@ -94,6 +94,18 @@
     "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/"
+  },
+  {
+    "id": "ba48c3d686ce9970813c8b158507234e",
+    "vendor": "沐曦",
+    "title": "沐曦股份携手上海AI实验室，共启KernelSwift算子创新大赛 2026-07-30 2026世界人工智能大会（WAIC）浦江生态论坛上，KernelSwift算子创新大赛正式启动。作为核心合作伙伴，沐曦股份携手上海人工智能实验室，基于DeepLink团队推出的KernelSwift深度共创，重点支持Triton算子优化、Clike算子优化两大赛道，聚焦国产芯片环境下的算子开发与性能优化，与开发者共同探索算子生成、迁移与优化的新路径。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12631.html",
+    "date": "2026-07-30",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12631.html"
   },
   {
     "id": "03256b86b48239d6be7538bd26930eb2",
@@ -166,18 +178,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12625.html"
-  },
-  {
-    "id": "0bc45aa2c7e2c4ab060f070eb10f3d6a",
-    "vendor": "沐曦",
-    "title": "沐曦股份重磅发布！青年开源专项基金种子计划来了！ 2026-06-26 人工智能浪潮奔涌向前，开源正是驱动AI技术创新与生态共建的核心引擎。作为国产AI算力的代表力量，沐曦股份联合CCF开源发展技术委员会、木兰开源社区、启悟学习社区与AI Infra开源社区，携手中国光华科技基金会青年开源基金，正式启动“青年开源专项基金种子计划”。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12622.html",
-    "date": "2026-06-26",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12622.html"
   },
   {
     "id": "0f1725b5f465c13ba54b2b8cf0b1bfbc",
