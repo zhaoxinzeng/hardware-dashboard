@@ -1,5 +1,17 @@
 [
   {
+    "id": "9b95e46637308a3d181c6804d0a88b55",
+    "vendor": "沐曦",
+    "title": "盛夏有约，共话“芯”途 | 上海科技大学电子信息学院师生走进沐曦股份 2026-08-05 近日，上海科技大学电子信息学院30名师生走进沐曦股份，开展暑期产业实践参访。从展厅里的芯片溯源，到软硬件技术大咖的深度分享，此次活动为同学们打开了一扇触摸国产GPU产业脉搏的窗口。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12634.html",
+    "date": "2026-08-05",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦GPU聚焦大模型挑战，培养软硬件适配优化人才。",
+    "link": "https://www.metax-tech.com/ndetail/12634.html"
+  },
+  {
     "id": "7ad49f079899264c247f73603744fbdf",
     "vendor": "NVIDIA Developer News",
     "title": "How to Run Isolated Tenant Kubernetes Clusters on Shared GPU Infrastructure",
@@ -7,7 +19,7 @@
     "date": "2026-08-03",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化共享GPU集群多租户隔离部署，提升AI资源利用率。",
+    "summary": "优化Kubernetes集群GPU资源共享，为多团队提供隔离与配额管理，提升LLM/深度学习部署效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/"
   },
@@ -20,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU完成MiniMax H3大模型Day0推理适配与优化。",
+    "summary": "壁仞GPU高效适配MiniMax多模态大模型推理。",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -32,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技联合伙伴，通过光互连千卡集群与GPU+RDMA等技术，显著提升大模型训练与推理性能，构建国产AI算力生态。",
+    "summary": "壁仞科技联合伙伴打造国产千卡AI算力基座，优化大模型训练部署。",
     "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
   },
   {
@@ -44,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU Day0适配智谱GLM-5.2，优化推理部署，加速大模型生态落地。",
+    "summary": "壁仞科技在国产硬件上高效适配智谱GLM-5.2大模型，实现推理部署与深度优化。",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -56,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU Day0适配MiniMax M3大模型，优化推理部署。",
+    "summary": "壁仞科技Day0适配MiniMax M3大模型，强化国产软硬协同生态。",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
@@ -68,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU通过软件栈赋能，加速适配部署MiniMax H3等国产大模型。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12632.html"
   },
   {
@@ -154,30 +166,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12626.html"
-  },
-  {
-    "id": "ae1b371d45293a6c70e0a5dd03a824d7",
-    "vendor": "沐曦",
-    "title": "沐曦股份曦云 C 系列GPU率先 Day 0 适配美团新一代万亿参数大模型 LongCat-2.0 2026-07-06 7月6日，美团宣布正式开源新一代万亿参数大模型 LongCat-2.0。LongCat-2.0从零开始预训练，原生支持 1M 超长上下文，旨在让模型在真实的 Agentic Coding 任务中，更高效、更稳定地完成代码理解、生成与执行。依托“自研GPU硬件+MXMACA全栈软件”的软硬一体技术优势，沐曦股份率先完成曦云 C 系列 GPU对LongCat-2.0 Day 0 深度适配。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12624.html",
-    "date": "2026-07-06",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12624.html"
-  },
-  {
-    "id": "aa51b58bbd456a182c2fde943e738179",
-    "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU率先实现腾讯混元混合专家模型 Hy3 Day 0适配 2026-07-06 7月6日，腾讯混元研发的快慢思考融合的混合专家模型 Hy3 正式发布并开源，沐曦股份曦云 C 系列 GPU 率先完成Day 0 全链路适配。依托沐曦股份全栈自研 MXMACA 软件栈，企业可实现零代码快速部署，一站式解锁 Hy3 代码、智能体、超长文档全场景业务能力。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12625.html",
-    "date": "2026-07-06",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12625.html"
   },
   {
     "id": "0f1725b5f465c13ba54b2b8cf0b1bfbc",
