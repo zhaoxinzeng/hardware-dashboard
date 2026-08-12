@@ -8,7 +8,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU聚焦大模型挑战，培养软硬件适配优化人才。",
+    "summary": "沐曦聚焦大模型显存/通信挑战，提升国产GPU适配优化。",
     "link": "https://www.metax-tech.com/ndetail/12634.html"
   },
   {
@@ -19,7 +19,7 @@
     "date": "2026-08-03",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化Kubernetes集群GPU资源共享，为多团队提供隔离与配额管理，提升LLM/深度学习部署效率。",
+    "summary": "为AI/ML提供基于Kubernetes的共享GPU多租户隔离方案，优化硬件资源利用与部署效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/"
   },
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU高效适配MiniMax多模态大模型推理。",
+    "summary": "壁仞科技适配MiniMax H3大模型国产GPU Day0高效推理",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技联合伙伴打造国产千卡AI算力基座，优化大模型训练部署。",
+    "summary": "国产GPU光互连千卡集群提升大模型训练性能。",
     "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
   },
   {
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技在国产硬件上高效适配智谱GLM-5.2大模型，实现推理部署与深度优化。",
+    "summary": "壁仞科技硬件支持智谱GLM-5.2大模型高效部署与推理优化。",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技Day0适配MiniMax M3大模型，强化国产软硬协同生态。",
+    "summary": "壁仞硬件平台适配优化MiniMax M3大模型，推动国产AI。",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
@@ -91,21 +91,9 @@
     "date": "2026-07-30",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "提升企业AI GPU利用率，实现降本增效。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/Dharma-AI/gpu-management"
-  },
-  {
-    "id": "94ed35b245ed5e66d1bdbbee095ec8ca",
-    "vendor": "NVIDIA Developer News",
-    "title": "Run High-Performance Core Math at Scale with NVIDIA nvmath-python",
-    "url": "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/",
-    "date": "2026-07-30",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/"
   },
   {
     "id": "ba48c3d686ce9970813c8b158507234e",
