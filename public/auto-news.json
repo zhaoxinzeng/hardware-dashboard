@@ -1,15 +1,51 @@
 [
   {
-    "id": "9c4c0b03d20caa6ec2f6c6af47435e07",
+    "id": "19427c147e0c6c88ea7b6273b1406c81",
     "vendor": "NVIDIA Developer News",
-    "title": "Run Massive-Scale UMAP in Minutes Using Multiple GPUs—Without Losing Accuracy",
-    "url": "https://developer.nvidia.com/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/",
-    "date": "2026-08-18",
+    "title": "GPU-Accelerated Clustering for Financial Instruments at Scale",
+    "url": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/",
+    "date": "2026-08-21",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA cuML/cuVS多GPU加速UMAP，实现大规模数据降维训练优化。",
+    "summary": "GPU加速金融工具规模化聚类分析",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/"
+    "link": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/"
+  },
+  {
+    "id": "167366b912b6f22284cc82e686b2aa9b",
+    "vendor": "NVIDIA Developer News",
+    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
+    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
+    "date": "2026-08-21",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA软硬协同优化AI工厂GPU功耗与推理性能。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/"
+  },
+  {
+    "id": "bb8c64378b2edbf1b155e6b8e901460a",
+    "vendor": "壁仞科技",
+    "title": "聚力开发者云资源！壁仞科技联合中国联通浙江分公司、中兴通讯、优云科技共筑普惠算力底座",
+    "url": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/",
+    "date": "2026-08-20",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU云赋能大模型训推，优化软硬件适配，共建国产AI生态。",
+    "link": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/"
+  },
+  {
+    "id": "a887e828998c12d0d04e468b29f2a5f6",
+    "vendor": "壁仞科技",
+    "title": "Day0适配丨壁仞科技完成MiniMax H3大模型推理验证",
+    "url": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/",
+    "date": "2026-08-20",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU适配MiniMax大模型，优化推理部署，强化国产AI生态。",
+    "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
     "id": "ad46073f6b944c92cb601ff80734e66b",
@@ -20,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯快速适配大模型，赋能国产算力与模型生态共生。",
     "link": "https://www.kunlunxin.com/news/5155.html"
   },
   {
@@ -32,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯高效适配智谱大模型，加速国产AI部署与生态协同。",
     "link": "https://www.kunlunxin.com/news/5168.html"
   },
   {
@@ -44,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯为MiniMax M3大模型提供高效适配与优化，夯实国产AI算力底座，加速AI落地。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5164.html"
   },
   {
@@ -56,19 +92,19 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU适配EDA仿真，赋能AI计算生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12642.html"
   },
   {
     "id": "e13165a9a788aceac861c95a85bea61e",
     "vendor": "沐曦",
-    "title": "Transformer实战营开启报名：21天，带你在沐曦国产GPU上手搓大模型 2026-08-14",
+    "title": "Transformer实战营开启报名：21天，带你在沐曦国产GPU上手搓大模型 2026-08-14 沐曦股份 × AI Infra开源社区 × GitLink开源平台 × DataWhale开源学习社区 × 启悟学习社区 × 魔搭社区联合搞事情！上线一门真正有用、能上手实战的开源好课！ 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12640.html",
     "date": "2026-08-14",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦国产GPU实战大模型训练优化，加速国产算力生态构建。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12640.html"
   },
   {
@@ -80,7 +116,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU携手FlagOS，实现阿里千问大模型Day 0适配与高效推理部署，加速国产算力与大模型生态融合。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12639.html"
   },
   {
@@ -92,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "培养国产GPU算子人才，助力大模型/深度学习硬件适配与优化生态建设。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12637.html"
   },
   {
@@ -104,7 +140,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU通过校企合作，优化大模型算子、构建软件生态，培养AI算力人才。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12636.html"
   },
   {
@@ -116,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU赋能大模型，提供软硬一体私有化AI一体机方案。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12635.html"
   },
   {
@@ -128,20 +164,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦校企合作培养GPU软硬件人才，深化大模型AI训练推理与生态建设。",
-    "link": "https://www.metax-tech.com/ndetail/12634.html"
-  },
-  {
-    "id": "a887e828998c12d0d04e468b29f2a5f6",
-    "vendor": "壁仞科技",
-    "title": "Day0适配丨壁仞科技完成MiniMax H3大模型推理验证",
-    "url": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/",
-    "date": "2026-08-03",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
+    "link": "https://www.metax-tech.com/ndetail/12634.html"
   },
   {
     "id": "626c357b2400e40c645474d51cdcd784",
@@ -164,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "ผน仞科技大模型GLM-5.2在壁砺™166上适配vLLM推理框架，实现高效部署和性能优化，加速国产大模型落地。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -176,20 +200,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU平台快速适配MiniMax M3大模型，优化部署与性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
-  },
-  {
-    "id": "ec13adf55acfbb399316071361b1cb27",
-    "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU Day 0 适配多模态生成模型 MiniMax H3 2026-08-03 8月3日，MiniMax宣布开源新一代多模态生成模型MiniMax H3。沐曦股份曦云C系列GPU率先完成对该模型的Day 0适配。依托沐曦股份全栈自研 MXMACA 软件栈，实现快速部署MiniMax H3，调用 MiniMax H3 强大的多模态创作能力。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12632.html",
-    "date": "2026-08-03",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU Day 0适配MiniMax多模态大模型，加速国产AI部署和生态建设。",
-    "link": "https://www.metax-tech.com/ndetail/12632.html"
   },
   {
     "id": "42ba97334494e6e83f9c45cf2762f67e",
