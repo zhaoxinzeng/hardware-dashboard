@@ -7,7 +7,7 @@
     "date": "2026-08-21",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "GPU加速金融工具规模化聚类分析",
+    "summary": "利用GPU加速金融工具聚类与因子分解，提升量化策略效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/"
   },
@@ -19,7 +19,7 @@
     "date": "2026-08-21",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA软硬协同优化AI工厂GPU功耗与推理性能。",
+    "summary": "NVIDIA通过DSX MaxLPS优化AI工厂能效，提升GPU集群算力输出。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/"
   },
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU云赋能大模型训推，优化软硬件适配，共建国产AI生态。",
+    "summary": "壁仞携国产GPU/BIRENSUPA™栈，赋能大模型全链路训推与生态。",
     "link": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/"
   },
   {
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU适配MiniMax大模型，优化推理部署，强化国产AI生态。",
+    "summary": "壁仞GPU优化MiniMax H3大模型推理部署",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯快速适配大模型，赋能国产算力与模型生态共生。",
+    "summary": "昆仑芯适配MiniMax大模型，赋能国产芯模共生。",
     "link": "https://www.kunlunxin.com/news/5155.html"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯高效适配智谱大模型，加速国产AI部署与生态协同。",
+    "summary": "昆仑芯国产算力高效适配智谱大模型，加速模型落地。",
     "link": "https://www.kunlunxin.com/news/5168.html"
   },
   {
@@ -104,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦国产GPU赋能大模型开发训练，培育国产AI人才生态。",
     "link": "https://www.metax-tech.com/ndetail/12640.html"
   },
   {
@@ -128,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "赋能国产GPU深度学习算子优化与生态构建",
     "link": "https://www.metax-tech.com/ndetail/12637.html"
   },
   {
@@ -200,7 +200,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技国产GPU硬软适配M3大模型，优化推理部署。",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
