@@ -1,5 +1,65 @@
 [
   {
+    "id": "6ad1fb7a7cca52ebe250f4279ed2b7af",
+    "vendor": "Hugging Face Blog",
+    "title": "Granite 4.2 LLMs: How They're Built",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+    "date": "2026-08-25",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "IBM推出新型大模型Granite 4.2，强化推理与工具调用。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/ibm-granite/granite-4-2"
+  },
+  {
+    "id": "a2d2dbb2deed1b82c1f8bf563ef3e360",
+    "vendor": "NVIDIA Developer News",
+    "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
+    "url": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo/",
+    "date": "2026-08-25",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA Dynamo实现LLM推理秒级故障恢复，提升可用性。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo/"
+  },
+  {
+    "id": "f04327ede985211a8b773c4609f18574",
+    "vendor": "NVIDIA Developer News",
+    "title": "CUDA Python 1.0: Stable APIs, One Foundation, Full Platform Access",
+    "url": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/",
+    "date": "2026-08-25",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "CUDA Python 1.0赋能Python开发者直接高效利用NVIDIA GPU，简化深度学习框架适配与优化。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/"
+  },
+  {
+    "id": "167366b912b6f22284cc82e686b2aa9b",
+    "vendor": "NVIDIA Developer News",
+    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
+    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
+    "date": "2026-08-24",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA DSX MaxLPS：软硬优化，提升AI工厂GPU推理能效。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/"
+  },
+  {
+    "id": "e6217614d322312bdf27825eeafecd70",
+    "vendor": "NVIDIA Developer News",
+    "title": "Solving Agentic AI Fleet Challenges with NVIDIA Vera CPU",
+    "url": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu/",
+    "date": "2026-08-24",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA Vera CPU优化智能体AI集群部署与推理效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu/"
+  },
+  {
     "id": "19427c147e0c6c88ea7b6273b1406c81",
     "vendor": "NVIDIA Developer News",
     "title": "GPU-Accelerated Clustering for Financial Instruments at Scale",
@@ -7,21 +67,9 @@
     "date": "2026-08-21",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "利用GPU加速金融工具聚类与因子分解，提升量化策略效率。",
+    "summary": "GPU加速金融算法，实现大规模资产聚类与风险分析。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/"
-  },
-  {
-    "id": "167366b912b6f22284cc82e686b2aa9b",
-    "vendor": "NVIDIA Developer News",
-    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
-    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
-    "date": "2026-08-21",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA通过DSX MaxLPS优化AI工厂能效，提升GPU集群算力输出。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/"
   },
   {
     "id": "bb8c64378b2edbf1b155e6b8e901460a",
@@ -32,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞携国产GPU/BIRENSUPA™栈，赋能大模型全链路训推与生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/"
   },
   {
@@ -44,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU优化MiniMax H3大模型推理部署",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -56,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯适配MiniMax大模型，赋能国产芯模共生。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5155.html"
   },
   {
@@ -68,7 +116,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯国产算力高效适配智谱大模型，加速模型落地。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5168.html"
   },
   {
@@ -104,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦国产GPU赋能大模型开发训练，培育国产AI人才生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12640.html"
   },
   {
@@ -128,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "赋能国产GPU深度学习算子优化与生态构建",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12637.html"
   },
   {
@@ -200,7 +248,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技国产GPU硬软适配M3大模型，优化推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
