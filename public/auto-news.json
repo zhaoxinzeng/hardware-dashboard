@@ -1,5 +1,53 @@
 [
   {
+    "id": "f98461968581c263d619b8e6eae2953b",
+    "vendor": "昆仑芯科技",
+    "title": "GLM-5.3-Flash开源即适配，昆仑芯加速国产算力与大模型生态协同",
+    "url": "https://www.kunlunxin.com/news/5179.html",
+    "date": "2026-08-27",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "昆仑芯NPU快速适配GLM大模型，深化国产软硬生态协同。",
+    "link": "https://www.kunlunxin.com/news/5179.html"
+  },
+  {
+    "id": "e0b554abd9fca66d9cd6f8d9263c1a45",
+    "vendor": "沐曦",
+    "title": "沐曦股份携手众智FlagOS完成Qwen3.8-Flash-Next Day 0适配 2026-08-27",
+    "url": "https://www.metax-tech.com/ndetail/12645.html",
+    "date": "2026-08-27",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "国产GPU适配主流大模型，增强AI算力生态。",
+    "link": "https://www.metax-tech.com/ndetail/12645.html"
+  },
+  {
+    "id": "1a4990909532a4139f475708fe727ff6",
+    "vendor": "昆仑芯科技",
+    "title": "昆仑芯联合蚂蚁密算打造国产GPU机密计算方案，夯实国产AI安全算力底座",
+    "url": "https://www.kunlunxin.com/news/5177.html",
+    "date": "2026-08-26",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "昆仑芯联蚂蚁密算，打造国产GPU大模型机密计算方案，保障AI数据安全。",
+    "link": "https://www.kunlunxin.com/news/5177.html"
+  },
+  {
+    "id": "0a55b07ff38188a6bddebee0f4677014",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU Day 0 适配智谱GLM-5.3-Flash 2026-08-26",
+    "url": "https://www.metax-tech.com/ndetail/12644.html",
+    "date": "2026-08-26",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦GPU Day 0适配智谱大模型，强化国产AI算力底座。",
+    "link": "https://www.metax-tech.com/ndetail/12644.html"
+  },
+  {
     "id": "6ad1fb7a7cca52ebe250f4279ed2b7af",
     "vendor": "Hugging Face Blog",
     "title": "Granite 4.2 LLMs: How They're Built",
@@ -7,7 +55,7 @@
     "date": "2026-08-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "IBM推出新型大模型Granite 4.2，强化推理与工具调用。",
+    "summary": "IBM发布Granite 4.2推理LLM，优化训练，强化工具调用。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/ibm-granite/granite-4-2"
   },
@@ -19,7 +67,7 @@
     "date": "2026-08-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA Dynamo实现LLM推理秒级故障恢复，提升可用性。",
+    "summary": "NVIDIA Dynamo影子引擎实现LLM推理秒级故障恢复，提升服务可靠性。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo/"
   },
@@ -31,7 +79,7 @@
     "date": "2026-08-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "CUDA Python 1.0赋能Python开发者直接高效利用NVIDIA GPU，简化深度学习框架适配与优化。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/"
   },
@@ -43,33 +91,9 @@
     "date": "2026-08-24",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA DSX MaxLPS：软硬优化，提升AI工厂GPU推理能效。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/"
-  },
-  {
-    "id": "e6217614d322312bdf27825eeafecd70",
-    "vendor": "NVIDIA Developer News",
-    "title": "Solving Agentic AI Fleet Challenges with NVIDIA Vera CPU",
-    "url": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu/",
-    "date": "2026-08-24",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA Vera CPU优化智能体AI集群部署与推理效率。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu/"
-  },
-  {
-    "id": "19427c147e0c6c88ea7b6273b1406c81",
-    "vendor": "NVIDIA Developer News",
-    "title": "GPU-Accelerated Clustering for Financial Instruments at Scale",
-    "url": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/",
-    "date": "2026-08-21",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "GPU加速金融算法，实现大规模资产聚类与风险分析。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/gpu-accelerated-clustering-for-financial-instruments-at-scale/"
   },
   {
     "id": "bb8c64378b2edbf1b155e6b8e901460a",
@@ -96,6 +120,18 @@
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
+    "id": "dae67a645922e8c64be475294c74deba",
+    "vendor": "沐曦",
+    "title": "Token经济下的开源答卷: 沐曦股份 CCF 中国开源大会之行圆满收官 2026-08-20 上周刚刚落幕的2026 CCF 中国开源大会上，沐曦股份深度参与多场重磅议程，从承办前沿产业分论坛，到发布青年开源扶持计划，再到国产 GPU 创新赛事成果揭晓，以一条完整的开源主线，完成“技术探索—人才培育—生态落地”的全链路实践，持续为国产 AI 开源生态建设注入“芯”动能。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12643.html",
+    "date": "2026-08-20",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12643.html"
+  },
+  {
     "id": "ad46073f6b944c92cb601ff80734e66b",
     "vendor": "昆仑芯科技",
     "title": "MiniMax H3开源即适配，昆仑芯持续推动“芯模共生”协同发展",
@@ -108,33 +144,9 @@
     "link": "https://www.kunlunxin.com/news/5155.html"
   },
   {
-    "id": "b5538e738d980419c259bba430321bf2",
-    "vendor": "昆仑芯科技",
-    "title": "极速响应，开放协同：昆仑芯高效适配智谱旗舰模型GLM-5.2",
-    "url": "https://www.kunlunxin.com/news/5168.html",
-    "date": "2026-08-17",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.kunlunxin.com/news/5168.html"
-  },
-  {
-    "id": "f602bf33c2f8455fc8eefee3ede2e892",
-    "vendor": "昆仑芯科技",
-    "title": "极速适配，生态共赢：昆仑芯高效支持MiniMax M3模型",
-    "url": "https://www.kunlunxin.com/news/5164.html",
-    "date": "2026-08-17",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.kunlunxin.com/news/5164.html"
-  },
-  {
     "id": "106ecdcc26c657279f328eb3fe132f7b",
     "vendor": "沐曦",
-    "title": "沐曦携手EDA国创中心联合命题，国产GPU加速EDA仿真创新 2026-08-17",
+    "title": "沐曦携手EDA国创中心联合命题，国产GPU加速EDA仿真创新 2026-08-17 近日，2026中国研究生创“芯”大赛·EDA精英挑战赛正式开启报名，面向全国研究生开放。该赛事由教育部学位管理与研究生教育司指导，是国内研究生集成电路领域的重点赛事之一。作为国内高性能通用GPU领军企业，沐曦股份长期重视产学研协同和人才培养，积极投入本届赛事，与国家集成电路设计自动化技术创新中心（以下简称“EDA国创中心”）联合为赛事命题。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12642.html",
     "date": "2026-08-17",
     "sourceType": "HTML",
@@ -202,18 +214,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12635.html"
-  },
-  {
-    "id": "9b95e46637308a3d181c6804d0a88b55",
-    "vendor": "沐曦",
-    "title": "盛夏有约，共话“芯”途 | 上海科技大学电子信息学院师生走进沐曦股份 2026-08-05 近日，上海科技大学电子信息学院30名师生走进沐曦股份，开展暑期产业实践参访。从展厅里的芯片溯源，到软硬件技术大咖的深度分享，此次活动为同学们打开了一扇触摸国产GPU产业脉搏的窗口。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12634.html",
-    "date": "2026-08-05",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12634.html"
   },
   {
     "id": "626c357b2400e40c645474d51cdcd784",
