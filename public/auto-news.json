@@ -1,5 +1,41 @@
 [
   {
+    "id": "c0fa2da8b87bd26790ea65ff4b21dcae",
+    "vendor": "Hugging Face Blog",
+    "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+    "url": "https://huggingface.co/blog/allenai/benchmirt",
+    "date": "2026-09-01",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/allenai/benchmirt"
+  },
+  {
+    "id": "0f146bbd840c1766b301fab4b1bea68d",
+    "vendor": "Hugging Face Blog",
+    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+    "url": "https://huggingface.co/blog/webgpu-kernels",
+    "date": "2026-09-01",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "Hugging Face发布WebGPU内核，优化浏览器AI推理性能与适配。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/webgpu-kernels"
+  },
+  {
+    "id": "a6a527320bc4a0f1bacd90b954e91388",
+    "vendor": "NVIDIA Developer News",
+    "title": "How to Size GPUs for AI Inference and TCO Without Overspending",
+    "url": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/",
+    "date": "2026-09-01",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "优化AI推理GPU选型，降低总拥有成本。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/"
+  },
+  {
     "id": "385b8ae40df8eb63d7056c5dee14cda9",
     "vendor": "沐曦",
     "title": "沐曦股份曦云C系列GPU Day 0适配智谱GLM-5.3 2026-08-28",
@@ -8,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配智谱GLM-5.3大模型，加速国产AI生态部署。",
+    "summary": "该新闻涉及沐曦股份曦云C系列GPU与智谱GLM-5.3大模型的Day 0全链路适配，以及基于沐曦MXMACA软件栈的优化和部署，明确体现了深度学习框架在特定硬件上的适配、训练优化和推理部署。  **核心业务价值总结：** 国产GPU完成智谱大模型Day 0适配，通过软件栈优化实现快速部署，赋能AI应用生态。",
     "link": "https://www.metax-tech.com/ndetail/12646.html"
   },
   {
@@ -20,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU软硬协同，加速腾讯混元大模型高效部署。",
+    "summary": "沐曦GPU硬核适配腾讯混元大模型，实现高效部署和性能优化。",
     "link": "https://www.metax-tech.com/ndetail/12647.html"
   },
   {
@@ -32,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯加速智谱大模型在国产算力上高效适配与部署，促进国芯国模生态协同。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5179.html"
   },
   {
@@ -44,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦与FlagOS合作，实现阿里千问大模型在国产GPU上高效推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12645.html"
   },
   {
@@ -56,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU结合机密计算，为大模型推理部署提供安全算力。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5177.html"
   },
   {
@@ -68,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU Day 0适配智谱大模型，领跑国产算力生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12644.html"
   },
   {
@@ -108,18 +144,6 @@
     "link": "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access/"
   },
   {
-    "id": "167366b912b6f22284cc82e686b2aa9b",
-    "vendor": "NVIDIA Developer News",
-    "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
-    "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
-    "date": "2026-08-24",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/"
-  },
-  {
     "id": "bb8c64378b2edbf1b155e6b8e901460a",
     "vendor": "壁仞科技",
     "title": "聚力开发者云资源！壁仞科技联合中国联通浙江分公司、中兴通讯、优云科技共筑普惠算力底座",
@@ -140,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技使MiniMax H3多模态大模型能在其国产GPU上高效推理与部署，加速前沿AI应用落地，共建国产AI生态。",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -152,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦股份通过开源，打通GPU硬件到大模型推理框架全栈，优化LLM Token产出效率，加速大模型国产算力生态落地。",
     "link": "https://www.metax-tech.com/ndetail/12643.html"
   },
   {
@@ -188,7 +212,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "赋能开发者在国产GPU上进行大模型适配与优化。",
     "link": "https://www.metax-tech.com/ndetail/12640.html"
   },
   {
@@ -200,7 +224,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦GPU携手FlagOS，成功适配阿里Qwen超大模型并完成推理部署。",
     "link": "https://www.metax-tech.com/ndetail/12639.html"
   },
   {
@@ -212,7 +236,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "国产GPU算子开发，赋能大模型深度学习生态",
     "link": "https://www.metax-tech.com/ndetail/12637.html"
   },
   {
@@ -224,7 +248,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技与伙伴共建国产GPU千卡集群，提升大模型训练推理效率，强化硬核生态。",
     "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
   },
   {
@@ -236,7 +260,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技用自研硬件和软件栈，为智谱GLM-5.2大模型提供Day0适配与推理优化，赋能国产大模型生态。",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -248,7 +272,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技深度适配MiniMax M3大模型至国产GPU，优化推理部署性能。",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
