@@ -7,7 +7,7 @@
     "date": "2026-09-02",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化CUDA代码，提升GPU加速计算和AI训练性能。",
+    "summary": "提升CUDA代码优化效率，加速GPU上大模型训练与部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/"
   },
@@ -19,7 +19,7 @@
     "date": "2026-09-02",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "通过推测解码技术，加速大模型推理，提升硬件效率，实现更快速、高精度的LLM部署。",
+    "summary": "用推测解码技术优化LLM推理速度。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/"
   },
@@ -31,7 +31,7 @@
     "date": "2026-09-01",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "LLM基准测试方法创新，精准评估模型深层能力。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/allenai/benchmirt"
   },
@@ -43,7 +43,7 @@
     "date": "2026-09-01",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化WebGPU内核，实现浏览器本地AI推理部署和性能提升。",
+    "summary": "优化WebGPU内核，加速浏览器AI模型本地推理与部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/webgpu-kernels"
   },
@@ -55,7 +55,7 @@
     "date": "2026-09-01",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化AI推理GPU与模型，提升部署性价比。",
+    "summary": "提供AI推理GPU选型与优化策略，降低总拥有成本。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/"
   },
@@ -68,13 +68,13 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU Day 0适配智谱GLM-5.3，加速大模型部署与国产AI生态。",
+    "summary": "沐曦GPU完成智谱GLM-5.3大模型Day 0适配与优化，提升国产算力AI部署效率。",
     "link": "https://www.metax-tech.com/ndetail/12646.html"
   },
   {
     "id": "cee842fb4b696107cbc37506bbb7f67e",
     "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 preview Day 0适配 2026-08-28",
+    "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 preview Day 0适配 2026-08-28 8月28日，腾讯混元正式发布并开源Hy4 preview。沐曦股份曦云 C 系列 GPU率先完成对Hy4 preview的Day 0 适配。通过底层算子优化与软硬件协同加速，Hy4 preview已成功在曦云 C 系列 GPU 平台上实现高吞吐、低延迟的稳定运行，并在复杂任务与长序列场景下保持优异表现。沐曦曦云C系列GPU以“通用易用、稳定可靠”的产品特性，为国产大模型的高效落地再添算力支撑。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12647.html",
     "date": "2026-08-28",
     "sourceType": "HTML",
@@ -92,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯适配GLM-5.3-Flash，加速国产大模型与算力协同。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5179.html"
   },
   {
@@ -104,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配阿里大模型，实现推理部署及生态合作。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12645.html"
   },
   {
@@ -116,7 +116,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯联合蚂蚁密算，构建国产GPU安全AI算力平台。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5177.html"
   },
   {
@@ -128,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU Day 0适配智谱GLM-5.3-Flash，支持LLM在国产硬件高效推理。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12644.html"
   },
   {
@@ -139,7 +139,7 @@
     "date": "2026-08-25",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "IBM发布Granite 4.2推理大模型，优化训练，增强逻辑与工具调用。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/ibm-granite/granite-4-2"
   },
@@ -152,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU与软件栈联合运营商，共筑大模型训推及开发者普惠算力。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/"
   },
   {
@@ -164,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技为其GPU快速适配MiniMax H3大模型，通过软硬协同优化，提供高效国产算力，赋能多模态AI应用部署与生态建设。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -176,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦股份携手开源，赋能国产GPU大模型适配与算力优化。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12643.html"
   },
   {
@@ -188,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "MiniMax H3模型适配昆仑芯AI芯片，推动软硬件深度协同发展。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5155.html"
   },
   {
@@ -200,7 +200,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配EDA仿真，构建国产开源计算生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12642.html"
   },
   {
@@ -260,7 +260,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技NPU高效适配智谱GLM-5.2，优化大模型推理与部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
   },
   {
@@ -272,7 +272,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU高效适配优化MiniMax M3大模型部署",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
