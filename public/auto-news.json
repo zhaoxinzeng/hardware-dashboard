@@ -1,5 +1,125 @@
 [
   {
+    "id": "9be8911b5c1c6ca0e1467eb804cb8e64",
+    "vendor": "NVIDIA Developer News",
+    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+    "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+    "date": "2026-09-08",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "推出Rust版CUDA，直接用Rust编写GPU核函数，降低AI系统层开发难度。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
+  },
+  {
+    "id": "9b8af515d79f38a128d3a056eadeed54",
+    "vendor": "沐曦",
+    "title": "沐曦股份携手密瓜智能率先完成 llm-d 适配，国产 GPU 首次进入CNCF分布式推理生态 2026-09-08",
+    "url": "https://www.metax-tech.com/ndetail/12650.html",
+    "date": "2026-09-08",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12650.html"
+  },
+  {
+    "id": "115ab1332ea33fc2070045265f1abbee",
+    "vendor": "沐曦",
+    "title": "沐曦股份携手FlagOS率先完成面壁智能MiniCPM5-2B端侧模型Day 0适配 2026-09-08",
+    "url": "https://www.metax-tech.com/ndetail/12651.html",
+    "date": "2026-09-08",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12651.html"
+  },
+  {
+    "id": "0854b559559a85502b77435f26a048cd",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技斩获中国专利银奖，自研GPU技术再获国家级认可",
+    "url": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/",
+    "date": "2026-09-07",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "GPU架构创新，提升大模型训练通信效率。",
+    "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
+  },
+  {
+    "id": "e8636a270e9d7034e7d0e5a54100bc8d",
+    "vendor": "壁仞科技",
+    "title": "共探训推融通新路径！壁仞科技 x 龙蜥社区 x PyTorch生态共建MeetUp圆满收官",
+    "url": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/",
+    "date": "2026-09-07",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技开源TorchSUPA，实现PyTorch框架在自有GPU上的深度适配，赋能AI应用。",
+    "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
+  },
+  {
+    "id": "8e7c6d37a0357654618bb3bb7ac4c095",
+    "vendor": "壁仞科技",
+    "title": "DAY0适配 | 壁仞科技完成智谱GLM-5.3-Flash大模型推理验证",
+    "url": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/",
+    "date": "2026-09-07",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU完成智谱GLM大模型Day0适配，实现快速部署。",
+    "link": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/"
+  },
+  {
+    "id": "bb8c64378b2edbf1b155e6b8e901460a",
+    "vendor": "壁仞科技",
+    "title": "聚力开发者云资源！壁仞科技联合中国联通浙江分公司、中兴通讯、优云科技共筑普惠算力底座",
+    "url": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/",
+    "date": "2026-09-07",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞国产GPU云算力支撑大模型训推与生态适配",
+    "link": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/"
+  },
+  {
+    "id": "a887e828998c12d0d04e468b29f2a5f6",
+    "vendor": "壁仞科技",
+    "title": "Day0适配丨壁仞科技完成MiniMax H3大模型推理验证",
+    "url": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/",
+    "date": "2026-09-07",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技GPU适配MiniMax H3大模型，优化推理部署与国产AI生态。",
+    "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
+  },
+  {
+    "id": "626c357b2400e40c645474d51cdcd784",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技智领WAIC 2026：打造算力基础设施新范式，荣获SAIL之星",
+    "url": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/",
+    "date": "2026-09-07",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "国产GPU千卡集群与光互连，优化大模型训练推理效率。",
+    "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
+  },
+  {
+    "id": "5d36b39e723c2c665d5da46a7dd200a2",
+    "vendor": "沐曦",
+    "title": "国产算力赋能 AI 制药 | 沐曦股份与唯信计算完成沐曦算力专区上线 2026-09-07 近日，沐曦股份与唯信计算围绕“AI+生命科学”计算场景开展深度合作，目前已取得阶段性进展：基于唯信WeMol平台，双方已完成沐曦算力专区的部署与上线。OpenDDE、BoltzGen、Boltz-2等AI制药领域模型、GROMACS分子动力学模块及沐曦自研MetaxFEP自由能微扰GPU计算引擎均已集成至WeMol平台并正式运行。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12649.html",
+    "date": "2026-09-07",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "国产GPU算力赋能AI制药，模型与自研引擎在平台部署，深化软硬生态合作。",
+    "link": "https://www.metax-tech.com/ndetail/12649.html"
+  },
+  {
     "id": "ff61b3eafd425b2c2ae85608b4b1c2ed",
     "vendor": "NVIDIA Developer News",
     "title": "The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough",
@@ -7,7 +127,7 @@
     "date": "2026-09-02",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "提升CUDA代码优化效率，加速GPU上大模型训练与部署。",
+    "summary": "优化CUDA代码以提升GPU应用（含AI训练）的性能与效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/"
   },
@@ -19,21 +139,9 @@
     "date": "2026-09-02",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "用推测解码技术优化LLM推理速度。",
+    "summary": "利用推测解码加速LLM推理，提升硬件利用率和交互性。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/"
-  },
-  {
-    "id": "c0fa2da8b87bd26790ea65ff4b21dcae",
-    "vendor": "Hugging Face Blog",
-    "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-    "url": "https://huggingface.co/blog/allenai/benchmirt",
-    "date": "2026-09-01",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "LLM基准测试方法创新，精准评估模型深层能力。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/allenai/benchmirt"
   },
   {
     "id": "0f146bbd840c1766b301fab4b1bea68d",
@@ -43,7 +151,7 @@
     "date": "2026-09-01",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化WebGPU内核，加速浏览器AI模型本地推理与部署。",
+    "summary": "Hugging Face推出WebGPU优化内核与测试平台，赋能浏览器端AI模型高效部署及多硬件性能优化。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/webgpu-kernels"
   },
@@ -55,20 +163,20 @@
     "date": "2026-09-01",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "提供AI推理GPU选型与优化策略，降低总拥有成本。",
+    "summary": "优化AI推理GPU选型与模型部署技术，降低TCO。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/"
   },
   {
     "id": "385b8ae40df8eb63d7056c5dee14cda9",
     "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU Day 0适配智谱GLM-5.3 2026-08-28",
+    "title": "沐曦股份曦云C系列GPU Day 0适配智谱GLM-5.3 2026-08-28 8月28日，智谱正式开源新一代旗舰模型GLM-5.3。沐曦股份曦云C系列GPU完成该模型Day 0全链路适配。依托沐曦MXMACA软件栈，企业可快速部署GLM-5.3，使用其出色的编程能力和网络安全能力。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12646.html",
     "date": "2026-08-28",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU完成智谱GLM-5.3大模型Day 0适配与优化，提升国产算力AI部署效率。",
+    "summary": "沐曦GPU Day 0深度适配智谱GLM-5.3大模型，加速国产算力应用部署。",
     "link": "https://www.metax-tech.com/ndetail/12646.html"
   },
   {
@@ -92,7 +200,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯硬核适配智谱GLM大模型，推动国产算力高效部署与生态协同。",
     "link": "https://www.kunlunxin.com/news/5179.html"
   },
   {
@@ -132,42 +240,6 @@
     "link": "https://www.metax-tech.com/ndetail/12644.html"
   },
   {
-    "id": "6ad1fb7a7cca52ebe250f4279ed2b7af",
-    "vendor": "Hugging Face Blog",
-    "title": "Granite 4.2 LLMs: How They're Built",
-    "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-    "date": "2026-08-25",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/ibm-granite/granite-4-2"
-  },
-  {
-    "id": "bb8c64378b2edbf1b155e6b8e901460a",
-    "vendor": "壁仞科技",
-    "title": "聚力开发者云资源！壁仞科技联合中国联通浙江分公司、中兴通讯、优云科技共筑普惠算力底座",
-    "url": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/",
-    "date": "2026-08-20",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/"
-  },
-  {
-    "id": "a887e828998c12d0d04e468b29f2a5f6",
-    "vendor": "壁仞科技",
-    "title": "Day0适配丨壁仞科技完成MiniMax H3大模型推理验证",
-    "url": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/",
-    "date": "2026-08-20",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
-  },
-  {
     "id": "dae67a645922e8c64be475294c74deba",
     "vendor": "沐曦",
     "title": "Token经济下的开源答卷: 沐曦股份 CCF 中国开源大会之行圆满收官 2026-08-20 上周刚刚落幕的2026 CCF 中国开源大会上，沐曦股份深度参与多场重磅议程，从承办前沿产业分论坛，到发布青年开源扶持计划，再到国产 GPU 创新赛事成果揭晓，以一条完整的开源主线，完成“技术探索—人才培育—生态落地”的全链路实践，持续为国产 AI 开源生态建设注入“芯”动能。 查看更多",
@@ -202,78 +274,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12642.html"
-  },
-  {
-    "id": "e13165a9a788aceac861c95a85bea61e",
-    "vendor": "沐曦",
-    "title": "Transformer实战营开启报名：21天，带你在沐曦国产GPU上手搓大模型 2026-08-14 沐曦股份 × AI Infra开源社区 × GitLink开源平台 × DataWhale开源学习社区 × 启悟学习社区 × 魔搭社区联合搞事情！上线一门真正有用、能上手实战的开源好课！ 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12640.html",
-    "date": "2026-08-14",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12640.html"
-  },
-  {
-    "id": "df7ce0abeb88e9c4b2e0f6d38fa4932d",
-    "vendor": "沐曦",
-    "title": "沐曦股份携手众智FlagOS完成 Qwen3.8-2.4T-A95B Day 0 适配 2026-08-13 阿里千问开源超大规模 MoE 模型 Qwen3.8-2.4T-A95B，沐曦股份与众智FlagOS合作，率先完成对该模型的Day 0 适配，实现基于沐曦GPU硬件环境下的推理部署验证。这充分展示出了沐曦股份软硬件协同的兼容优势与生态合作的协同作用。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12639.html",
-    "date": "2026-08-13",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12639.html"
-  },
-  {
-    "id": "c0167ab6dd713f66f3cccc6abd8a80ce",
-    "vendor": "沐曦",
-    "title": "首届开源英才夏令营回顾 | 5天、40人，闯关国产GPU算子开发实战 2026-08-12 8月3日至7日，沐曦股份、上海交通大学、中国光华科技基金会三方联合主办的“首届开源英才夏令营”圆满结营。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12637.html",
-    "date": "2026-08-12",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12637.html"
-  },
-  {
-    "id": "626c357b2400e40c645474d51cdcd784",
-    "vendor": "壁仞科技",
-    "title": "壁仞科技智领WAIC 2026：打造算力基础设施新范式，荣获SAIL之星",
-    "url": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/",
-    "date": "2026-08-03",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
-  },
-  {
-    "id": "fcca25942498a75f29d6d2e457c93175",
-    "vendor": "壁仞科技",
-    "title": "Day0适配｜壁仞科技高效支持智谱旗舰模型GLM-5.2",
-    "url": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/",
-    "date": "2026-08-03",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/cxrfex7rmzwuuhx1oedkdmsq/"
-  },
-  {
-    "id": "949809568138ce08e286a385cafde89a",
-    "vendor": "壁仞科技",
-    "title": "Day0适配丨壁仞科技率先支持MiniMax M3大模型",
-    "url": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/",
-    "date": "2026-08-03",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/aakqcnelbd9vh8violnkcg1l/"
   },
   {
     "id": "42ba97334494e6e83f9c45cf2762f67e",
