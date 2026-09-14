@@ -8,7 +8,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞与上大共研AI芯片，筑牢国产大模型算力基础。",
+    "summary": "壁仞科技与上海大学共建AI芯片实验室，攻关光互连与散热，赋能大模型生态。",
     "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
@@ -19,7 +19,7 @@
     "date": "2026-09-09",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "CUDA扩展支持Windows on Arm与Rubin GPU，强化GPU管理，赋能AI模型部署与优化。",
+    "summary": "CUDA支持多平台新GPU，优化共享GPU训练推理部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/"
   },
@@ -31,7 +31,7 @@
     "date": "2026-09-08",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA CUDA Rust赋能GPU内核原生开发。",
+    "summary": "开发CUDA Rust，允许Rust直接编写GPU内核，提升AI系统层开发效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
   },
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU深度适配LLM分布式推理，加速国产大模型落地",
+    "summary": "沐曦国产GPU适配LLM分布式推理，打通云原生部署，提升国产算力生态竞争力。",
     "link": "https://www.metax-tech.com/ndetail/12650.html"
   },
   {
@@ -56,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPGPU完成面壁智能LLM端侧适配，加速国产AI落地。",
+    "summary": "沐曦硬核适配大模型，强化国产AI软硬生态。",
     "link": "https://www.metax-tech.com/ndetail/12651.html"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "GPU创新专利提升大模型集群训练通信效率。",
+    "summary": "壁仞科技GPU芯片架构创新，通过通算融合提升大模型集群训练与推理效率。",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -92,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU高效适配智谱大模型，加速国产AI推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/"
   },
   {
