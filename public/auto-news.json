@@ -1,5 +1,17 @@
 [
   {
+    "id": "849b6ecd8eab04fa75ac708c95bc8f8b",
+    "vendor": "沐曦",
+    "title": "沐曦股份率先完成上海人工智能实验室 ATRIA Dawn Preview 模型Day 0适配，助推探索人机分工新阶段 2026-09-14",
+    "url": "https://www.metax-tech.com/ndetail/12652.html",
+    "date": "2026-09-14",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦GPU软硬协同，快速适配大模型，支持训推。",
+    "link": "https://www.metax-tech.com/ndetail/12652.html"
+  },
+  {
     "id": "e7f23a960fc0adef48f4f462279787bc",
     "vendor": "壁仞科技",
     "title": "壁仞科技与上海大学共建“集成电路智能芯片联合实验室”",
@@ -8,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技与上海大学共建AI芯片实验室，攻关光互连与散热，赋能大模型生态。",
+    "summary": "提升国产GPU AI芯片技术，支持大模型高效训练部署。",
     "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
@@ -19,21 +31,9 @@
     "date": "2026-09-09",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "CUDA支持多平台新GPU，优化共享GPU训练推理部署。",
+    "summary": "CUDA扩展多平台支持，优化GPU资源管理，加速AI训练推理。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/"
-  },
-  {
-    "id": "9be8911b5c1c6ca0e1467eb804cb8e64",
-    "vendor": "NVIDIA Developer News",
-    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
-    "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-    "date": "2026-09-08",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "开发CUDA Rust，允许Rust直接编写GPU内核，提升AI系统层开发效率。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/"
   },
   {
     "id": "9b8af515d79f38a128d3a056eadeed54",
@@ -44,19 +44,19 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦国产GPU适配LLM分布式推理，打通云原生部署，提升国产算力生态竞争力。",
+    "summary": "沐曦GPU适配llm-d，首次进入CNCF大模型推理生态，赋能国产算力部署与优化。",
     "link": "https://www.metax-tech.com/ndetail/12650.html"
   },
   {
     "id": "115ab1332ea33fc2070045265f1abbee",
     "vendor": "沐曦",
-    "title": "沐曦股份携手FlagOS率先完成面壁智能MiniCPM5-2B端侧模型Day 0适配 2026-09-08",
+    "title": "沐曦股份携手FlagOS率先完成面壁智能MiniCPM5-2B端侧模型Day 0适配 2026-09-08 9月8日，面壁智能正式开源新一代端侧模型“小钢炮”MiniCPM5-2B。沐曦股份联合FlagOS，率先完成了MiniCPM5-2B的Day 0适配与推理验证。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12651.html",
     "date": "2026-09-08",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦硬核适配大模型，强化国产AI软硬生态。",
+    "summary": "沐曦Day 0适配面壁端侧大模型，赋能国产AI算力。",
     "link": "https://www.metax-tech.com/ndetail/12651.html"
   },
   {
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU芯片架构创新，通过通算融合提升大模型集群训练与推理效率。",
+    "summary": "GPU芯片架构创新，优化大模型训练集群通信。",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -144,30 +144,6 @@
     "link": "https://www.metax-tech.com/ndetail/12649.html"
   },
   {
-    "id": "46202396efebc6e9ee0083751d420c90",
-    "vendor": "沐曦",
-    "title": "别只做算子调用者！多范式算子开发实战营报名正式开启 2026-09-04 沐曦股份联合AI Infra开源社区、九源开源社区、GitLink开源平台、DataWhale开源学习社区、启悟学习社区，正式推出「多范式算子开发实战营」。以“建立算子开发本质认知，掌握异构平台适配能力”为核心，带你系统对比九齿、Triton、TileLang多种不同编程范式的算子开发工具，完成从基础算子、复杂算子到性能优化、异构适配的全链路实战，补齐国产算力时代的算子开发能力短板。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12648.html",
-    "date": "2026-09-04",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12648.html"
-  },
-  {
-    "id": "c0fa2da8b87bd26790ea65ff4b21dcae",
-    "vendor": "Hugging Face Blog",
-    "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-    "url": "https://huggingface.co/blog/allenai/benchmirt",
-    "date": "2026-09-01",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/allenai/benchmirt"
-  },
-  {
     "id": "0f146bbd840c1766b301fab4b1bea68d",
     "vendor": "Hugging Face Blog",
     "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
@@ -175,7 +151,7 @@
     "date": "2026-09-01",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "发布WebGPU优化内核与测试平台，加速浏览器本地AI部署及硬件性能优化。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/webgpu-kernels"
   },
@@ -188,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦GPU及软件栈Day 0适配智谱GLM-5.3，赋能大模型快速部署与应用。",
     "link": "https://www.metax-tech.com/ndetail/12646.html"
   },
   {
@@ -200,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦GPU适配腾讯混元大模型，提供国产算力。",
     "link": "https://www.metax-tech.com/ndetail/12647.html"
   },
   {
@@ -212,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯快速适配智谱GLM-5.3-Flash大模型，优化国产AI芯片软硬件协同，加速部署。",
     "link": "https://www.kunlunxin.com/news/5179.html"
   },
   {
@@ -274,18 +250,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5155.html"
-  },
-  {
-    "id": "106ecdcc26c657279f328eb3fe132f7b",
-    "vendor": "沐曦",
-    "title": "沐曦携手EDA国创中心联合命题，国产GPU加速EDA仿真创新 2026-08-17 近日，2026中国研究生创“芯”大赛·EDA精英挑战赛正式开启报名，面向全国研究生开放。该赛事由教育部学位管理与研究生教育司指导，是国内研究生集成电路领域的重点赛事之一。作为国内高性能通用GPU领军企业，沐曦股份长期重视产学研协同和人才培养，积极投入本届赛事，与国家集成电路设计自动化技术创新中心（以下简称“EDA国创中心”）联合为赛事命题。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12642.html",
-    "date": "2026-08-17",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12642.html"
   },
   {
     "id": "42ba97334494e6e83f9c45cf2762f67e",
