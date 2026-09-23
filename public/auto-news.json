@@ -1,5 +1,77 @@
 [
   {
+    "id": "6aa8c26a533f95b100bc676a46b085da",
+    "vendor": "Hugging Face Blog",
+    "title": "Transformers now runs llama.cpp quants",
+    "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "date": "2026-09-22",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "Transformers集成llama.cpp量化，优化LLM本地推理效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/transformers-llama-cpp-quants"
+  },
+  {
+    "id": "587bfe63be2b599def8eb0ea5b4a835a",
+    "vendor": "NVIDIA Developer News",
+    "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
+    "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
+    "date": "2026-09-22",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA隐私计算实现大模型安全推理，框架适配GPU保性能。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/"
+  },
+  {
+    "id": "a7fb7ee7d62c654d18deb5e8aa9b9f1d",
+    "vendor": "NVIDIA Developer News",
+    "title": "Topology-Aware Workload Scheduling with NVIDIA Topograph",
+    "url": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/",
+    "date": "2026-09-22",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "英伟达Topograph优化GPU集群拓扑调度，提升AI工作负载效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/"
+  },
+  {
+    "id": "48cfa187bf81a2c9dbca9eab8e9fef5f",
+    "vendor": "NVIDIA Developer News",
+    "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+    "url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
+    "date": "2026-09-22",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "AI Agent优化ROS 2 GPU数据流，加速机器人AI。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/"
+  },
+  {
+    "id": "5a7c9e86a3edd10d4873e81995734736",
+    "vendor": "Hugging Face Blog",
+    "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+    "date": "2026-09-21",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "创新大模型剪枝算法，提升模型压缩效率与性能，降低部署成本。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an"
+  },
+  {
+    "id": "7fd6b485db8da2a4af612036c6a46829",
+    "vendor": "NVIDIA Developer News",
+    "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+    "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
+    "date": "2026-09-21",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA优化生成式AI多GPU推理，提升性能简化部署。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/"
+  },
+  {
     "id": "150f9ff0995ec4d1eca918eeddfaeab7",
     "vendor": "沐曦",
     "title": "沐曦股份率先 Day 0 适配 Qwen-Image-2.1 图像生成模型 2026-09-20",
@@ -8,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU软硬一体Day 0适配千问模型，赋能国产AI算力。",
+    "summary": "沐曦GPU适配大模型Qwen-Image-2.1，强化国产AI算力生态。",
     "link": "https://www.metax-tech.com/ndetail/12659.html"
   },
   {
@@ -20,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU通过自研软件栈Day 0适配国产大模型，助力AI生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12656.html"
   },
   {
@@ -32,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦股份办赛推动国产GPU的AI模型训练、推理及生态建设。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12658.html"
   },
   {
@@ -43,7 +115,7 @@
     "date": "2026-09-18",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "衡量和优化大模型推理性能，确保在特定硬件上高效部署与扩展。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/"
   },
@@ -56,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU深度集成LMCache，优化大模型推理性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12657.html"
   },
   {
@@ -68,7 +140,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU适配物理AI大模型，赋能新能源材料研发全流程自动化。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12655.html"
   },
   {
@@ -82,18 +154,6 @@
     "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/"
-  },
-  {
-    "id": "2ead229cb6bb5edb64ff5dc70f35a026",
-    "vendor": "NVIDIA Developer News",
-    "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
-    "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
-    "date": "2026-09-16",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/"
   },
   {
     "id": "77d7a44ce2e4c61e28a30cbcbb51ee01",
@@ -238,30 +298,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
-  },
-  {
-    "id": "c0fa2da8b87bd26790ea65ff4b21dcae",
-    "vendor": "Hugging Face Blog",
-    "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-    "url": "https://huggingface.co/blog/allenai/benchmirt",
-    "date": "2026-09-01",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/allenai/benchmirt"
-  },
-  {
-    "id": "0f146bbd840c1766b301fab4b1bea68d",
-    "vendor": "Hugging Face Blog",
-    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-    "url": "https://huggingface.co/blog/webgpu-kernels",
-    "date": "2026-09-01",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/webgpu-kernels"
   },
   {
     "id": "f98461968581c263d619b8e6eae2953b",
