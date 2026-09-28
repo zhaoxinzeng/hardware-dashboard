@@ -8,7 +8,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU赋能大模型推理集群系统级优化",
+    "summary": "国产GPU集群赋能大模型推理与服务。",
     "link": "https://www.metax-tech.com/ndetail/12662.html"
   },
   {
@@ -19,7 +19,7 @@
     "date": "2026-09-23",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA工具验证GPU集群，优化AI训练部署",
+    "summary": "验证GPU集群就绪，优化AI大模型训练部署",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/"
   },
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU融多芯生态，DeepLink助大模型训推加速部署。",
+    "summary": "促进大模型多异构算力融合与软硬件生态协同。",
     "link": "https://www.metax-tech.com/ndetail/12661.html"
   },
   {
@@ -43,7 +43,7 @@
     "date": "2026-09-22",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "Transformers集成llama.cpp GGUF模型与ggml核，提升本地推理效率。",
+    "summary": "Transformers集成llama.cpp内核，加速LLM在Apple Silicon本地推理。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/transformers-llama-cpp-quants"
   },
@@ -55,7 +55,7 @@
     "date": "2026-09-22",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA优化TensorRT LLM与机密计算，确保Blackwell GPU上大模型推理在安全前提下仍能保持高性能。",
+    "summary": "英伟达通过优化TensorRT LLM与保密计算，确保在GPU上实现高性能、安全的LLM推理部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/"
   },
@@ -67,7 +67,7 @@
     "date": "2026-09-22",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA Topograph：优化GPU集群拓扑感知调度，加速AI训练与推理。",
+    "summary": "优化GPU集群调度，提升大模型训练推理效能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/"
   },
@@ -94,18 +94,6 @@
     "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an"
-  },
-  {
-    "id": "7fd6b485db8da2a4af612036c6a46829",
-    "vendor": "NVIDIA Developer News",
-    "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
-    "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
-    "date": "2026-09-21",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/"
   },
   {
     "id": "150f9ff0995ec4d1eca918eeddfaeab7",
@@ -248,7 +236,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技在国产硬件上高效适配智谱大模型，加速国产AI生态推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/"
   },
   {
@@ -260,7 +248,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU云平台赋能大模型训练推理及生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/"
   },
   {
@@ -272,7 +260,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞芯片支持MiniMax大模型推理部署",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -284,7 +272,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "构建国产GPU千卡集群，光互连赋能大模型训练与部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
   },
   {
@@ -296,7 +284,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯迅速适配智谱GLM-5.3-Flash，强化国产大模型在AI芯片上的训练与部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5179.html"
   },
   {
@@ -308,7 +296,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯P800与蚂蚁密算TEE结合，为大模型训练推理提供国产、高性能、硬件级安全算力底座，保障AI数据隐私。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5177.html"
   },
   {
