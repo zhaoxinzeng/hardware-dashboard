@@ -7,7 +7,7 @@
     "date": "2026-09-29",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "NVIDIA TensorRT Model Connect 借助AI Agents提升GPU推理易用性。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/"
   },
@@ -20,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "沐曦GPU/软件栈适配AI决策模型，深化软硬生态。",
     "link": "https://www.metax-tech.com/ndetail/12664.html"
   },
   {
@@ -32,20 +32,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "共建创新中心，实现国产GPU大模型集群训推软硬一体优化。",
     "link": "https://www.metax-tech.com/ndetail/12662.html"
-  },
-  {
-    "id": "f226c487e8e03252cc47075b0f7c02df",
-    "vendor": "NVIDIA Developer News",
-    "title": "Validate GPU Cluster Readiness Before AI Workloads Land",
-    "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/",
-    "date": "2026-09-23",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "通过工具验证GPU集群性能，确保AI大模型训练部署高效稳定。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/"
   },
   {
     "id": "31c14e22c4ef16ad12d6ce5bfa05365e",
@@ -56,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "通过标准、接口适配与生态合作，实现异构GPU高效AI训练推理部署。",
+    "summary": "推动异构算力融合标准、接口适配及深度学习框架优化，赋能大模型训练部署。",
     "link": "https://www.metax-tech.com/ndetail/12661.html"
   },
   {
@@ -67,7 +55,7 @@
     "date": "2026-09-22",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "Transformers框架集成llama.cpp GGUF量化模型，利用ggml内核优化Apple Silicon上大模型本地推理性能。",
+    "summary": "Transformers集成llama.cpp核心，提升LLM在本地硬件推理性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/transformers-llama-cpp-quants"
   },
@@ -80,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU软硬一体，率先Day 0适配大模型，深化国产AI生态。",
+    "summary": "沐曦GPU软硬协同，实现Qwen-Image大模型Day 0适配。",
     "link": "https://www.metax-tech.com/ndetail/12659.html"
   },
   {
@@ -92,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦国产GPU软件栈适配电信大模型，深化AI生态建设。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12656.html"
   },
   {
@@ -104,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "推动国产GPU上AI模型适配优化与开发者生态构建",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12658.html"
   },
   {
@@ -128,7 +116,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU与物理AI大模型协同，赋能新材料研发。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12655.html"
   },
   {
@@ -164,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "产学研共研AI芯片技术，支撑大模型训练与部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
@@ -176,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU架构创新，优化大模型训练通信性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -224,7 +212,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU Day0适配MiniMax多模态大模型推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
   },
   {
@@ -248,7 +236,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯快速适配智谱GLM-5.3-Flash大模型，优化国产AI芯片推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5179.html"
   },
   {
@@ -260,7 +248,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯GPU结合密算为大模型提供安全可靠的国产算力底座。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5177.html"
   },
   {
