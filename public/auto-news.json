@@ -1,5 +1,53 @@
 [
   {
+    "id": "807faee26a0e2988609caf46c25d27dd",
+    "vendor": "Hugging Face Blog",
+    "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+    "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+    "date": "2026-10-06",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "利用混合架构LLM深度理解并生成特定方言文化，提升语言模型本地化能力。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/tiiuae/falcon-emirati"
+  },
+  {
+    "id": "240166d787f7c314992f97eca6826209",
+    "vendor": "NVIDIA Developer News",
+    "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
+    "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+    "date": "2026-10-06",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA DOCA GPUNetIO统一GPU网络，减少CPU瓶颈，优化深度学习等分布式GPU应用性能。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/"
+  },
+  {
+    "id": "929785fbda2d0265182c0bc343611431",
+    "vendor": "NVIDIA Developer News",
+    "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
+    "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
+    "date": "2026-10-06",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "验证并简化GPU集群配置，加速AI/DL应用部署与生态协作。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/"
+  },
+  {
+    "id": "d48d573eb50567a35ab76d9e8c07a7f3",
+    "vendor": "NVIDIA Developer News",
+    "title": "Control How Your GPU Shares Work with Green Contexts",
+    "url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+    "date": "2026-10-06",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "绿色上下文优化GPU资源分配，提升AI模型并行任务性能。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/"
+  },
+  {
     "id": "ce2bfdd0d616710d4d7b9927faf295c8",
     "vendor": "NVIDIA Developer News",
     "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
@@ -7,7 +55,7 @@
     "date": "2026-09-29",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA TensorRT借助AI原生设计，提升GPU推理部署效率与易用性。",
+    "summary": "简化英伟达TensorRT模型GPU推理部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/"
   },
@@ -20,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU+软件栈快速适配AI模型，扩展生态。",
+    "summary": "沐曦GPU成功适配决策模型，验证软硬一体高效部署。",
     "link": "https://www.metax-tech.com/ndetail/12664.html"
   },
   {
@@ -32,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU携伙伴优化国产集群大模型推理部署与服务。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12662.html"
   },
   {
@@ -44,20 +92,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配DeepLink框架，协同构建大模型异构算力训练推理生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12661.html"
-  },
-  {
-    "id": "6aa8c26a533f95b100bc676a46b085da",
-    "vendor": "Hugging Face Blog",
-    "title": "Transformers now runs llama.cpp quants",
-    "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-    "date": "2026-09-22",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "Hugging Face Transformers集成llama.cpp量化模型及ggml核，优化LLM在Apple Silicon上的本地推理部署。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/transformers-llama-cpp-quants"
   },
   {
     "id": "150f9ff0995ec4d1eca918eeddfaeab7",
@@ -68,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU与软件栈Day 0适配千问模型，深化国产AI软硬生态合作。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12659.html"
   },
   {
@@ -260,7 +296,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯适配MiniMax大模型，夯实国产芯模生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5155.html"
   },
   {
