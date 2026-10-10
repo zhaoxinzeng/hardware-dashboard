@@ -1,15 +1,111 @@
 [
   {
-    "id": "807faee26a0e2988609caf46c25d27dd",
+    "id": "1668b0c2cf6dda22e88f16a90324cf3f",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技算力接入四大开源生态：推理引擎优化Token生成，三大强化学习框架共筑训练链路",
+    "url": "https://www.birentech.com/news/vi4s9mme12dtnmpue4f3lqo5/",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技将国产GPU融入开源大模型推理和强化学习训练生态。",
+    "link": "https://www.birentech.com/news/vi4s9mme12dtnmpue4f3lqo5/"
+  },
+  {
+    "id": "bc2cefa188ec54ea3a90dfe2b9b61b3a",
+    "vendor": "壁仞科技",
+    "title": "Day0适配 | 壁仞科技高效完成阿里Qwen-Image-2.1图像生成模型推理验证",
+    "url": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技在国产硬件上高效适配阿里Qwen大模型，加速推理落地。",
+    "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
+  },
+  {
+    "id": "e7f23a960fc0adef48f4f462279787bc",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技与上海大学共建“集成电路智能芯片联合实验室”",
+    "url": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞与上大共建实验室，聚焦AI芯片前沿技术，赋能国产大模型智算生态。",
+    "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
+  },
+  {
+    "id": "0854b559559a85502b77435f26a048cd",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技斩获中国专利银奖，自研GPU技术再获国家级认可",
+    "url": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞GPU架构创新加速大模型集群训练通信。",
+    "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
+  },
+  {
+    "id": "e8636a270e9d7034e7d0e5a54100bc8d",
+    "vendor": "壁仞科技",
+    "title": "共探训推融通新路径！壁仞科技 x 龙蜥社区 x PyTorch生态共建MeetUp圆满收官",
+    "url": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技发布TorchSUPA，赋能PyTorch在壁仞GPU高效训推。",
+    "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
+  },
+  {
+    "id": "8e7c6d37a0357654618bb3bb7ac4c095",
+    "vendor": "壁仞科技",
+    "title": "DAY0适配 | 壁仞科技完成智谱GLM-5.3-Flash大模型推理验证",
+    "url": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "壁仞科技的硬件与软件栈Day0适配智谱大模型，加速国产AI生态模型部署与应用。",
+    "link": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/"
+  },
+  {
+    "id": "00fc2d5dd16c5ee73996662b2a2cf781",
+    "vendor": "昆仑芯科技",
+    "title": "昆仑芯完成RLinf适配验证，拓展具身智能强化学习开源生态",
+    "url": "https://www.kunlunxin.com/news/5190.html",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "昆仑芯XPU适配RL框架，优化具身智能训练部署",
+    "link": "https://www.kunlunxin.com/news/5190.html"
+  },
+  {
+    "id": "ebb9e1a46a897c8e54e54dd0725e7e6f",
     "vendor": "Hugging Face Blog",
-    "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-    "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-    "date": "2026-10-06",
+    "title": "Impactful scheduling for GPU clusters",
+    "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+    "date": "2026-10-09",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "利用混合架构LLM深度理解并生成特定方言文化，提升语言模型本地化能力。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://huggingface.co/blog/tiiuae/falcon-emirati"
+    "link": "https://huggingface.co/blog/allenai/impactful-scheduling"
+  },
+  {
+    "id": "4506e26e440fb933c46e5942a1a82482",
+    "vendor": "NVIDIA Developer News",
+    "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
+    "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/",
+    "date": "2026-10-07",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/"
   },
   {
     "id": "240166d787f7c314992f97eca6826209",
@@ -19,7 +115,7 @@
     "date": "2026-10-06",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA DOCA GPUNetIO统一GPU网络，减少CPU瓶颈，优化深度学习等分布式GPU应用性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/"
   },
@@ -31,7 +127,7 @@
     "date": "2026-10-06",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "验证并简化GPU集群配置，加速AI/DL应用部署与生态协作。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/"
   },
@@ -43,21 +139,9 @@
     "date": "2026-10-06",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "绿色上下文优化GPU资源分配，提升AI模型并行任务性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/"
-  },
-  {
-    "id": "ce2bfdd0d616710d4d7b9927faf295c8",
-    "vendor": "NVIDIA Developer News",
-    "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
-    "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
-    "date": "2026-09-29",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "简化英伟达TensorRT模型GPU推理部署。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/"
   },
   {
     "id": "f8f3357bb2021a7901c5d40cbe813444",
@@ -68,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU成功适配决策模型，验证软硬一体高效部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12664.html"
   },
   {
@@ -180,90 +264,6 @@
     "link": "https://www.metax-tech.com/ndetail/12654.html"
   },
   {
-    "id": "e7f23a960fc0adef48f4f462279787bc",
-    "vendor": "壁仞科技",
-    "title": "壁仞科技与上海大学共建“集成电路智能芯片联合实验室”",
-    "url": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/",
-    "date": "2026-09-10",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
-  },
-  {
-    "id": "0854b559559a85502b77435f26a048cd",
-    "vendor": "壁仞科技",
-    "title": "壁仞科技斩获中国专利银奖，自研GPU技术再获国家级认可",
-    "url": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/",
-    "date": "2026-09-07",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
-  },
-  {
-    "id": "e8636a270e9d7034e7d0e5a54100bc8d",
-    "vendor": "壁仞科技",
-    "title": "共探训推融通新路径！壁仞科技 x 龙蜥社区 x PyTorch生态共建MeetUp圆满收官",
-    "url": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/",
-    "date": "2026-09-07",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
-  },
-  {
-    "id": "8e7c6d37a0357654618bb3bb7ac4c095",
-    "vendor": "壁仞科技",
-    "title": "DAY0适配 | 壁仞科技完成智谱GLM-5.3-Flash大模型推理验证",
-    "url": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/",
-    "date": "2026-09-07",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/"
-  },
-  {
-    "id": "bb8c64378b2edbf1b155e6b8e901460a",
-    "vendor": "壁仞科技",
-    "title": "聚力开发者云资源！壁仞科技联合中国联通浙江分公司、中兴通讯、优云科技共筑普惠算力底座",
-    "url": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/",
-    "date": "2026-09-07",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/vizrxlodk1aaff7yxgv2dzvc/"
-  },
-  {
-    "id": "a887e828998c12d0d04e468b29f2a5f6",
-    "vendor": "壁仞科技",
-    "title": "Day0适配丨壁仞科技完成MiniMax H3大模型推理验证",
-    "url": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/",
-    "date": "2026-09-07",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/ru2ys8b19otru83zfqd7rp5q/"
-  },
-  {
-    "id": "626c357b2400e40c645474d51cdcd784",
-    "vendor": "壁仞科技",
-    "title": "壁仞科技智领WAIC 2026：打造算力基础设施新范式，荣获SAIL之星",
-    "url": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/",
-    "date": "2026-09-07",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.birentech.com/news/e3s2i45qzb2twf3939kks6gj/"
-  },
-  {
     "id": "f98461968581c263d619b8e6eae2953b",
     "vendor": "昆仑芯科技",
     "title": "GLM-5.3-Flash开源即适配，昆仑芯加速国产算力与大模型生态协同",
@@ -286,18 +286,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5177.html"
-  },
-  {
-    "id": "ad46073f6b944c92cb601ff80734e66b",
-    "vendor": "昆仑芯科技",
-    "title": "MiniMax H3开源即适配，昆仑芯持续推动“芯模共生”协同发展",
-    "url": "https://www.kunlunxin.com/news/5155.html",
-    "date": "2026-08-17",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.kunlunxin.com/news/5155.html"
   },
   {
     "id": "42ba97334494e6e83f9c45cf2762f67e",
