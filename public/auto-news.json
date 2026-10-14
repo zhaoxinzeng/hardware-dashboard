@@ -1,5 +1,17 @@
 [
   {
+    "id": "d8b8167f1be4345e1ca5139159c4bea7",
+    "vendor": "NVIDIA Developer News",
+    "title": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
+    "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/",
+    "date": "2026-10-13",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/"
+  },
+  {
     "id": "1668b0c2cf6dda22e88f16a90324cf3f",
     "vendor": "壁仞科技",
     "title": "壁仞科技算力接入四大开源生态：推理引擎优化Token生成，三大强化学习框架共筑训练链路",
@@ -8,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技算力接入开源大模型推理和强化学习训练生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/vi4s9mme12dtnmpue4f3lqo5/"
   },
   {
@@ -20,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技在自研硬件上高效适配阿里Qwen-Image-2.1大模型，加速部署。",
+    "summary": "壁仞科技国产GPU高效适配阿里大模型，实现快速推理部署。",
     "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
   },
   {
@@ -32,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞与上海大学共建实验室，研发AI芯片光互连与散热，提升大模型算力。",
+    "summary": "壁仞科技与上海大学共建实验室，聚焦AI芯片光互连、散热及产学研用创新。",
     "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
@@ -44,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU架构创新，通过算通融合解决大模型集群通信瓶颈，显著优化LLM训练性能。",
+    "summary": "壁仞GPU架构优化大模型集群通信，提升训练性能。",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -56,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技与PyTorch生态共建，推动深度学习框架与AI硬件融合优化。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
@@ -68,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技硬件软件栈适配智谱大模型，优化推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/egy64w6zdtrkwy3pxr7hxpo4/"
   },
   {
@@ -80,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯XPU适配具身智能RLinf，优化训练部署性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5190.html"
   },
   {
@@ -108,45 +120,9 @@
     "link": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/"
   },
   {
-    "id": "240166d787f7c314992f97eca6826209",
-    "vendor": "NVIDIA Developer News",
-    "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
-    "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
-    "date": "2026-10-06",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/"
-  },
-  {
-    "id": "929785fbda2d0265182c0bc343611431",
-    "vendor": "NVIDIA Developer News",
-    "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
-    "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
-    "date": "2026-10-06",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/"
-  },
-  {
-    "id": "d48d573eb50567a35ab76d9e8c07a7f3",
-    "vendor": "NVIDIA Developer News",
-    "title": "Control How Your GPU Shares Work with Green Contexts",
-    "url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
-    "date": "2026-10-06",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/"
-  },
-  {
     "id": "f8f3357bb2021a7901c5d40cbe813444",
     "vendor": "沐曦",
-    "title": "沐曦股份率先完成上海人工智能实验室 “书生·明决”模型 Day 0适配 2026-09-29",
+    "title": "沐曦股份率先完成上海人工智能实验室 “书生·明决”模型 Day 0适配 2026-09-29 9月28日，上海人工智能实验室宣布，开源旗下决策模型“书生·明决（Intern-Decision）”。与新晋爆火的Jev决策模型相比，该模型包含0.8B、2B、4B三档参数版本，性能超越前者及同类开源模型。凭借自研高性能通用 GPU 与 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12664.html",
     "date": "2026-09-29",
     "sourceType": "HTML",
@@ -158,7 +134,7 @@
   {
     "id": "3a662005db908840cf2ad8b44af9ea62",
     "vendor": "沐曦",
-    "title": "从产品合作到系统共创：沐曦股份携手伙伴共建国产算力联合创新中心 2026-09-24",
+    "title": "从产品合作到系统共创：沐曦股份携手伙伴共建国产算力联合创新中心 2026-09-24 近日，曦元国产AI算力联合创新中心揭牌仪式圆满举行。中心由沐曦股份与行业前列的算力产业链伙伴共同建设，双方基于曦云C600系列GPU，围绕集群、软硬件一体化能力开展联合创新，进一步推动集群系统级联合调优。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12662.html",
     "date": "2026-09-24",
     "sourceType": "HTML",
@@ -238,30 +214,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12655.html"
-  },
-  {
-    "id": "77d7a44ce2e4c61e28a30cbcbb51ee01",
-    "vendor": "沐曦",
-    "title": "沐曦股份携手魔形智能达成生态合作，万卡集群“Token工厂”已投入使用 2026-09-16 9月16日，沐曦股份与魔形智能宣布达成生态合作。双方将围绕国产算力集群探索Token（词元）工厂建设的全新范式，并加速超节点算力集群产品的应用落地。目前，基于沐曦股份国产GPGPU产品部署的万卡智算集群已正式投入魔形智能“Token超级工厂”的生产环境，成为支撑大规模Token生产的国产算力底座。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12653.html",
-    "date": "2026-09-16",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12653.html"
-  },
-  {
-    "id": "b3146fc881717c8e44d3378ac401761a",
-    "vendor": "沐曦",
-    "title": "沐曦股份上榜“2026民营企业研发投入与发明专利500家” 2026-09-16 9月9日，全国工商联发布“2026民营企业发明专利500家”与“2026民营企业研发投入500家”名单。沐曦股份依托在GPU领域的持续技术积累，荣登这两项权威榜单。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12654.html",
-    "date": "2026-09-16",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12654.html"
   },
   {
     "id": "f98461968581c263d619b8e6eae2953b",
