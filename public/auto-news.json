@@ -1,5 +1,17 @@
 [
   {
+    "id": "470050fa77120e803a00ac359f561252",
+    "vendor": "沐曦",
+    "title": "免费算力，冲击 MiniCPM 性能上限: 沐曦股份 X FlagOS 推理吞吐挑战赛火热报名中 2026-10-16",
+    "url": "https://www.metax-tech.com/ndetail/12669.html",
+    "date": "2026-10-16",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "优化LLM在国产GPU上的推理性能及生态",
+    "link": "https://www.metax-tech.com/ndetail/12669.html"
+  },
+  {
     "id": "b1667fc333c0c8ae8797fce00c4b58f8",
     "vendor": "昆仑芯科技",
     "title": "深化芯模协同，共筑开放AI生态｜昆仑芯完成阶跃星辰Step 5 Preview模型Day 0适配",
@@ -8,8 +20,32 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯完成大模型Day 0适配，软硬件协同优化，深化国产AI生态。",
+    "summary": "昆仑芯快速适配大模型，通过芯模协同优化加速部署与应用。",
     "link": "https://www.kunlunxin.com/news/5193.html"
+  },
+  {
+    "id": "75f803c7a1ef8cfd8e775d1696e0e6ab",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU Day 0适配阶跃星辰旗舰基座模型Step 5 Preview 2026-10-15",
+    "url": "https://www.metax-tech.com/ndetail/12670.html",
+    "date": "2026-10-15",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦GPU Day 0适配阶跃星辰LLM，彰显软硬一体化赋能。",
+    "link": "https://www.metax-tech.com/ndetail/12670.html"
+  },
+  {
+    "id": "61bf97f2a4a3fe76b39b92344ad2a5ec",
+    "vendor": "沐曦",
+    "title": "AI Infra 开源共创｜沐曦股份 x SGLang Meetup 圆满举办，共话开源生态共建 2026-10-14 10 月 11 日，由沐曦股份、SGLang 与模速空间联合举办的 「AI Infra 开源共创 · 推理引擎专场 SGLang 技术交流 Meetup」 在上海模速空间举行。 本次活动聚焦大模型推理的真实工程挑战，汇聚 SGLang 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12666.html",
+    "date": "2026-10-14",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦与SGLang共建开源生态，聚焦国产GPU大模型推理优化、部署及框架适配。",
+    "link": "https://www.metax-tech.com/ndetail/12666.html"
   },
   {
     "id": "5e7a6d4d15ad6ec917ec70576c02722e",
@@ -20,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配面壁智能LLM，强化国产硬软件生态融合与端侧部署。",
+    "summary": "沐曦GPU Day 0适配面壁LLM，加速国产AI软硬协同部署。",
     "link": "https://www.metax-tech.com/ndetail/12668.html"
   },
   {
@@ -31,7 +67,7 @@
     "date": "2026-10-13",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "AI Agent重写Spark UDFs实现GPU加速，提升大数据处理性能。",
+    "summary": "利用AI智能体将Spark UDF重写为GPU加速版本，大幅提升性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/"
   },
@@ -44,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "曦索X302 GPU通过自研架构与互连技术，赋能大模型与科学计算，支持软硬生态合作。",
+    "summary": "曦索X302 GPU通过AI4S赋能科学计算，优化大模型在材料生命科学领域部署。",
     "link": "https://www.metax-tech.com/ndetail/12665.html"
   },
   {
@@ -56,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU打通LLM推理与RL训练开源生态链。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/vi4s9mme12dtnmpue4f3lqo5/"
   },
   {
@@ -68,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU快速适配阿里Qwen-Image-2.1大模型，优化推理部署，共建国产AI生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
   },
   {
@@ -140,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPGPU软硬协同，Day 0适配决策大模型，加速AI应用部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12664.html"
   },
   {
@@ -178,30 +214,6 @@
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12659.html"
-  },
-  {
-    "id": "33054eea1ba4e9490253fbb1a3b313c0",
-    "vendor": "沐曦",
-    "title": "沐曦股份率先完成中国电信Xing4.0-29B-A4B大模型Day 0适配 2026-09-19 中电信人工智能科技有限公司正式发布新一代星辰大模型：Xing4.0-29B-A4B。Xing4.0 在历经原TeleChat三代研发的基础之上全面升级，延续坚持全栈国产自主研发的技术底色，从模型架构、训练Infra到能力范式实现全面跃迁。凭借自研高性能通用GPU与MXMACA软件栈一体化协同的产品优势，沐曦股份率先完成对Xing4.0-29B-A4B的Day 0适配，实现“上线即适配”。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12656.html",
-    "date": "2026-09-19",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12656.html"
-  },
-  {
-    "id": "3e994447666eb0a7b42e96e32a435d0a",
-    "vendor": "沐曦",
-    "title": "国产开源GPU AI创新生态赛回顾 | 从一行代码到一个生态，沐曦股份交出了答卷 2026-09-19 由沐曦股份承办并发布赛题的「国产开源GPU AI创新生态赛」备受瞩目，赛道报名人数和有效作品提交数都名列前茅。赛事上线仅8周，报名就已接近300支队伍，此后持续攀升，最终有515支队伍报名参赛，提交近100个作品。 查看更多",
-    "url": "https://www.metax-tech.com/ndetail/12658.html",
-    "date": "2026-09-19",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12658.html"
   },
   {
     "id": "f98461968581c263d619b8e6eae2953b",
