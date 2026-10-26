@@ -7,7 +7,7 @@
     "date": "2026-10-23",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA TensorRT引入全局调优器，自动优化深度学习模型在GPU上的推理部署性能。",
+    "summary": "优化NVIDIA TensorRT推理性能，提升深度学习部署效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/"
   },
@@ -20,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯完成MiniMax大模型Day 0适配，优化算子与软硬件协同，提升国产算力LLM部署效率与性能。",
+    "summary": "昆仑芯快速适配MiniMax大模型，优化国产算力平台软硬件部署与性能。",
     "link": "https://www.kunlunxin.com/news/5196.html"
   },
   {
@@ -32,7 +32,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯P800与欧拉OS兼容，为AI/大模型适配部署奠基。",
+    "summary": "昆仑芯与openEuler互认，夯实国产算力基础，赋能AI大模型适配部署。",
     "link": "https://www.kunlunxin.com/news/5195.html"
   },
   {
@@ -44,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU适配MiniMax大模型，实现高性能推理部署优化。",
+    "summary": "沐曦GPU Day 0适配MiniMax大模型，加速推理优化",
     "link": "https://www.metax-tech.com/ndetail/12678.html"
   },
   {
@@ -55,7 +55,7 @@
     "date": "2026-10-22",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "Python通过GDS和KvikIO实现GPU内存直读，加速AI训练推理。",
+    "summary": "通过NVIDIA GDS与KvikIO实现GPU内存数据直读，加速AI大模型训练部署。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/"
   },
@@ -68,8 +68,20 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU适配阶跃星辰大模型，加速推理部署，深化国产AI软硬生态合作。",
+    "summary": "国产GPU壁仞科技Day0适配阶跃大模型，优化推理部署，共建国产AI生态。",
     "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
+  },
+  {
+    "id": "62326034686651cecdee6a43f50d7fe3",
+    "vendor": "沐曦",
+    "title": "沐曦股份校企Open Day秋季场 | 从RSI前沿对谈到Agent开发实战，共筑国产算力开源生态 2026-10-22",
+    "url": "https://www.metax-tech.com/ndetail/12677.html",
+    "date": "2026-10-22",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12677.html"
   },
   {
     "id": "b1667fc333c0c8ae8797fce00c4b58f8",
@@ -140,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技开源TorchSUPA，适配PyTorch深度学习框架于其GPU，实现高效训练优化与推理部署，共建AI硬核生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
@@ -152,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯XPU赋能具身智能RL框架，提升训练效率。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5190.html"
   },
   {
