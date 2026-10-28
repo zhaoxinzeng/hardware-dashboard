@@ -1,5 +1,53 @@
 [
   {
+    "id": "91bb99f4b7e5862dd31dbef78eaeaa9a",
+    "vendor": "Hugging Face Blog",
+    "title": "Can we trust LLMs to judge whether a research idea is novel?",
+    "url": "https://huggingface.co/blog/allenai/novelty-bench",
+    "date": "2026-10-27",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "评估大模型在科学研究新颖性判断中的可靠性，提供基准和工具以促进大模型应用。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/allenai/novelty-bench"
+  },
+  {
+    "id": "eee8a169647707d640df62b5f6d9bc2c",
+    "vendor": "NVIDIA Developer News",
+    "title": "Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4",
+    "url": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
+    "date": "2026-10-27",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "CUDA 13.4在K8s中实现GPU内存隔离共享，提升AI算力效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/"
+  },
+  {
+    "id": "04eadf62bf6122bffa5cc0236121295e",
+    "vendor": "NVIDIA Developer News",
+    "title": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
+    "date": "2026-10-26",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "英伟达Minerva系统优化大规模GPU训练集群性能及效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/"
+  },
+  {
+    "id": "19d9affb04be3621f1fd1667683973b8",
+    "vendor": "NVIDIA Developer News",
+    "title": "How NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes/",
+    "date": "2026-10-26",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "英伟达提升GPU AI训练Kubernetes集群韧性与效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes/"
+  },
+  {
     "id": "665ca261f4ea8bcc24349ccfdcba5358",
     "vendor": "NVIDIA Developer News",
     "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
@@ -7,7 +55,7 @@
     "date": "2026-10-23",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "优化NVIDIA TensorRT推理性能，提升深度学习部署效率。",
+    "summary": "优化NVIDIA TensorRT，通过全局调优器自动提升GPU推理性能。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/"
   },
@@ -20,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯快速适配MiniMax大模型，优化国产算力平台软硬件部署与性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5196.html"
   },
   {
@@ -32,20 +80,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯与openEuler互认，夯实国产算力基础，赋能AI大模型适配部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5195.html"
-  },
-  {
-    "id": "2dd27b2fe28a5689a47afdf0198ce77b",
-    "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU Day 0适配MiniMax M3.1 Flash 2026-10-23",
-    "url": "https://www.metax-tech.com/ndetail/12678.html",
-    "date": "2026-10-23",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU Day 0适配MiniMax大模型，加速推理优化",
-    "link": "https://www.metax-tech.com/ndetail/12678.html"
   },
   {
     "id": "0d9a79b9e41d1ef48504392046c83172",
@@ -55,7 +91,7 @@
     "date": "2026-10-22",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "通过NVIDIA GDS与KvikIO实现GPU内存数据直读，加速AI大模型训练部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/"
   },
@@ -68,20 +104,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU壁仞科技Day0适配阶跃大模型，优化推理部署，共建国产AI生态。",
-    "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
-  },
-  {
-    "id": "62326034686651cecdee6a43f50d7fe3",
-    "vendor": "沐曦",
-    "title": "沐曦股份校企Open Day秋季场 | 从RSI前沿对谈到Agent开发实战，共筑国产算力开源生态 2026-10-22",
-    "url": "https://www.metax-tech.com/ndetail/12677.html",
-    "date": "2026-10-22",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12677.html"
+    "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
   },
   {
     "id": "b1667fc333c0c8ae8797fce00c4b58f8",
@@ -116,7 +140,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "Day0适配阿里Qwen大模型至国产芯片，实现高效推理部署。",
     "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
   },
   {
@@ -140,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "GPU架构创新提升大模型集群训练效率",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -152,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技PyTorch生态合作，实现其GPU对深度学习训练与推理的深度适配。",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
@@ -164,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯XPU适配RLinf，优化具身智能强化学习训练部署。",
     "link": "https://www.kunlunxin.com/news/5190.html"
   },
   {
