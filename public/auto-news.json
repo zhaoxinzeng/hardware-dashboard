@@ -7,7 +7,7 @@
     "date": "2026-10-30",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "AI 智能优化 NVIDIA GPU 存储，加速大模型与深度学习部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/"
   },
@@ -20,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU通过自研栈适配主流AI模型，实现国产硬件AI模型开箱即用。",
+    "summary": "沐曦GPU深度适配OCR大模型，实现Day 0开箱即用，提升推理效率，赋能国产AI生态。",
     "link": "https://www.metax-tech.com/ndetail/12686.html"
   },
   {
@@ -31,7 +31,7 @@
     "date": "2026-10-27",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "研究LLM判断科研想法新颖性可靠度，发布评估基准与工具，助推AI科学发现。",
+    "summary": "研究LLM判断科研创意新颖性，发布基准提升模型能力。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/allenai/novelty-bench"
   },
@@ -43,7 +43,7 @@
     "date": "2026-10-27",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "CUDA 13.4 K8s下实现GPU内存隔离共享，提升AI算力利用率。",
+    "summary": "CUDA 13.4在K8s实现GPU内存隔离共享，提升AI部署效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/"
   },
@@ -55,7 +55,7 @@
     "date": "2026-10-26",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA Minerva智能监控AI工厂大规模GPU集群，诊断硬件故障，优化分布式训练性能，提升资源利用率及训练效率。",
+    "summary": "NVIDIA Minerva智能监控优化AI工厂GPU，提升深度学习训练与硬件利用率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/"
   },
@@ -68,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯完成MiniMax大模型Day 0适配，优化软硬件协同，加速部署应用。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5196.html"
   },
   {
@@ -92,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞GPU通过Day0适配，实现阶跃星辰大模型高效推理与部署。",
     "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
   },
   {
@@ -164,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞GPU深度适配PyTorch，赋能AI训推，共建开放生态。",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
