@@ -1,5 +1,65 @@
 [
   {
+    "id": "e37b3c6dec081536bf66bea1173f3372",
+    "vendor": "NVIDIA Developer News",
+    "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+    "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+    "date": "2026-11-06",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "FLUX 3图像大模型经NVIDIA Blackwell GPU与TensorRT优化，实现图像生成速度数倍提升。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/"
+  },
+  {
+    "id": "2e8a57776824e3d05a87230f6ca43243",
+    "vendor": "NVIDIA Developer News",
+    "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
+    "url": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/",
+    "date": "2026-11-05",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA DSX OS优化Kubernetes GPU集群，提升AI训练与部署效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/"
+  },
+  {
+    "id": "65bb48cea241052f4351ac95d8cdf600",
+    "vendor": "沐曦",
+    "title": "国产 GPU 唯一入选企业！沐曦股份亮相进博会中国馆 2026-11-05",
+    "url": "https://www.metax-tech.com/ndetail/12690.html",
+    "date": "2026-11-05",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "国产GPU赋能AI基础设施，优化大模型Token效率，获行业认可。",
+    "link": "https://www.metax-tech.com/ndetail/12690.html"
+  },
+  {
+    "id": "e1714b26e6d80c682b7f93e4b09da2c9",
+    "vendor": "NVIDIA Developer News",
+    "title": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/",
+    "date": "2026-11-04",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA用AI智能体优化GPU集群运维，提升AI模型训练部署效率。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/"
+  },
+  {
+    "id": "a04081db46675348b1461d4170eb9ac4",
+    "vendor": "NVIDIA Developer News",
+    "title": "NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
+    "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/",
+    "date": "2026-11-04",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "CUDA 13.5支持Vera Rubin GPU，优化AI性能与硬件适配。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/"
+  },
+  {
     "id": "f244f2bd454fd27dae689dd19e899c95",
     "vendor": "NVIDIA Developer News",
     "title": "Diagnose Distributed AI Workload Failures with NVIDIA Attribution",
@@ -7,33 +67,9 @@
     "date": "2026-11-02",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA工具诊断分布式AI故障，提升GPU训练/推理稳定性。",
+    "summary": "诊断分布式AI工作负载GPU故障，提升训练推理稳定性。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/"
-  },
-  {
-    "id": "d516f00a4ab7762e766af57ad508f235",
-    "vendor": "NVIDIA Developer News",
-    "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
-    "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/",
-    "date": "2026-11-02",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/"
-  },
-  {
-    "id": "d35e57d157581bee9d997a2722ecda2c",
-    "vendor": "NVIDIA Developer News",
-    "title": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
-    "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/",
-    "date": "2026-10-30",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "英伟达AI工具赋能GPU存储优化，加速大模型训练与推理。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/"
   },
   {
     "id": "286eff814ad24dcaa08fb6c3c7bf64d1",
@@ -44,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯完成MiniMax大模型Day 0适配，软硬协同，助模型在国产算力平台高效部署。",
+    "summary": "昆仑芯完成MiniMax大模型Day 0适配，优化软硬件协同，加速大模型在国产算力平台部署。",
     "link": "https://www.kunlunxin.com/news/5196.html"
   },
   {
@@ -56,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯P800兼容欧拉，为AI框架与大模型在国产硬件上高效部署奠定基础。",
+    "summary": "昆仑芯AI芯片与欧拉系统兼容，赋能AI框架及大模型部署。",
     "link": "https://www.kunlunxin.com/news/5195.html"
   },
   {
@@ -68,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU Day0适配大模型，实现快速高效推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
   },
   {
@@ -80,7 +116,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯完成阶跃星辰大模型Day 0适配，通过软硬件优化，提升大模型在国产芯片上的运行效率与部署速度，深化芯模协同。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5193.html"
   },
   {
@@ -152,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯XPU适配RLinf，赋能具身智能RL训练优化与生态",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5190.html"
   },
   {
