@@ -1,5 +1,41 @@
 [
   {
+    "id": "1fb61d83eb4e5830ad58ee76ad6c414a",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU 率先完成MiniMax H3-Image Day 0适配 2026-11-11",
+    "url": "https://www.metax-tech.com/ndetail/12692.html",
+    "date": "2026-11-11",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12692.html"
+  },
+  {
+    "id": "ba95f956632bc50b44f2fdb6b983035c",
+    "vendor": "NVIDIA Developer News",
+    "title": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
+    "url": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/",
+    "date": "2026-11-10",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/"
+  },
+  {
+    "id": "d45463cf72823a05e4c58ec3c35509fd",
+    "vendor": "NVIDIA Developer News",
+    "title": "Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine",
+    "url": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/",
+    "date": "2026-11-10",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/"
+  },
+  {
     "id": "e37b3c6dec081536bf66bea1173f3372",
     "vendor": "NVIDIA Developer News",
     "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
@@ -7,7 +43,7 @@
     "date": "2026-11-06",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "FLUX 3 Image Klein模型在NVIDIA Blackwell GPU上通过TensorRT LLM优化，实现图像生成加速。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/"
   },
@@ -20,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "赋能开发者在国产GPU上训练优化大模型，推动国产AI硬件生态发展。",
+    "summary": "促进国产GPU大模型训练优化及开发者生态。",
     "link": "https://www.metax-tech.com/ndetail/12691.html"
   },
   {
@@ -31,21 +67,9 @@
     "date": "2026-11-05",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA DSX OS 优化 Kubernetes GPU 集群运维，提升AI训练效率。",
+    "summary": "NVIDIA DSX OS优化GPU集群，提升AI训练与推理部署效率。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/"
-  },
-  {
-    "id": "65bb48cea241052f4351ac95d8cdf600",
-    "vendor": "沐曦",
-    "title": "国产 GPU 唯一入选企业！沐曦股份亮相进博会中国馆 2026-11-05",
-    "url": "https://www.metax-tech.com/ndetail/12690.html",
-    "date": "2026-11-05",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU入选进博会，展示大模型训练与适配能力。",
-    "link": "https://www.metax-tech.com/ndetail/12690.html"
   },
   {
     "id": "e1714b26e6d80c682b7f93e4b09da2c9",
@@ -55,33 +79,9 @@
     "date": "2026-11-04",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA利用AI智能体优化GPU集群（DGX SuperPOD）运维，提升深度学习训练与部署效率，确保AI工厂性能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/"
-  },
-  {
-    "id": "a04081db46675348b1461d4170eb9ac4",
-    "vendor": "NVIDIA Developer News",
-    "title": "NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
-    "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/",
-    "date": "2026-11-04",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/"
-  },
-  {
-    "id": "f244f2bd454fd27dae689dd19e899c95",
-    "vendor": "NVIDIA Developer News",
-    "title": "Diagnose Distributed AI Workload Failures with NVIDIA Attribution",
-    "url": "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/",
-    "date": "2026-11-02",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/"
   },
   {
     "id": "286eff814ad24dcaa08fb6c3c7bf64d1",
@@ -116,7 +116,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技GPU平台适配大模型，优化推理部署，加速国产AI。",
     "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
   },
   {
@@ -128,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯完成阶跃星辰大模型Day 0适配，软硬件协同优化提升运行效率。",
     "link": "https://www.kunlunxin.com/news/5193.html"
   },
   {
@@ -140,7 +140,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞GPU深度适配LLM推理和RL训练框架，优化大模型部署与训练，推动国产算力融入主流开源AI生态。",
     "link": "https://www.birentech.com/news/vi4s9mme12dtnmpue4f3lqo5/"
   },
   {
@@ -152,7 +152,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技高效适配阿里Qwen-Image大模型，加速国产大模型推理部署。",
     "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
   },
   {
@@ -164,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技共建实验室，攻关AI芯片互连散热，强化GPU硬核生态。",
     "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
@@ -176,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "GPU芯片架构创新，提升大模型训练通信效能。",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -188,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞科技与PyTorch生态共建，赋能GPU高效AI训推。",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
