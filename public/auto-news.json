@@ -1,15 +1,87 @@
 [
   {
-    "id": "1fb61d83eb4e5830ad58ee76ad6c414a",
+    "id": "1f76189be1eacadc04ed519961f68f73",
+    "vendor": "Hugging Face Blog",
+    "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "date": "2026-11-13",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "llama.cpp v1.0.0强化多硬件LLM本地化高效推理部署。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+  },
+  {
+    "id": "a413e89bbf01b8735a2129fc1e14e289",
+    "vendor": "NVIDIA Developer News",
+    "title": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+    "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
+    "date": "2026-11-13",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA GPU与cuPhoton加速黑洞干涉计算，提升科学研究在特定硬件上的计算效率与部署能力。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/"
+  },
+  {
+    "id": "e965dd4c7d3fb896a2d66ef15f97f10e",
+    "vendor": "NVIDIA Developer News",
+    "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+    "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+    "date": "2026-11-13",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "深入新闻正文内容：Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer fit on one machine. Two NVIDIA DGX Stations connected over ConnectX-8 RDMA serve one model through a single endpoint, with tensor parallelism splitting the model weights and computation across both GPUs. The NVIDIA GLM-5.3 NVFP4 model, a quantized version of Z.ai’s mixture-of-experts (MoE) model, has 753 billion parameters, with 40 billion activated per token. Sparse activation reduces computation, but all model weights still need to remain available because each token can be routed to different experts. At about 464 GB, the checkpoint exceeds the 252 GB of HBM3e on a single GB300 GPU. This tutorial uses two DGX Stations to keep the weights in GPU memory, with CPU weight offload disabled. Before starting, connect the two Stations with the Connect Two DGX Stations playbook. This post shows how to serve GLM-5.3 locally across two NVIDIA DGX Stations with vLLM, send a request, and measure behavior under concurrent load. Tensor parallelism (TP=2) splits the model’s tensors across the two GB300 GPUs. Both Stations compute every request, and Station A returns the answer through one OpenAI-compatible API. By the end, you’ll have a working endpoint and a baseline for how it behaves under load. The companion video follows the same workflow. This tutorial uses a separate computer, such as your laptop, to manage both Stations. Start by opening an SSH session to each Station f SUMMARY: 巨型大模型GLM-5.3跨双DGX Station与vLLM在多GPU上进行推理部署和性能优化。  用户输入： 新闻标题：Arm CEO Rene Haas Says Microsoft, Google Building Their Own Chips to Ease AI Bottlenecks 原始摘要：Arm CEO Rene Haas discusses how hyperscalers like Microsoft and Google are developing their own custom chips for AI, using Arm's architecture, to alleviate bottlenecks in AI infrastructure. He highlights the need for specialized hardware to meet the massive computational demands of large language models and other AI workloads, moving beyond general-purpose CPUs and even standard GPUs for certain tasks. The shift is driven by a desire for greater control, cost efficiency, and performance optimization tailored to their specific AI applications, reducing reliance on third-party silicon providers. Haas notes that this trend presents both opportunities and challenges for Arm, as its designs become foundational to these custom chips, yet it also increases competition in the broader AI hardware ecosystem.  我将根据这个格式和要求进行判断和总结。  --- 开始判断。  新闻标题：Arm CEO Rene Haas Says Microsoft, Google Building Their Own Chips to Ease AI Bottlenecks 原始摘要：Arm CEO Rene Haas discusses how hyperscalers like Microsoft and Google are developing their own custom chips for AI, using Arm's architecture, to alleviate bottlenecks in AI infrastructure. He highlights the need for specialized hardware to meet the massive computational demands of large language models and other AI workloads, moving beyond general-purpose CPUs and even standard GPUs for certain tasks. The shift is driven by a desire for greater control, cost efficiency, and performance optimization tailored to their specific AI applications, reducing reliance on third-party silicon providers. Haas notes that this trend presents both opportunities and challenges for Arm, as its designs become foundational to these custom chips, yet it also increases competition in the broader AI hardware ecosystem.  判断：该新闻实质性涉及“大模型(LLM)、深度学习框架在特定硬件(GPU/NPU)上的适配、训练优化、推理部署或硬核生态合作”。具体来说，它讨论了大型科技公司（Microsoft, Google）为缓解AI（特别是LLM）瓶颈，基于Arm架构开发自己的定制芯片（NPU/ASIC），以优化AI工作负载性能。这直接触及了LLM在特定硬件上的适配、优化及硬核生态合作（Arm作为基础架构提供者）。  总结：微软谷歌自研AI芯片基于Arm架构，优化大模型性能，缓解AI瓶颈。 ``` 微软谷歌自研AI芯片基于Arm架构，优化大模型性能，缓解AI瓶颈。 ```",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
+  },
+  {
+    "id": "7291325ea2c4da613e076c214c3ef468",
     "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU 率先完成MiniMax H3-Image Day 0适配 2026-11-11",
-    "url": "https://www.metax-tech.com/ndetail/12692.html",
-    "date": "2026-11-11",
+    "title": "让国产算力走进科研一线｜沐曦股份与你相约第二期AI科研加速营 2026-11-13",
+    "url": "https://www.metax-tech.com/ndetail/12694.html",
+    "date": "2026-11-13",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "link": "https://www.metax-tech.com/ndetail/12692.html"
+    "summary": "推广沐曦国产GPU与MXMACA软件栈，适配AI4S深度模型，赋能科研智能体推理部署，深化国产算力应用。",
+    "link": "https://www.metax-tech.com/ndetail/12694.html"
+  },
+  {
+    "id": "f052c6845a6ebe45bacfbb83dcf15777",
+    "vendor": "Hugging Face Blog",
+    "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+    "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "date": "2026-11-12",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "LLMON标记语言优化LLM上下文理解，提升训练效果，增强模型性能与安全性。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+  },
+  {
+    "id": "b581aef8e50aa1af176c926a876a4f8b",
+    "vendor": "昆仑芯科技",
+    "title": "昆仑芯完成MiniMax H3-Image首发适配，持续完善国产AI生态",
+    "url": "https://www.kunlunxin.com/news/5203.html",
+    "date": "2026-11-12",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "昆仑芯NPU适配MiniMax大模型，软硬协同优化加速国产部署。",
+    "link": "https://www.kunlunxin.com/news/5203.html"
+  },
+  {
+    "id": "2ee8eb6ef791e55829b30cc09eeef1f3",
+    "vendor": "NVIDIA Developer News",
+    "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
+    "url": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/",
+    "date": "2026-11-11",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "英伟达AI工厂用运行时AI清单，确保GPU平台AI部署可复现。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/"
   },
   {
     "id": "ba95f956632bc50b44f2fdb6b983035c",
@@ -36,52 +108,16 @@
     "link": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/"
   },
   {
-    "id": "e37b3c6dec081536bf66bea1173f3372",
-    "vendor": "NVIDIA Developer News",
-    "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
-    "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
-    "date": "2026-11-06",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/"
-  },
-  {
-    "id": "85552bc9d90906b5b2cf721e43417cd8",
-    "vendor": "沐曦",
-    "title": "超1000人报名，65%在校大学生：21天，他们在国产GPU上手搓出了大模型 2026-11-06",
-    "url": "https://www.metax-tech.com/ndetail/12691.html",
-    "date": "2026-11-06",
+    "id": "06cead2ed2e30baf7c04e5819cc0c832",
+    "vendor": "昆仑芯科技",
+    "title": "昆仑芯亮相2026移动网络大会，携手中国移动共建智能算力生态",
+    "url": "https://www.kunlunxin.com/news/5201.html",
+    "date": "2026-11-09",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "促进国产GPU大模型训练优化及开发者生态。",
-    "link": "https://www.metax-tech.com/ndetail/12691.html"
-  },
-  {
-    "id": "2e8a57776824e3d05a87230f6ca43243",
-    "vendor": "NVIDIA Developer News",
-    "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
-    "url": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/",
-    "date": "2026-11-05",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA DSX OS优化GPU集群，提升AI训练与推理部署效率。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/"
-  },
-  {
-    "id": "e1714b26e6d80c682b7f93e4b09da2c9",
-    "vendor": "NVIDIA Developer News",
-    "title": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
-    "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/",
-    "date": "2026-11-04",
-    "sourceType": "RSS",
-    "isManual": false,
     "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/"
+    "link": "https://www.kunlunxin.com/news/5201.html"
   },
   {
     "id": "286eff814ad24dcaa08fb6c3c7bf64d1",
@@ -116,20 +152,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU平台适配大模型，优化推理部署，加速国产AI。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
-  },
-  {
-    "id": "b1667fc333c0c8ae8797fce00c4b58f8",
-    "vendor": "昆仑芯科技",
-    "title": "深化芯模协同，共筑开放AI生态｜昆仑芯完成阶跃星辰Step 5 Preview模型Day 0适配",
-    "url": "https://www.kunlunxin.com/news/5193.html",
-    "date": "2026-10-15",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯完成阶跃星辰大模型Day 0适配，软硬件协同优化提升运行效率。",
-    "link": "https://www.kunlunxin.com/news/5193.html"
   },
   {
     "id": "1668b0c2cf6dda22e88f16a90324cf3f",
@@ -140,7 +164,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU深度适配LLM推理和RL训练框架，优化大模型部署与训练，推动国产算力融入主流开源AI生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/vi4s9mme12dtnmpue4f3lqo5/"
   },
   {
@@ -152,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技高效适配阿里Qwen-Image大模型，加速国产大模型推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
   },
   {
@@ -164,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技共建实验室，攻关AI芯片互连散热，强化GPU硬核生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
@@ -176,7 +200,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "GPU芯片架构创新，提升大模型训练通信效能。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -188,7 +212,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技与PyTorch生态共建，赋能GPU高效AI训推。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
