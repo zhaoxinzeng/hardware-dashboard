@@ -1,5 +1,29 @@
 [
   {
+    "id": "b0098207f49b999ea5b905363cff3e17",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 flash Day 0适配 2026-11-18",
+    "url": "https://www.metax-tech.com/ndetail/12697.html",
+    "date": "2026-11-18",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦GPU率先适配腾讯混元大模型，支持高效推理与部署。",
+    "link": "https://www.metax-tech.com/ndetail/12697.html"
+  },
+  {
+    "id": "61ba181731c2669cee8d736527786ab3",
+    "vendor": "沐曦",
+    "title": "沐曦股份率先完成日日新SenseNova Loop-9B模型Day 0适配 2026-11-17",
+    "url": "https://www.metax-tech.com/ndetail/12696.html",
+    "date": "2026-11-17",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦GPU率先适配大模型，实现高效推理部署。",
+    "link": "https://www.metax-tech.com/ndetail/12696.html"
+  },
+  {
     "id": "1f76189be1eacadc04ed519961f68f73",
     "vendor": "Hugging Face Blog",
     "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
@@ -7,7 +31,7 @@
     "date": "2026-11-13",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "llama.cpp v1.0.0提升LLM跨硬件本地推理性能，强化私有AI生态。",
+    "summary": "llama.cpp v1.0.0通过量化与优化，提升大模型在广泛硬件上的推理部署效率与跨平台能力。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
   },
@@ -19,7 +43,7 @@
     "date": "2026-11-13",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA GPU通过cuPhoton加速黑洞干涉测量，优化科学数据处理性能。",
+    "summary": "NVIDIA GPU与cuPhoton加速黑洞干涉测量计算。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/"
   },
@@ -31,21 +55,9 @@
     "date": "2026-11-13",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "大模型GLM-5.3多GPU分布式vLLM推理部署方案。",
+    "summary": "在多DGX Station上部署大模型GLM-5.3，用vLLM和张量并行实现跨设备推理。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
-  },
-  {
-    "id": "7291325ea2c4da613e076c214c3ef468",
-    "vendor": "沐曦",
-    "title": "让国产算力走进科研一线｜沐曦股份与你相约第二期AI科研加速营 2026-11-13",
-    "url": "https://www.metax-tech.com/ndetail/12694.html",
-    "date": "2026-11-13",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦国产GPU赋能AI科研，实现模型适配、推理部署及全栈生态构建。",
-    "link": "https://www.metax-tech.com/ndetail/12694.html"
   },
   {
     "id": "f052c6845a6ebe45bacfbb83dcf15777",
@@ -55,7 +67,7 @@
     "date": "2026-11-12",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "提升大模型对结构化上下文的理解与鲁棒性。",
+    "summary": "推出LLMON标记语言，提升大模型上下文理解、鲁棒性及安全性，尤其优化小型模型，并已集成至Granite 4.1。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
   },
@@ -68,44 +80,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯适配MiniMax H3-Image大模型，通过软硬协同优化，赋能国产算力高效部署前沿AI。",
-    "link": "https://www.kunlunxin.com/news/5203.html"
-  },
-  {
-    "id": "2ee8eb6ef791e55829b30cc09eeef1f3",
-    "vendor": "NVIDIA Developer News",
-    "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
-    "url": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/",
-    "date": "2026-11-11",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "通过NVIDIA平台验证GPU AI运行时，确保部署可追溯。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/"
-  },
-  {
-    "id": "ba95f956632bc50b44f2fdb6b983035c",
-    "vendor": "NVIDIA Developer News",
-    "title": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
-    "url": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/",
-    "date": "2026-11-10",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "加速GPU上大模型推理服务的快速部署与弹性扩缩。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/"
-  },
-  {
-    "id": "d45463cf72823a05e4c58ec3c35509fd",
-    "vendor": "NVIDIA Developer News",
-    "title": "Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine",
-    "url": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/",
-    "date": "2026-11-10",
-    "sourceType": "RSS",
-    "isManual": false,
     "summary": "暂无智能摘要（双引擎均超时）",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/"
+    "link": "https://www.kunlunxin.com/news/5203.html"
   },
   {
     "id": "06cead2ed2e30baf7c04e5819cc0c832",
@@ -116,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "实质性涉及'大模型(LLM)、深度学习框架在特定硬件(GPU/NPU)上的适配、训练优化、推理部署或硬核生态合作'。 总结其核心业务价值：昆仑芯与中国移动合作，为大模型提供AI算力芯片、加速卡及超节点，优化推理部署和生态建设。",
     "link": "https://www.kunlunxin.com/news/5201.html"
   },
   {
@@ -140,7 +116,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯P800兼容欧拉OS，赋能国产大模型软硬协同。",
     "link": "https://www.kunlunxin.com/news/5195.html"
   },
   {
@@ -176,8 +152,20 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技国产芯片高效适配阿里大模型，赋能推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
+  },
+  {
+    "id": "e7f23a960fc0adef48f4f462279787bc",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技与上海大学共建“集成电路智能芯片联合实验室”",
+    "url": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
     "id": "0854b559559a85502b77435f26a048cd",
@@ -200,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技发布TorchSUPA，实现PyTorch框架在国产GPU上训推融通与生态共建。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
