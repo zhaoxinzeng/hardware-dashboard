@@ -8,20 +8,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "国产GPU率先适配腾讯混元大模型，实现高性能、低延迟部署，赋能AI应用。",
+    "summary": "沐曦GPU适配腾讯混元Hy4大模型，深度优化实现高效部署，助力国产AI生态。",
     "link": "https://www.metax-tech.com/ndetail/12698.html"
-  },
-  {
-    "id": "5dd5244b02d1d9ea9cd55e644c1aec99",
-    "vendor": "NVIDIA Developer News",
-    "title": "Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition",
-    "url": "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/",
-    "date": "2026-11-19",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA DAQIRI优化GPU数据采集，赋能科学仪器实时AI推理。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/"
   },
   {
     "id": "afc1a90b4470b7739f15c6c06ed2a861",
@@ -32,7 +20,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯Day 0适配商汤大模型，推动国产芯模协同与部署。",
+    "summary": "昆仑芯适配商汤大模型，强化国产AI芯片LLM部署能力。",
     "link": "https://www.kunlunxin.com/news/5206.html"
   },
   {
@@ -43,7 +31,7 @@
     "date": "2026-11-18",
     "sourceType": "RSS",
     "isManual": false,
-    "summary": "NVIDIA优化GPU，通过批处理与混精度加速DFT计算以支持MLIP训练。",
+    "summary": "NVIDIA优化GPU上DFT计算，加速MLIP数据生成，采用批处理与混合精度。",
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
     "link": "https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/"
   },
@@ -56,7 +44,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配腾讯大模型，实现高效推理，深化国产硬核生态。",
+    "summary": "沐曦GPU Day 0适配腾讯混元大模型，软硬优化助高效推理部署。",
     "link": "https://www.metax-tech.com/ndetail/12697.html"
   },
   {
@@ -68,7 +56,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯AI芯片优化适配MiniMax大模型，加速部署与提升国产算力效能。",
+    "summary": "昆仑芯软硬协同适配大模型，赋能国产算力生态。",
     "link": "https://www.kunlunxin.com/news/5203.html"
   },
   {
@@ -80,7 +68,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "深入研究大模型推理部署的AI加速卡及超节点。",
+    "summary": "昆仑芯携AI芯片和超节点，为大模型适配和智算中心提供算力。",
     "link": "https://www.kunlunxin.com/news/5201.html"
   },
   {
@@ -92,7 +80,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "昆仑芯完成MiniMax大模型Day 0适配，优化国产算力部署。",
     "link": "https://www.kunlunxin.com/news/5196.html"
   },
   {
@@ -104,7 +92,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "暂无智能摘要（双引擎均超时）",
+    "summary": "壁仞GPU及软件栈快速适配大模型，实现高效推理部署，助力国产AI生态。",
     "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
   },
   {
@@ -116,7 +104,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技硬件深度融合开源生态，加速大模型推理与训练。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/vi4s9mme12dtnmpue4f3lqo5/"
   },
   {
@@ -128,20 +116,8 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技高效适配阿里Qwen-Image-2.1，加速国产AI硬件大模型推理部署。",
+    "summary": "壁仞科技在国产AI硬件上适配阿里大模型，提供高效推理部署方案，促生态合作。",
     "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
-  },
-  {
-    "id": "e7f23a960fc0adef48f4f462279787bc",
-    "vendor": "壁仞科技",
-    "title": "壁仞科技与上海大学共建“集成电路智能芯片联合实验室”",
-    "url": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/",
-    "date": "2026-10-10",
-    "sourceType": "HTML",
-    "isManual": false,
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞联上大，攻关GPU光互连/散热技术，硬核共建国产AI大模型生态。",
-    "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
     "id": "0854b559559a85502b77435f26a048cd",
@@ -152,7 +128,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU架构专利通过通算融合，优化大模型训练集群通信，显著提升多卡协同效率和性能。",
+    "summary": "壁仞科技GPU架构创新，解决大模型集群通信瓶颈，提升训练与推理效能。",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -164,7 +140,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞TorchSUPA适配PyTorch，赋能大模型在国产GPU上高效训推及生态共建。",
+    "summary": "壁仞科技开源TorchSUPA，实现PyTorch框架在自家GPU上的深度适配与高效训推。",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
