@@ -1,5 +1,29 @@
 [
   {
+    "id": "29c33f1d28b1c76b933bc84f11a45687",
+    "vendor": "NVIDIA Developer News",
+    "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+    "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
+    "date": "2026-11-24",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/"
+  },
+  {
+    "id": "b9023bb8c04c2e7f8284a2bb1bc4824b",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU率先完成中电信大模型Xing4.1-Preview Day 0适配 2026-11-23",
+    "url": "https://www.metax-tech.com/ndetail/12701.html",
+    "date": "2026-11-23",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12701.html"
+  },
+  {
     "id": "13979e95f66f24537f7e483664f380b6",
     "vendor": "沐曦",
     "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 Day 0适配 2026-11-20",
@@ -8,8 +32,20 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU适配腾讯混元Hy4大模型，深度优化实现高效部署，助力国产AI生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12698.html"
+  },
+  {
+    "id": "5dd5244b02d1d9ea9cd55e644c1aec99",
+    "vendor": "NVIDIA Developer News",
+    "title": "Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition",
+    "url": "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/",
+    "date": "2026-11-19",
+    "sourceType": "RSS",
+    "isManual": false,
+    "summary": "NVIDIA DAQIRI加速高带宽传感器数据到GPU，实现科学仪器实时AI推理与分析，优化硬件-软件协同。",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "link": "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/"
   },
   {
     "id": "afc1a90b4470b7739f15c6c06ed2a861",
@@ -20,32 +56,56 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯适配商汤大模型，强化国产AI芯片LLM部署能力。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5206.html"
-  },
-  {
-    "id": "5ea67bf5790b29ea0591333e5f67a7d1",
-    "vendor": "NVIDIA Developer News",
-    "title": "Tackling GPU Bottlenecks in Plane-Wave DFT with K-Point Batching and Mixed Precision",
-    "url": "https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/",
-    "date": "2026-11-18",
-    "sourceType": "RSS",
-    "isManual": false,
-    "summary": "NVIDIA优化GPU上DFT计算，加速MLIP数据生成，采用批处理与混合精度。",
-    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "link": "https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/"
   },
   {
     "id": "b0098207f49b999ea5b905363cff3e17",
     "vendor": "沐曦",
-    "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 flash Day 0适配 2026-11-18",
+    "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 flash Day 0适配 2026-11-18 11月18日，腾讯混元宣布正式开放Hy4 flash大模型权重。沐曦股份曦云C系列GPU率先完成Hy4 flash Day 0全链路适配，模型当日即在曦云C系列GPU完成推理验证，支持高吞吐、低成本规模化Agent业务落地。 查看更多",
     "url": "https://www.metax-tech.com/ndetail/12697.html",
     "date": "2026-11-18",
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "沐曦GPU Day 0适配腾讯混元大模型，软硬优化助高效推理部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.metax-tech.com/ndetail/12697.html"
+  },
+  {
+    "id": "61ba181731c2669cee8d736527786ab3",
+    "vendor": "沐曦",
+    "title": "沐曦股份率先完成日日新SenseNova Loop-9B模型Day 0适配 2026-11-17 11月17日，日日新SenseNova Loop-9B正式发布并开源。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12696.html",
+    "date": "2026-11-17",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12696.html"
+  },
+  {
+    "id": "9a0e6eb02397a131a22c75543e4a3956",
+    "vendor": "沐曦",
+    "title": "沐曦股份率先完成上海人工智能实验室书生-S2.1 Flash模型Day 0适配 2026-11-16 11月16日，上海人工智能实验室宣布开源书生科学多模态大模型S2.1 Flash（简称“书生-S2.1 Flash”）。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12695.html",
+    "date": "2026-11-16",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12695.html"
+  },
+  {
+    "id": "7291325ea2c4da613e076c214c3ef468",
+    "vendor": "沐曦",
+    "title": "让国产算力走进科研一线｜沐曦股份与你相约第二期AI科研加速营 2026-11-13 从海量文献中快速寻找研究线索，到借助AI辅助实验方案设计，再到利用科研智能体提升研究效率，人工智能正在加速与科学研究融合，从辅助工具逐步融入科研工作核心流程，为科学发现带来新的可能。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12694.html",
+    "date": "2026-11-13",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "沐曦国产GPU及软件栈适配AI4S与大模型，赋能科研，促国产算力应用。",
+    "link": "https://www.metax-tech.com/ndetail/12694.html"
   },
   {
     "id": "b581aef8e50aa1af176c926a876a4f8b",
@@ -56,8 +116,20 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯软硬协同适配大模型，赋能国产算力生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5203.html"
+  },
+  {
+    "id": "1fb61d83eb4e5830ad58ee76ad6c414a",
+    "vendor": "沐曦",
+    "title": "沐曦股份曦云C系列GPU 率先完成MiniMax H3-Image Day 0适配 2026-11-11 MiniMax宣布开放MiniMax H3-Image权重。沐曦股份曦云C系列GPU率先实现该模型Day 0深度适配，依托全栈自研MXMACA软件栈，为MiniMax H3-Image提供高性能国产算力底座。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12692.html",
+    "date": "2026-11-11",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12692.html"
   },
   {
     "id": "06cead2ed2e30baf7c04e5819cc0c832",
@@ -68,8 +140,32 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯携AI芯片和超节点，为大模型适配和智算中心提供算力。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5201.html"
+  },
+  {
+    "id": "85552bc9d90906b5b2cf721e43417cd8",
+    "vendor": "沐曦",
+    "title": "超1000人报名，65%在校大学生：21天，他们在国产GPU上手搓出了大模型 2026-11-06 21天，能做点什么？ 有人刷完了三部剧，有人通关了一款游戏。有一群人，用21天，在国产GPU上亲手搓出了一个能跑的大模型。 他们是报名参与了沐曦股份联合AI Infra开源社区、GitLink开源平台、Dat 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12691.html",
+    "date": "2026-11-06",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12691.html"
+  },
+  {
+    "id": "65bb48cea241052f4351ac95d8cdf600",
+    "vendor": "沐曦",
+    "title": "国产 GPU 唯一入选企业！沐曦股份亮相进博会中国馆 2026-11-05 11月5日至10日，第九届中国国际进口博览会在上海举办。国家展中国馆以“开创新局面 共赢新未来”为主题，紧扣“十五五”新蓝图，集中展示我国培育新质生产力、推进高水平科技自立自强的最新成果。 查看更多",
+    "url": "https://www.metax-tech.com/ndetail/12690.html",
+    "date": "2026-11-05",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.metax-tech.com/ndetail/12690.html"
   },
   {
     "id": "286eff814ad24dcaa08fb6c3c7bf64d1",
@@ -80,7 +176,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "昆仑芯完成MiniMax大模型Day 0适配，优化国产算力部署。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.kunlunxin.com/news/5196.html"
   },
   {
@@ -92,7 +188,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞GPU及软件栈快速适配大模型，实现高效推理部署，助力国产AI生态。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/yt4wako63dg63co6kpwpi31o/"
   },
   {
@@ -116,8 +212,20 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技在国产AI硬件上适配阿里大模型，提供高效推理部署方案，促生态合作。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/yfggj6stq1vk7k0bnlrg9b1j/"
+  },
+  {
+    "id": "e7f23a960fc0adef48f4f462279787bc",
+    "vendor": "壁仞科技",
+    "title": "壁仞科技与上海大学共建“集成电路智能芯片联合实验室”",
+    "url": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/",
+    "date": "2026-10-10",
+    "sourceType": "HTML",
+    "isManual": false,
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
+    "summary": "暂无智能摘要（双引擎均超时）",
+    "link": "https://www.birentech.com/news/ushlilpreh47xrx99u9oljkh/"
   },
   {
     "id": "0854b559559a85502b77435f26a048cd",
@@ -128,7 +236,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技GPU架构创新，解决大模型集群通信瓶颈，提升训练与推理效能。",
+    "summary": "GPU架构创新，优化大模型训练集群通信效率。",
     "link": "https://www.birentech.com/news/nc9aodl93m390l96hsdcxolr/"
   },
   {
@@ -140,7 +248,7 @@
     "sourceType": "HTML",
     "isManual": false,
     "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
-    "summary": "壁仞科技开源TorchSUPA，实现PyTorch框架在自家GPU上的深度适配与高效训推。",
+    "summary": "暂无智能摘要（双引擎均超时）",
     "link": "https://www.birentech.com/news/z7mnt0q87wmvhpfshy0fumoi/"
   },
   {
